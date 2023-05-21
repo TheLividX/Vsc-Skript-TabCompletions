@@ -1,0 +1,7 @@
+{
+	"skript.expression.command": {
+		"prefix": ["Command", "cmd"],
+		"body": ["command /$1:", "\ttrigger:", "\t\t$2"],
+		"description": ["Custom Command"],
+	},
+}

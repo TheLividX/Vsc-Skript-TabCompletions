@@ -1,0 +1,3465 @@
+{ // Generated code by LividX
+
+	// @Skript.events
+
+	"skript.event.at_time": {
+		"prefix": ["At Time"],
+		"body": ["at time:", "\t$0"],
+		"description": ["[on] at %time% [in %worlds%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.anvil_damage": {
+		"prefix": ["On Anvil Damage"],
+		"body": ["on anvil damage:", "\t$0"],
+		"description": ["[on] [on] anvil damag(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.anvil_damaged_event": {
+		"prefix": ["On Anvil Damaged Event"],
+		"body": ["on anvil damaged event:", "\t$0"],
+		"description": ["[on] [on] anvil damage [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.anvil_prepare": {
+		"prefix": ["On Anvil Prepare"],
+		"body": ["on anvil prepare:", "\t$0"],
+		"description": ["[on] [on] anvil prepar(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.anvil_prepare_event": {
+		"prefix": ["On Anvil Prepare Event"],
+		"body": ["on anvil prepare event:", "\t$0"],
+		"description": ["[on] [on] anvil prepare [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.aoe_cloud_effect": {
+		"prefix": ["On AoE Cloud Effect"],
+		"body": ["on aoe cloud effect:", "\t$0"],
+		"description": ["[on] [on] (area|AoE) [cloud] effect [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.arm_swing": {
+		"prefix": ["On Arm Swing"],
+		"body": ["on arm swing:", "\t$0"],
+		"description": ["[on] [on] [player] arm swing [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.armor_change": {
+		"prefix": ["On Armor Change"],
+		"body": ["on armor change:", "\t$0"],
+		"description": ["[on] [on] [player] armor change[d] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.armor_change_event": {
+		"prefix": ["On Armor Change Event"],
+		"body": ["on armor change event:", "\t$0"],
+		"description": ["[on] [on] player change armor [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.beacon_effect": {
+		"prefix": ["On Beacon Effect"],
+		"body": ["on beacon effect:", "\t$0"],
+		"description": ["[on] [on] beacon effect [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.bed_enter": {
+		"prefix": ["On Bed Enter"],
+		"body": ["on bed enter:", "\t$0"],
+		"description": ["[on] [on] bed enter[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.bed_leave": {
+		"prefix": ["On Bed Leave"],
+		"body": ["on bed leave:", "\t$0"],
+		"description": ["[on] [on] bed leav(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.block_damage": {
+		"prefix": ["On Block Damage"],
+		"body": ["on block damage:", "\t$0"],
+		"description": ["[on] [on] block damag(ing|e) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.block_damage_abort": {
+		"prefix": ["On Block Damage Abort"],
+		"body": ["on block damage abort:", "\t$0"],
+		"description": ["[on] [on] block damage abort [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.block_drop_item": {
+		"prefix": ["On Block Drop Item"],
+		"body": ["on block drop item:", "\t$0"],
+		"description": ["[on] [on] block drop item [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.block_fertilize": {
+		"prefix": ["On Block Fertilize"],
+		"body": ["on block fertilize:", "\t$0"],
+		"description": ["[on] [on] [block] fertilize [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.block_growth": {
+		"prefix": ["On Block Growth"],
+		"body": ["on block growth:", "\t$0"],
+		"description": ["[on] [on] (plant|crop|block) grow[(th|ing)] [[of] %itemtypes%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.block_physical_interact_event": {
+		"prefix": ["On Block Physical Interact Event"],
+		"body": ["on block physical interact event:", "\t$0"],
+		"description": ["[on] [on] block (interact|trample) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.book_edit": {
+		"prefix": ["On Book Edit"],
+		"body": ["on book edit:", "\t$0"],
+		"description": ["[on] [on] book (edit|change|write) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.book_sign": {
+		"prefix": ["On Book Sign"],
+		"body": ["on book sign:", "\t$0"],
+		"description": ["[on] [on] book sign[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.break_mine": {
+		"prefix": ["On Break / Mine"],
+		"body": ["on break:", "\t$0"],
+		"description": ["[on] [on] [block] (break[ing]|min(e|ing)) [[of] %itemtypes/blockdatas%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.bucket_empty": {
+		"prefix": ["On Bucket Empty"],
+		"body": ["on bucket empty:", "\t$0"],
+		"description": ["[on] [on] bucket empty[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.bucket_fill": {
+		"prefix": ["On Bucket fill"],
+		"body": ["on bucket fill:", "\t$0"],
+		"description": ["[on] [on] bucket fill[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.burn": {
+		"prefix": ["On Burn"],
+		"body": ["on burn:", "\t$0"],
+		"description": ["[on] [on] [block] burn[ing] [[of] %itemtypes/blockdatas%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.can_build_check": {
+		"prefix": ["On Can Build Check"],
+		"body": ["on can build check:", "\t$0"],
+		"description": ["[on] [on] [block] can build check [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.chat": {
+		"prefix": ["On Chat"],
+		"body": ["on chat:", "\t$0"],
+		"description": ["[on] [on] chat [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.chunk_generate": {
+		"prefix": ["On Chunk Generate"],
+		"body": ["on chunk generate:", "\t$0"],
+		"description": ["[on] [on] chunk (generat|populat)(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.chunk_load": {
+		"prefix": ["On Chunk Load"],
+		"body": ["on chunk load:", "\t$0"],
+		"description": ["[on] [on] chunk load[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.chunk_unload": {
+		"prefix": ["On Chunk Unload"],
+		"body": ["on chunk unload:", "\t$0"],
+		"description": ["[on] [on] chunk unload[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.click": {
+		"prefix": ["On Click"],
+		"body": ["on click:", "\t$0"],
+		"description": ["[on] [on] [(right|left)(| |-)][mouse(| |-)]click[ing] [on %entitydata/itemtype%] [(with|using|holding) %itemtype%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.combust": {
+		"prefix": ["On Combust"],
+		"body": ["on combust:", "\t$0"],
+		"description": ["[on] [on] combust[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.command": {
+		"prefix": ["On Command"],
+		"body": ["on command:", "\t$0"],
+		"description": ["[on] [on] command [%string%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.connect": {
+		"prefix": ["On Connect"],
+		"body": ["on connect:", "\t$0"],
+		"description": ["[on] [on] [player] connect[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.consume": {
+		"prefix": ["On Consume"],
+		"body": ["on consume:", "\t$0"],
+		"description": ["[on] [on] [player] ((eat|drink)[ing]|consum(e|ing)) [[of] %itemtypes%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.craft": {
+		"prefix": ["On Craft"],
+		"body": ["on craft:", "\t$0"],
+		"description": ["[on] [on] [player] craft[ing] [[of] %itemtypes%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.creeper_power": {
+		"prefix": ["On Creeper Power"],
+		"body": ["on creeper power:", "\t$0"],
+		"description": ["[on] [on] creeper power [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.damage": {
+		"prefix": ["On Damage"],
+		"body": ["on damage:", "\t$0"],
+		"description": ["[on] [on] damag(e|ing) [of %entitydata%] [by %entitydata%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.death": {
+		"prefix": ["On Death"],
+		"body": ["on death:", "\t$0"],
+		"description": ["[on] [on] death [of %entitydatas%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.dispense": {
+		"prefix": ["On Dispense"],
+		"body": ["on dispense:", "\t$0"],
+		"description": ["[on] [on] dispens(e|ing) [[of] %itemtypes%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.drop": {
+		"prefix": ["On Drop"],
+		"body": ["on drop:", "\t$0"],
+		"description": ["[on] [on] [player|1:entity] drop[ping] [[of] %itemtypes%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.egg_throw": {
+		"prefix": ["On Egg Throw"],
+		"body": ["on egg throw:", "\t$0"],
+		"description": ["[on] [on] throw[ing] [of] [an] egg [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.enchant": {
+		"prefix": ["On Enchant"],
+		"body": ["on enchant:", "\t$0"],
+		"description": ["[on] [on] [item] enchant [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.enchant_prepare": {
+		"prefix": ["On Enchant Prepare"],
+		"body": ["on enchant prepare:", "\t$0"],
+		"description": ["[on] [on] [item] enchant prepare [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.endermansheepsilverfishfalling_block": {
+		"prefix": ["On Enderman/Sheep/Silverfish/Falling Block"],
+		"body": ["on enderman:", "\t$0"],
+		"description": ["[on] [on] enderman place [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_add_to_world": {
+		"prefix": ["On Entity Add to World"],
+		"body": ["on entity add to world:", "\t$0"],
+		"description": ["[on] [on] entity add[ed] to world [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_air_change": {
+		"prefix": ["On Entity Air Change"],
+		"body": ["on entity air change:", "\t$0"],
+		"description": ["[on] [on] [entity] air change [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_breed": {
+		"prefix": ["On Entity Breed"],
+		"body": ["on entity breed:", "\t$0"],
+		"description": ["[on] [on] entity breed [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_change_block": {
+		"prefix": ["On Entity Change Block"],
+		"body": ["on entity change block:", "\t$0"],
+		"description": ["[on] [on] entity change block [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_dismount": {
+		"prefix": ["On Entity Dismount"],
+		"body": ["on entity dismount:", "\t$0"],
+		"description": ["[on] [on] dismount[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_jump": {
+		"prefix": ["On Entity Jump"],
+		"body": ["on entity jump:", "\t$0"],
+		"description": ["[on] [on] entity jump[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_knockback": {
+		"prefix": ["On Entity Knockback"],
+		"body": ["on entity knockback:", "\t$0"],
+		"description": ["[on] [on] entity knockback [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_mount": {
+		"prefix": ["On Entity Mount"],
+		"body": ["on entity mount:", "\t$0"],
+		"description": ["[on] [on] mount[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_pathfind_event": {
+		"prefix": ["On Entity Pathfind Event"],
+		"body": ["on entity pathfind event:", "\t$0"],
+		"description": ["[on] [on] entity start[s] pathfinding [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_portal": {
+		"prefix": ["On Entity Portal"],
+		"body": ["on entity portal:", "\t$0"],
+		"description": ["[on] [on] entity portal [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_remove_from_world": {
+		"prefix": ["On Entity Remove from World"],
+		"body": ["on entity remove from world:", "\t$0"],
+		"description": ["[on] [on] entity remove[d] from world [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_transform": {
+		"prefix": ["On Entity Transform"],
+		"body": ["on entity transform:", "\t$0"],
+		"description": ["[on] [on] entity transform [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.entity_zap": {
+		"prefix": ["On Entity Zap"],
+		"body": ["on entity zap:", "\t$0"],
+		"description": ["[on] [on] entity (zap|struck by lightning) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.experience_change": {
+		"prefix": ["On Experience Change"],
+		"body": ["on experience change:", "\t$0"],
+		"description": ["[on] [on] [player] (level progress|[e]xp|experience) (change|update|:increase|:decrease) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.experience_orb_merge": {
+		"prefix": ["On Experience Orb Merge"],
+		"body": ["on experience orb merge:", "\t$0"],
+		"description": ["[on] [on] (experience|[e]xp) orb merge [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.experience_spawn": {
+		"prefix": ["On Experience Spawn"],
+		"body": ["on experience spawn:", "\t$0"],
+		"description": ["[on] [on] [e]xp[erience] [orb] spawn [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.explode": {
+		"prefix": ["On Explode"],
+		"body": ["on explode:", "\t$0"],
+		"description": ["[on] [on] explo(d(e|ing)|sion) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.explosion_prime": {
+		"prefix": ["On Explosion Prime"],
+		"body": ["on explosion prime:", "\t$0"],
+		"description": ["[on] [on] explosion prime [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.fade": {
+		"prefix": ["On Fade"],
+		"body": ["on fade:", "\t$0"],
+		"description": ["[on] [on] [block] fad(e|ing) [[of] %itemtypes/blockdatas%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.firework_explode": {
+		"prefix": ["On Firework Explode"],
+		"body": ["on firework explode:", "\t$0"],
+		"description": ["[on] [on] [a] firework explo(d(e|ing)|sion) [colo[u]red %colors%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.first_join": {
+		"prefix": ["On First Join"],
+		"body": ["on first join:", "\t$0"],
+		"description": ["[on] [on] first (join|login) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.fishing": {
+		"prefix": ["On Fishing"],
+		"body": ["on fishing:", "\t$0"],
+		"description": ["[on] [on] [player] fish[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.flight_toggle": {
+		"prefix": ["On Flight Toggle"],
+		"body": ["on flight toggle:", "\t$0"],
+		"description": ["[on] [on] [player] flight toggl(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.flow": {
+		"prefix": ["On Flow"],
+		"body": ["on flow:", "\t$0"],
+		"description": ["[on] [on] [block] flow[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.form": {
+		"prefix": ["On Form"],
+		"body": ["on form:", "\t$0"],
+		"description": ["[on] [on] [block] form[ing] [[of] %itemtypes/blockdatas%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.fuel_burn": {
+		"prefix": ["On Fuel Burn"],
+		"body": ["on fuel burn:", "\t$0"],
+		"description": ["[on] [on] fuel burn[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.gamemode_change": {
+		"prefix": ["On Gamemode Change"],
+		"body": ["on gamemode change:", "\t$0"],
+		"description": ["[on] [on] game[ ]mode change [to %gamemode%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.gliding_state_change": {
+		"prefix": ["On Gliding State Change"],
+		"body": ["on gliding state change:", "\t$0"],
+		"description": ["[on] [on] (gliding state change|toggl(e|ing) gliding) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.grow": {
+		"prefix": ["On Grow"],
+		"body": ["on grow:", "\t$0"],
+		"description": ["[on] [on] grow [of (%structuretype%|%itemtype%)] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.hand_item_swap": {
+		"prefix": ["On Hand Item Swap"],
+		"body": ["on hand item swap:", "\t$0"],
+		"description": ["[on] [on] swap[ping of] [(hand|held)] item[s] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.heal": {
+		"prefix": ["On Heal"],
+		"body": ["on heal:", "\t$0"],
+		"description": ["[on] [on] heal[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.horse_jump": {
+		"prefix": ["On Horse Jump"],
+		"body": ["on horse jump:", "\t$0"],
+		"description": ["[on] [on] horse jump [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.hunger_meter_change": {
+		"prefix": ["On Hunger Meter Change"],
+		"body": ["on hunger meter change:", "\t$0"],
+		"description": ["[on] [on] (food|hunger) (level|met(er|re)|bar) chang(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.ignition": {
+		"prefix": ["On Ignition"],
+		"body": ["on ignition:", "\t$0"],
+		"description": ["[on] [on] [block] ignit(e|ion) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.inventory_click": {
+		"prefix": ["On Inventory Click"],
+		"body": ["on inventory click:", "\t$0"],
+		"description": ["[on] [on] [player] inventory(-| )click[ing] [[at] %itemtypes%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.inventory_close": {
+		"prefix": ["On Inventory Close"],
+		"body": ["on inventory close:", "\t$0"],
+		"description": ["[on] [on] inventory clos(ing|e[d]) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.inventory_move_item": {
+		"prefix": ["On Inventory Move Item"],
+		"body": ["on inventory move item:", "\t$0"],
+		"description": ["[on] [on] inventory move item [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.inventory_open": {
+		"prefix": ["On Inventory Open"],
+		"body": ["on inventory open:", "\t$0"],
+		"description": ["[on] [on] inventory open[ed] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.inventory_pickup": {
+		"prefix": ["On Inventory Pickup"],
+		"body": ["on inventory pickup:", "\t$0"],
+		"description": ["[on] [on] inventory pick[ ]up [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.inventory_slot_change": {
+		"prefix": ["On Inventory Slot Change"],
+		"body": ["on inventory slot change:", "\t$0"],
+		"description": ["[on] [on] [player] inventory slot chang(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.item_break": {
+		"prefix": ["On Item Break"],
+		"body": ["on item break:", "\t$0"],
+		"description": ["[on] [on] [player] tool break[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.item_damage": {
+		"prefix": ["On Item Damage"],
+		"body": ["on item damage:", "\t$0"],
+		"description": ["[on] [on] item damag(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.item_despawn": {
+		"prefix": ["On Item Despawn"],
+		"body": ["on item despawn:", "\t$0"],
+		"description": ["[on] [on] (item[ ][stack]|[item] %itemtypes%) despawn[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.item_mend": {
+		"prefix": ["On Item Mend"],
+		"body": ["on item mend:", "\t$0"],
+		"description": ["[on] [on] item mend[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.item_merge": {
+		"prefix": ["On Item Merge"],
+		"body": ["on item merge:", "\t$0"],
+		"description": ["[on] [on] (item[ ][stack]|[item] %itemtypes%) merg(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.item_spawn": {
+		"prefix": ["On Item Spawn"],
+		"body": ["on item spawn:", "\t$0"],
+		"description": ["[on] [on] item spawn[ing] [[of] %itemtypes%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.join": {
+		"prefix": ["On Join"],
+		"body": ["on join:", "\t$0"],
+		"description": ["[on] [on] [player] (login|logging in|join[ing]) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.jump": {
+		"prefix": ["On Jump"],
+		"body": ["on jump:", "\t$0"],
+		"description": ["[on] [on] [player] jump[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.kick": {
+		"prefix": ["On Kick"],
+		"body": ["on kick:", "\t$0"],
+		"description": ["[on] [on] [player] (kick|being kicked) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.language_change": {
+		"prefix": ["On Language Change"],
+		"body": ["on language change:", "\t$0"],
+		"description": ["[on] [on] [player] (language|locale) chang(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.leaves_decay": {
+		"prefix": ["On Leaves Decay"],
+		"body": ["on leaves decay:", "\t$0"],
+		"description": ["[on] [on] leaves decay[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.level_change": {
+		"prefix": ["On Level Change"],
+		"body": ["on level change:", "\t$0"],
+		"description": ["[on] [on] [player] level (change|up|down) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.lightning_strike": {
+		"prefix": ["On Lightning Strike"],
+		"body": ["on lightning strike:", "\t$0"],
+		"description": ["[on] [on] lightning [strike] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.loot_generate": {
+		"prefix": ["On Loot Generate"],
+		"body": ["on loot generate:", "\t$0"],
+		"description": ["[on] [on] loot generat(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.move": {
+		"prefix": ["On Move"],
+		"body": ["on move:", "\t$0"],
+		"description": ["[on] [on] %entitydata% (move|walk|step) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.move_on": {
+		"prefix": ["On Move On"],
+		"body": ["on move on:", "\t$0"],
+		"description": ["[on] [on] (step|walk)[ing] (on|over) %*itemtypes% [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.physics": {
+		"prefix": ["On Physics"],
+		"body": ["on physics:", "\t$0"],
+		"description": ["[on] [on] [block] physics [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.pick_up": {
+		"prefix": ["On Pick Up"],
+		"body": ["on pick up:", "\t$0"],
+		"description": ["[on] [on] [(player|entity)] (pick[ ]up|picking up) [[of] %itemtypes%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.pig_zap": {
+		"prefix": ["On Pig Zap"],
+		"body": ["on pig zap:", "\t$0"],
+		"description": ["[on] [on] pig[ ]zap [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.piston_extend": {
+		"prefix": ["On Piston Extend"],
+		"body": ["on piston extend:", "\t$0"],
+		"description": ["[on] [on] piston extend[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.piston_retract": {
+		"prefix": ["On Piston Retract"],
+		"body": ["on piston retract:", "\t$0"],
+		"description": ["[on] [on] piston retract[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.place": {
+		"prefix": ["On Place"],
+		"body": ["on place:", "\t$0"],
+		"description": ["[on] [on] [block] (plac(e|ing)|build[ing]) [[of] %itemtypes/blockdatas%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_advancement": {
+		"prefix": ["On Player Advancement"],
+		"body": ["on player advancement:", "\t$0"],
+		"description": ["[on] [on] [player] advancement done [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_chunk_enters": {
+		"prefix": ["On Player Chunk Enters"],
+		"body": ["on player chunk enters:", "\t$0"],
+		"description": ["[on] [on] player (enter[s] [a] chunk|chunk enter[ing]) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_chunk_load": {
+		"prefix": ["On Player Chunk Load"],
+		"body": ["on player chunk load:", "\t$0"],
+		"description": ["[on] [on] player chunk (send|load) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_chunk_unload": {
+		"prefix": ["On Player Chunk Unload"],
+		"body": ["on player chunk unload:", "\t$0"],
+		"description": ["[on] [on] player chunk unload [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_command_send": {
+		"prefix": ["On Player Command Send"],
+		"body": ["on player command send:", "\t$0"],
+		"description": ["[on] [on] player command send [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_deep_sleep": {
+		"prefix": ["On Player Deep Sleep"],
+		"body": ["on player deep sleep:", "\t$0"],
+		"description": ["[on] [on] [player] deep sleep[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_elytra_boost": {
+		"prefix": ["On Player Elytra Boost"],
+		"body": ["on player elytra boost:", "\t$0"],
+		"description": ["[on] [on] [player] elytra boost [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_pickup_experience_orb": {
+		"prefix": ["On Player Pickup Experience Orb"],
+		"body": ["on player pickup experience orb:", "\t$0"],
+		"description": ["[on] [on] player pickup (experience|xp) [orb] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_purchase": {
+		"prefix": ["On Player Purchase"],
+		"body": ["on player purchase:", "\t$0"],
+		"description": ["[on] [on] player (purchase|trade) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_stop_using_item": {
+		"prefix": ["On Player Stop Using Item"],
+		"body": ["on player stop using item:", "\t$0"],
+		"description": ["[on] [on] [player] stop using item [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_trade": {
+		"prefix": ["On Player Trade"],
+		"body": ["on player trade:", "\t$0"],
+		"description": ["[on] [on] player trad(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.player_world_change": {
+		"prefix": ["On Player World Change"],
+		"body": ["on player world change:", "\t$0"],
+		"description": ["[on] [on] [player] world chang(ing|e[d]) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.portal": {
+		"prefix": ["On Portal"],
+		"body": ["on portal:", "\t$0"],
+		"description": ["[on] [on] [player] portal [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.portal_create": {
+		"prefix": ["On Portal Create"],
+		"body": ["on portal create:", "\t$0"],
+		"description": ["[on] [on] portal creat(e|ion) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.portal_enter": {
+		"prefix": ["On Portal Enter"],
+		"body": ["on portal enter:", "\t$0"],
+		"description": ["[on] [on] portal enter[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.prepare_craft": {
+		"prefix": ["On Prepare Craft"],
+		"body": ["on prepare craft:", "\t$0"],
+		"description": ["[on] [on] [player] (preparing|beginning) craft[ing] [[of] %itemtypes%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.pressure_plate_trip": {
+		"prefix": ["On Pressure Plate / Trip"],
+		"body": ["on pressure plate:", "\t$0"],
+		"description": ["[on] [on] [step[ping] on] [a] [pressure] plate [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.projectile_collide": {
+		"prefix": ["On Projectile Collide"],
+		"body": ["on projectile collide:", "\t$0"],
+		"description": ["[on] [on] projectile collide [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.projectile_hit": {
+		"prefix": ["On Projectile Hit"],
+		"body": ["on projectile hit:", "\t$0"],
+		"description": ["[on] [on] projectile hit [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.quit": {
+		"prefix": ["On Quit"],
+		"body": ["on quit:", "\t$0"],
+		"description": ["[on] [on] (quit[ting]|disconnect[ing]|log[ ]out|logging out|leav(e|ing)) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.recipe_-_discover_event": {
+		"prefix": ["On Recipe - Discover Event"],
+		"body": ["on recipe discover event:", "\t$0"],
+		"description": ["[on] [on] recipe discover[y] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.recipe_book_click_event": {
+		"prefix": ["On Recipe Book Click Event"],
+		"body": ["on recipe book click event:", "\t$0"],
+		"description": ["[on] [on] [player] recipe book click [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.redstone": {
+		"prefix": ["On Redstone"],
+		"body": ["on redstone:", "\t$0"],
+		"description": ["[on] [on] redstone [current] [chang(e|ing)] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.resource_pack_request_response": {
+		"prefix": ["On Resource Pack Request Response"],
+		"body": ["on resource pack request response:", "\t$0"],
+		"description": ["[on] [on] resource pack [request] response [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.respawn": {
+		"prefix": ["On Respawn"],
+		"body": ["on respawn:", "\t$0"],
+		"description": ["[on] [on] [player] respawn[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.resurrect_attempt": {
+		"prefix": ["On Resurrect Attempt"],
+		"body": ["on resurrect attempt:", "\t$0"],
+		"description": ["[on] [on] [entity] resurrect[ion] [attempt] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.riptide": {
+		"prefix": ["On Riptide"],
+		"body": ["on riptide:", "\t$0"],
+		"description": ["[on] [on] [use of] riptide [enchant[ment]] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.script_loadunload": {
+		"prefix": ["On Script Load/Unload"],
+		"body": ["on script load:", "\t$0"],
+		"description": ["[on] [on] [:async] [script] (load|init|enable) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.server_list_ping": {
+		"prefix": ["On Server List Ping"],
+		"body": ["on server list ping:", "\t$0"],
+		"description": ["[on] [on] server [list] ping [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.server_startstop": {
+		"prefix": ["On Server Start/Stop"],
+		"body": ["on server start:", "\t$0"],
+		"description": ["[on] [on] (:server|skript) (start|load|enable) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.shear_entity": {
+		"prefix": ["On Shear Entity"],
+		"body": ["on shear entity:", "\t$0"],
+		"description": ["[on] [on] [player] shear entity [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.sheep_regrow_wool": {
+		"prefix": ["On Sheep Regrow Wool"],
+		"body": ["on sheep regrow wool:", "\t$0"],
+		"description": ["[on] [on] sheep [re]grow[ing] wool [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.shoot": {
+		"prefix": ["On Shoot"],
+		"body": ["on shoot:", "\t$0"],
+		"description": ["[on] [on] [projectile] shoot [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.sign_change": {
+		"prefix": ["On Sign Change"],
+		"body": ["on sign change:", "\t$0"],
+		"description": ["[on] [on] sign (chang[e]|edit)[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.skeleton_horse_trap_event": {
+		"prefix": ["On Skeleton Horse Trap Event"],
+		"body": ["on skeleton horse trap event:", "\t$0"],
+		"description": ["[on] [on] skeleton horse trap [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.slime_split": {
+		"prefix": ["On Slime Split"],
+		"body": ["on slime split:", "\t$0"],
+		"description": ["[on] [on] slime split[ting] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.smelt": {
+		"prefix": ["On Smelt"],
+		"body": ["on smelt:", "\t$0"],
+		"description": ["[on] [on] [ore] smelt[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.sneak_toggle": {
+		"prefix": ["On Sneak Toggle"],
+		"body": ["on sneak toggle:", "\t$0"],
+		"description": ["[on] [on] [player] toggl(e|ing) sneak [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.spawn": {
+		"prefix": ["On Spawn"],
+		"body": ["on spawn:", "\t$0"],
+		"description": ["[on] [on] spawn[ing] [of %entitydatas%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.spawn_change": {
+		"prefix": ["On Spawn Change"],
+		"body": ["on spawn change:", "\t$0"],
+		"description": ["[on] [on] [world] spawn change [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.spawner_spawn": {
+		"prefix": ["On Spawner Spawn"],
+		"body": ["on spawner spawn:", "\t$0"],
+		"description": ["[on] [on] spawner spawn [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.spectate": {
+		"prefix": ["On Spectate"],
+		"body": ["on spectate:", "\t$0"],
+		"description": ["[on] [on] [player] stop spectating [(of|from) %*entitydatas%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.sponge_absorb": {
+		"prefix": ["On Sponge Absorb"],
+		"body": ["on sponge absorb:", "\t$0"],
+		"description": ["[on] [on] sponge absorb [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.spread": {
+		"prefix": ["On Spread"],
+		"body": ["on spread:", "\t$0"],
+		"description": ["[on] [on] spread[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.sprint_toggle": {
+		"prefix": ["On Sprint Toggle"],
+		"body": ["on sprint toggle:", "\t$0"],
+		"description": ["[on] [on] [player] toggl(e|ing) sprint [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.swim_toggle": {
+		"prefix": ["On Swim Toggle"],
+		"body": ["on swim toggle:", "\t$0"],
+		"description": ["[on] [on] [entity] toggl(e|ing) swim [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.tame": {
+		"prefix": ["On Tame"],
+		"body": ["on tame:", "\t$0"],
+		"description": ["[on] [on] [entity] tam(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.target": {
+		"prefix": ["On Target"],
+		"body": ["on target:", "\t$0"],
+		"description": ["[on] [on] [entity] target [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.teleport": {
+		"prefix": ["On Teleport"],
+		"body": ["on teleport:", "\t$0"],
+		"description": ["[on] [on] [player] teleport[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.tool_change": {
+		"prefix": ["On Tool Change"],
+		"body": ["on tool change:", "\t$0"],
+		"description": ["[on] [on] [player['s]] (tool|item held|held item) chang(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.trade_select": {
+		"prefix": ["On Trade Select"],
+		"body": ["on trade select:", "\t$0"],
+		"description": ["[on] [on] trade select [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.vehicle_create": {
+		"prefix": ["On Vehicle Create"],
+		"body": ["on vehicle create:", "\t$0"],
+		"description": ["[on] [on] vehicle create [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.vehicle_damage": {
+		"prefix": ["On Vehicle Damage"],
+		"body": ["on vehicle damage:", "\t$0"],
+		"description": ["[on] [on] vehicle damage [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.vehicle_destroy": {
+		"prefix": ["On Vehicle Destroy"],
+		"body": ["on vehicle destroy:", "\t$0"],
+		"description": ["[on] [on] vehicle destroy [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.vehicle_enter": {
+		"prefix": ["On Vehicle Enter"],
+		"body": ["on vehicle enter:", "\t$0"],
+		"description": ["[on] [on] vehicle enter [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.vehicle_exit": {
+		"prefix": ["On Vehicle Exit"],
+		"body": ["on vehicle exit:", "\t$0"],
+		"description": ["[on] [on] vehicle exit [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.weather_change": {
+		"prefix": ["On Weather Change"],
+		"body": ["on weather change:", "\t$0"],
+		"description": ["[on] [on] weather change [to %weathertypes%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.world_init": {
+		"prefix": ["On World Init"],
+		"body": ["on world init:", "\t$0"],
+		"description": ["[on] [on] world init[ialization] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.world_load": {
+		"prefix": ["On World Load"],
+		"body": ["on world load:", "\t$0"],
+		"description": ["[on] [on] world load[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.world_save": {
+		"prefix": ["On World Save"],
+		"body": ["on world save:", "\t$0"],
+		"description": ["[on] [on] world sav(e|ing) [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.world_unload": {
+		"prefix": ["On World Unload"],
+		"body": ["on world unload:", "\t$0"],
+		"description": ["[on] [on] world unload[ing] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.zombie_break_door": {
+		"prefix": ["On Zombie Break Door"],
+		"body": ["on zombie break door:", "\t$0"],
+		"description": ["[on] [on] zombie break[ing] [a] [wood[en]] door [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.periodical": {
+		"prefix": ["Periodical"],
+		"body": ["periodical:", "\t$0"],
+		"description": ["[on] every %timespan% [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript.event.eventperiodical": {
+		"prefix": ["Periodical"],
+		"body": ["periodical:", "\t$0"],
+		"description": ["[on] every %timespan% in [world[s]] %worlds% [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+
+	// @Skript.conditions
+
+	"skript.condition.condalphanumeric": {
+		"prefix": ["Alphanumeric"],
+		"body": ["alphanumeric"],
+		"description": ["%strings% (is|are) alphanumeric"],
+	},
+	"skript.condition.condcanfly": {
+		"prefix": ["Can Fly"],
+		"body": ["can fly"],
+		"description": ["%players% can fly"],
+	},
+	"skript.condition.condcanhold": {
+		"prefix": ["Can Hold"],
+		"body": ["can hold"],
+		"description": ["%inventories% (can hold|ha(s|ve) [enough] space (for|to hold)) %itemtypes%"],
+	},
+	"skript.condition.condcansee": {
+		"prefix": ["Can See"],
+		"body": ["can see"],
+		"description": ["%players% (is|are) [(in)]visible for %players%"],
+	},
+	"skript.condition.condchance": {
+		"prefix": ["Chance"],
+		"body": ["chance"],
+		"description": ["chance of %number%(\\%|)"],
+	},
+	"skript.condition.condcompare": {
+		"prefix": ["Comparison"],
+		"body": ["comparison"],
+		"description": ["(neither|) %objects% ((is|are)(|(n't| not| neither)) ((greater|more|higher|bigger|larger) than|above)|\\>) %objects%"],
+	},
+	"skript.condition.condcontains": {
+		"prefix": ["Contains"],
+		"body": ["contains"],
+		"description": ["%inventories% (has|have) %itemtypes% [in [(the[ir]|his|her|its)] inventory]"],
+	},
+	"skript.condition.conddamagecause": {
+		"prefix": ["Damage Cause"],
+		"body": ["damage cause"],
+		"description": ["[the] damage (was|is|has)(|n('|o)t) [been] (caused|done|made) by %damagecause%"],
+	},
+	"skript.condition.condanchorworks": {
+		"prefix": ["Do Respawn Anchors Work"],
+		"body": ["do respawn anchors work"],
+		"description": ["respawn anchors [do[1:(n't| not)]] work in %worlds%"],
+	},
+	"skript.condition.condwillhatch": {
+		"prefix": ["Egg Will Hatch"],
+		"body": ["egg will hatch"],
+		"description": ["[the] egg (:will|will not|won't) hatch"],
+	},
+	"skript.condition.condentityiswet": {
+		"prefix": ["Entity is Wet"],
+		"body": ["entity is wet"],
+		"description": ["%entities% (is|are) wet"],
+	},
+	"skript.condition.condentityisinliquid": {
+		"prefix": ["Entity is in Liquid"],
+		"body": ["entity is in liquid"],
+		"description": ["%entities% (is|are) in (water|lava|[a] bubble[ ]column|rain)"],
+	},
+	"skript.condition.condcancelled": {
+		"prefix": ["Event Cancelled"],
+		"body": ["event cancelled"],
+		"description": ["[the] event is cancel[l]ed"],
+	},
+	"skript.condition.condisset": {
+		"prefix": ["Exists/Is Set"],
+		"body": ["exists"],
+		"description": ["%objects% (exist[s]|(is|are) set)"],
+	},
+	"skript.condition.condai": {
+		"prefix": ["Has AI"],
+		"body": ["has ai"],
+		"description": ["%livingentities% (has|have) (ai|artificial intelligence)"],
+	},
+	"skript.condition.condhasclientweather": {
+		"prefix": ["Has Client Weather"],
+		"body": ["has client weather"],
+		"description": ["%players% (has|have) [a] (client|custom) weather [set]"],
+	},
+	"skript.condition.condhascustommodeldata": {
+		"prefix": ["Has Custom Model Data"],
+		"body": ["has custom model data"],
+		"description": ["%itemtypes% (has|have) [custom] model data"],
+	},
+	"skript.condition.condhasmetadata": {
+		"prefix": ["Has Metadata"],
+		"body": ["has metadata"],
+		"description": ["%metadataholders% (has|have) metadata [(value|tag)[s]] %strings%"],
+	},
+	"skript.condition.condpermission": {
+		"prefix": ["Has Permission"],
+		"body": ["has permission"],
+		"description": ["%commandsenders% (has|have) [the] permission[s] %strings%"],
+	},
+	"skript.condition.condplayedbefore": {
+		"prefix": ["Has Played Before"],
+		"body": ["has played before"],
+		"description": ["%offlineplayers% [(has|have|did)] [already] play[ed] [on (this|the) server] (before|already)"],
+	},
+	"skript.condition.condhaspotion": {
+		"prefix": ["Has Potion"],
+		"body": ["has potion"],
+		"description": ["%livingentities% (has|have) potion[s] [effect[s]] %potioneffecttypes%"],
+	},
+	"skript.condition.condhasresourcepack": {
+		"prefix": ["Has Resource Pack"],
+		"body": ["has resource pack"],
+		"description": ["%players% (has|have) [a] resource pack [(loaded|installed)]"],
+	},
+	"skript.condition.condhasscoreboardtag": {
+		"prefix": ["Has Scoreboard Tag"],
+		"body": ["has scoreboard tag"],
+		"description": ["%entities% (has|have) [the] score[ ]board tag[s] %strings%"],
+	},
+	"skript.condition.condignitionprocess": {
+		"prefix": ["Ignition Process"],
+		"body": ["ignition process"],
+		"description": ["[creeper[s]] %livingentities% ((is|are)|(isn't|is not|aren't|are not)) going to explode"],
+	},
+	"skript.condition.condisalive": {
+		"prefix": ["Is Alive"],
+		"body": ["is alive"],
+		"description": ["%entities% (is|are) (alive|dead)"],
+	},
+	"skript.condition.condisbanned": {
+		"prefix": ["Is Banned"],
+		"body": ["is banned"],
+		"description": ["%offlineplayers/strings% (is|are) banned"],
+	},
+	"skript.condition.condrespawnlocation": {
+		"prefix": ["Is Bed/Anchor Spawn"],
+		"body": ["is bed"],
+		"description": ["[the] respawn location (was|is)[1:(n'| no)t] [a] (:bed|respawn anchor)"],
+	},
+	"skript.condition.condisblock": {
+		"prefix": ["Is Block"],
+		"body": ["is block"],
+		"description": ["%itemtypes% (is|are) ([a] block|blocks)"],
+	},
+	"skript.condition.condisblockredstonepowered": {
+		"prefix": ["Is Block Redstone Powered"],
+		"body": ["is block redstone powered"],
+		"description": ["%blocks% (is|are) redstone powered"],
+	},
+	"skript.condition.condisblocking": {
+		"prefix": ["Is Blocking"],
+		"body": ["is blocking"],
+		"description": ["%players% (is|are) (blocking|defending) [with [a] shield]"],
+	},
+	"skript.condition.condisburning": {
+		"prefix": ["Is Burning"],
+		"body": ["is burning"],
+		"description": ["%entities% (is|are) (burning|ignited|on fire)"],
+	},
+	"skript.condition.condischarged": {
+		"prefix": ["Is Charged"],
+		"body": ["is charged"],
+		"description": ["%livingentities% (is|are) (charged|powered)"],
+	},
+	"skript.condition.condisedible": {
+		"prefix": ["Is Edible"],
+		"body": ["is edible"],
+		"description": ["%itemtypes% (is|are) edible"],
+	},
+	"skript.condition.condisempty": {
+		"prefix": ["Is Empty"],
+		"body": ["is empty"],
+		"description": ["%inventories/slots/strings% (is|are) empty"],
+	},
+	"skript.condition.condisenchanted": {
+		"prefix": ["Is Enchanted"],
+		"body": ["is enchanted"],
+		"description": ["%itemtypes% (is|are) enchanted [with %enchantmenttype%]"],
+	},
+	"skript.condition.condisflammable": {
+		"prefix": ["Is Flammable"],
+		"body": ["is flammable"],
+		"description": ["%itemtypes% (is|are) flammable"],
+	},
+	"skript.condition.condisflying": {
+		"prefix": ["Is Flying"],
+		"body": ["is flying"],
+		"description": ["%players% (is|are) flying"],
+	},
+	"skript.condition.condisfrozen": {
+		"prefix": ["Is Frozen"],
+		"body": ["is frozen"],
+		"description": ["%entities% (is|are) frozen"],
+	},
+	"skript.condition.condisfuel": {
+		"prefix": ["Is Fuel"],
+		"body": ["is fuel"],
+		"description": ["%itemtypes% (is|are) [furnace] fuel"],
+	},
+	"skript.condition.condisgliding": {
+		"prefix": ["Is Gliding"],
+		"body": ["is gliding"],
+		"description": ["%livingentities% (is|are) gliding"],
+	},
+	"skript.condition.conditeminhand": {
+		"prefix": ["Is Holding"],
+		"body": ["is holding"],
+		"description": ["[%livingentities%] ha(s|ve) %itemtypes% in [main] hand"],
+	},
+	"skript.condition.condincendiary": {
+		"prefix": ["Is Incendiary"],
+		"body": ["is incendiary"],
+		"description": ["%entities% ((is|are) incendiary|cause[s] a[n] (incendiary|fiery) explosion)"],
+	},
+	"skript.condition.condisinteractable": {
+		"prefix": ["Is Interactable"],
+		"body": ["is interactable"],
+		"description": ["%itemtypes% (is|are) interactable"],
+	},
+	"skript.condition.condisinvisible": {
+		"prefix": ["Is Invisible"],
+		"body": ["is invisible"],
+		"description": ["%livingentities% (is|are) (invisible|:visible)"],
+	},
+	"skript.condition.condisinvulnerable": {
+		"prefix": ["Is Invulnerable"],
+		"body": ["is invulnerable"],
+		"description": ["%entities% (is|are) invulnerable"],
+	},
+	"skript.condition.condleashed": {
+		"prefix": ["Is Leashed"],
+		"body": ["is leashed"],
+		"description": ["%livingentities% (is|are) leashed"],
+	},
+	"skript.condition.condisloaded": {
+		"prefix": ["Is Loaded"],
+		"body": ["is loaded"],
+		"description": ["chunk[s] %directions% [%locations%] (is|are)[((n't| not))] loaded"],
+	},
+	"skript.condition.condisvectornormalized": {
+		"prefix": ["Is Normalized"],
+		"body": ["is normalized"],
+		"description": ["%vectors% (is|are) normalized"],
+	},
+	"skript.condition.condisoccluding": {
+		"prefix": ["Is Occluding"],
+		"body": ["is occluding"],
+		"description": ["%itemtypes% (is|are) occluding"],
+	},
+	"skript.condition.condisonline": {
+		"prefix": ["Is Online"],
+		"body": ["is online"],
+		"description": ["%offlineplayers% (is|are) (online|offline)"],
+	},
+	"skript.condition.condisop": {
+		"prefix": ["Is Operator"],
+		"body": ["is operator"],
+		"description": ["%offlineplayers% (is|are) [[a] server|an] op[erator][s]"],
+	},
+	"skript.condition.condispassable": {
+		"prefix": ["Is Passable"],
+		"body": ["is passable"],
+		"description": ["%blocks% (is|are) passable"],
+	},
+	"skript.condition.condispluginenabled": {
+		"prefix": ["Is Plugin Enabled"],
+		"body": ["is plugin enabled"],
+		"description": ["plugin[s] %strings% (is|are) enabled"],
+	},
+	"skript.condition.condispoisoned": {
+		"prefix": ["Is Poisoned"],
+		"body": ["is poisoned"],
+		"description": ["%livingentities% (is|are) poisoned"],
+	},
+	"skript.condition.condispreferredtool": {
+		"prefix": ["Is Preferred Tool"],
+		"body": ["is preferred tool"],
+		"description": ["%itemtypes% (is|are) %blocks/blockdatas%'s preferred tool[s]"],
+	},
+	"skript.condition.condisriding": {
+		"prefix": ["Is Riding"],
+		"body": ["is riding"],
+		"description": ["%entities% (is|are) riding [%entitydatas%]"],
+	},
+	"skript.condition.condisriptiding": {
+		"prefix": ["Is Riptiding"],
+		"body": ["is riptiding"],
+		"description": ["%livingentities% (is|are) riptiding"],
+	},
+	"skript.condition.condscriptloaded": {
+		"prefix": ["Is Script Loaded"],
+		"body": ["is script loaded"],
+		"description": ["script[s] [%strings%] (is|are) loaded"],
+	},
+	"skript.condition.condissilent": {
+		"prefix": ["Is Silent"],
+		"body": ["is silent"],
+		"description": ["%entities% (is|are) silent"],
+	},
+	"skript.condition.condissleeping": {
+		"prefix": ["Is Sleeping"],
+		"body": ["is sleeping"],
+		"description": ["%players% (is|are) sleeping"],
+	},
+	"skript.condition.condisslimechunk": {
+		"prefix": ["Is Slime Chunk"],
+		"body": ["is slime chunk"],
+		"description": ["%chunk% (is|are) ([a] slime chunk|slime chunks|slimey)"],
+	},
+	"skript.condition.condissneaking": {
+		"prefix": ["Is Sneaking"],
+		"body": ["is sneaking"],
+		"description": ["%players% (is|are) sneaking"],
+	},
+	"skript.condition.condissolid": {
+		"prefix": ["Is Solid"],
+		"body": ["is solid"],
+		"description": ["%itemtypes% (is|are) solid"],
+	},
+	"skript.condition.condissprinting": {
+		"prefix": ["Is Sprinting"],
+		"body": ["is sprinting"],
+		"description": ["%players% (is|are) sprinting"],
+	},
+	"skript.condition.condisstackable": {
+		"prefix": ["Is Stackable"],
+		"body": ["is stackable"],
+		"description": ["%itemstacks% (is|are) stackable"],
+	},
+	"skript.condition.condisswimming": {
+		"prefix": ["Is Swimming"],
+		"body": ["is swimming"],
+		"description": ["%livingentities% (is|are) swimming"],
+	},
+	"skript.condition.condistameable": {
+		"prefix": ["Is Tameable"],
+		"body": ["is tameable"],
+		"description": ["%livingentities% (is|are) tameable"],
+	},
+	"skript.condition.condistransparent": {
+		"prefix": ["Is Transparent"],
+		"body": ["is transparent"],
+		"description": ["%itemtypes% (is|are) transparent"],
+	},
+	"skript.condition.condisunbreakable": {
+		"prefix": ["Is Unbreakable"],
+		"body": ["is unbreakable"],
+		"description": ["%itemtypes% (is|are) unbreakable"],
+	},
+	"skript.condition.condisvalid": {
+		"prefix": ["Is Valid"],
+		"body": ["is valid"],
+		"description": ["%entities% (is|are) valid"],
+	},
+	"skript.condition.condiswearing": {
+		"prefix": ["Is Wearing"],
+		"body": ["is wearing"],
+		"description": ["%livingentities% (is|are) wearing %itemtypes%"],
+	},
+	"skript.condition.condiswhitelisted": {
+		"prefix": ["Is Whitelisted"],
+		"body": ["is whitelisted"],
+		"description": ["[the] server (is|is(n't| not)) white[ ]listed"],
+	},
+	"skript.condition.condiswithin": {
+		"prefix": ["Is Within"],
+		"body": ["is within"],
+		"description": ["%locations% (is|are) within %location% and %location%"],
+	},
+	"skript.condition.condiswithinlocation": {
+		"prefix": ["Is Within Location"],
+		"body": ["is within location"],
+		"description": ["%locations% (is|are) within %location% and %location%"],
+	},
+	"skript.condition.condwithinradius": {
+		"prefix": ["Is Within Radius"],
+		"body": ["is within radius"],
+		"description": ["%locations% (is|are) within %number% (block|metre|meter)[s] (around|of) %locations%"],
+	},
+	"skript.condition.condisskriptcommand": {
+		"prefix": ["Is a Skript command"],
+		"body": ["is a skript command"],
+		"description": ["%string% (is|are) [a] s(k|c)ript (command|cmd)"],
+	},
+	"skript.condition.condisoftype": {
+		"prefix": ["Is of Type"],
+		"body": ["is of type"],
+		"description": ["%itemstacks/entities% (is|are) of type[s] %entitytypes/entitydatas%"],
+	},
+	"skript.condition.condisonground": {
+		"prefix": ["Is on Ground"],
+		"body": ["is on ground"],
+		"description": ["%entities% (is|are) on [the] ground"],
+	},
+	"skript.condition.condmatches": {
+		"prefix": ["Matches"],
+		"body": ["matches"],
+		"description": ["%strings% (match[es]|do[es](n't| not) match) %strings%"],
+	},
+	"skript.condition.condprojectilecanbounce": {
+		"prefix": ["Projectile Can Bounce"],
+		"body": ["projectile can bounce"],
+		"description": ["%projectiles% can bounce"],
+	},
+	"skript.condition.condpvp": {
+		"prefix": ["PvP"],
+		"body": ["pvp"],
+		"description": ["(is PvP|PvP is) enabled [in %worlds%]"],
+	},
+	"skript.condition.condresourcepack": {
+		"prefix": ["Resource Pack"],
+		"body": ["resource pack"],
+		"description": ["[the] resource pack (was|is|has) [been] %resourcepackstate%"],
+	},
+	"skript.condition.condstartsendswith": {
+		"prefix": ["Starts/Ends With"],
+		"body": ["starts"],
+		"description": ["%strings% (start|end)[s] with %strings%"],
+	},
+	"skript.condition.conddate": {
+		"prefix": ["Time"],
+		"body": ["time"],
+		"description": ["%date% (was|were)( more|(n't| not) less) than %timespan% [ago]"],
+	},
+
+	// @Skript.effects
+
+	"skript.effect.effactionbar": {
+		"prefix": ["Action Bar"],
+		"body": ["action bar"],
+		"description": ["send [the] action[ ]bar [with text] %string% to %players%"],
+	},
+	"skript.effect.effban": {
+		"prefix": ["Ban"],
+		"body": ["ban"],
+		"description": ["ban %strings/offlineplayers% [(by reason of|because [of]|on account of|due to) %string%] [for %timespan%]"],
+	},
+	"skript.effect.effbreaknaturally": {
+		"prefix": ["Break Block"],
+		"body": ["break block"],
+		"description": ["break %blocks% [naturally] [using %itemtype%]"],
+	},
+	"skript.effect.effbroadcast": {
+		"prefix": ["Broadcast"],
+		"body": ["broadcast"],
+		"description": ["broadcast %objects% [(to|in) %worlds%]"],
+	},
+	"skript.effect.effcancelcooldown": {
+		"prefix": ["Cancel Command Cooldown"],
+		"body": ["cancel command cooldown"],
+		"description": ["(cancel|ignore) [the] [current] [command] cooldown"],
+	},
+	"skript.effect.effcanceldrops": {
+		"prefix": ["Cancel Drops"],
+		"body": ["cancel drops"],
+		"description": ["(cancel|clear|delete) [the] drops [of (items|[e]xp[erience][s])]"],
+	},
+	"skript.effect.effcancelevent": {
+		"prefix": ["Cancel Event"],
+		"body": ["cancel event"],
+		"description": ["cancel [the] event"],
+	},
+	"skript.effect.effchange": {
+		"prefix": ["Change: Set/Add/Remove/Delete/Reset"],
+		"body": ["change: set"],
+		"description": ["(add|give) %objects% to %objects%"],
+	},
+	"skript.effect.effchargecreeper": {
+		"prefix": ["Charge Creeper"],
+		"body": ["charge creeper"],
+		"description": ["make %livingentities% [a[n]] (charged|powered|((un|non[-])charged|(un|non[-])powered)) [creeper[s]]"],
+	},
+	"skript.effect.effcoloritems": {
+		"prefix": ["Color Items"],
+		"body": ["color items"],
+		"description": ["(dye|colo[u]r|paint) %itemtypes% %color%"],
+	},
+	"skript.effect.effcommand": {
+		"prefix": ["Command"],
+		"body": ["command"],
+		"description": ["[execute] [the] command %strings% [by %commandsenders%]"],
+	},
+	"skript.effect.effconnect": {
+		"prefix": ["Connect"],
+		"body": ["connect"],
+		"description": ["connect %players% to [server] %string%"],
+	},
+	"skript.effect.effcontinue": {
+		"prefix": ["Continue"],
+		"body": ["continue"],
+		"description": ["continue [loop]"],
+	},
+	"skript.effect.effhealth": {
+		"prefix": ["Damage/Heal/Repair"],
+		"body": ["damage"],
+		"description": ["damage %livingentities/itemtypes% by %number% [heart[s]] [with fake cause %damagecause%]"],
+	},
+	"skript.effect.delay": {
+		"prefix": ["Delay"],
+		"body": ["delay"],
+		"description": ["(wait|halt) [for] %timespan%"],
+	},
+	"skript.effect.effdoif": {
+		"prefix": ["Do If"],
+		"body": ["do if"],
+		"description": ["<.+> if <.+>"],
+	},
+	"skript.effect.effdrop": {
+		"prefix": ["Drop"],
+		"body": ["drop"],
+		"description": ["drop %itemtypes/experiences% [%directions% %locations%] [(without velocity)]"],
+	},
+	"skript.effect.effscriptfile": {
+		"prefix": ["Enable/Disable/Reload Script File"],
+		"body": ["enable"],
+		"description": ["(1:(enable|load)|2:reload|3:(disable|unload)) s(c|k)ript [file] %string%"],
+	},
+	"skript.effect.effenchant": {
+		"prefix": ["Enchant/Disenchant"],
+		"body": ["enchant"],
+		"description": ["enchant %itemtypes% with %enchantmenttypes%"],
+	},
+	"skript.effect.effequip": {
+		"prefix": ["Equip"],
+		"body": ["equip"],
+		"description": ["equip [%livingentities%] with %itemtypes%"],
+	},
+	"skript.effect.effexit": {
+		"prefix": ["Exit"],
+		"body": ["exit"],
+		"description": ["(exit|stop) [trigger]"],
+	},
+	"skript.effect.effexplodecreeper": {
+		"prefix": ["Explode Creeper"],
+		"body": ["explode creeper"],
+		"description": ["instantly explode [creeper[s]] %livingentities%"],
+	},
+	"skript.effect.effexplosion": {
+		"prefix": ["Explosion"],
+		"body": ["explosion"],
+		"description": ["[(create|make)] [an] explosion (of|with) (force|strength|power) %number% [%directions% %locations%] [(with fire)]"],
+	},
+	"skript.effect.efffeed": {
+		"prefix": ["Feed"],
+		"body": ["feed"],
+		"description": ["feed [the] %players% [by %number% [beef[s]]]"],
+	},
+	"skript.effect.effforceattack": {
+		"prefix": ["Force Attack"],
+		"body": ["force attack"],
+		"description": ["make %livingentities% attack %entity%"],
+	},
+	"skript.effect.effrespawn": {
+		"prefix": ["Force Respawn"],
+		"body": ["force respawn"],
+		"description": ["force %players% to respawn"],
+	},
+	"skript.effect.effhideplayerfromserverlist": {
+		"prefix": ["Hide Player from Server List"],
+		"body": ["hide player from server list"],
+		"description": ["hide %players% (in|on|from) [the] server list"],
+	},
+	"skript.effect.effignite": {
+		"prefix": ["Ignite/Extinguish"],
+		"body": ["ignite"],
+		"description": ["(ignite|set fire to) %entities% [for %timespan%]"],
+	},
+	"skript.effect.effkeepinventory": {
+		"prefix": ["Keep Inventory / Experience"],
+		"body": ["keep inventory"],
+		"description": ["keep [the] (inventory|items) [(and [e]xp[erience][s] [point[s]])]"],
+	},
+	"skript.effect.effkick": {
+		"prefix": ["Kick"],
+		"body": ["kick"],
+		"description": ["kick %players% [(by reason of|because [of]|on account of|due to) %string%]"],
+	},
+	"skript.effect.effkill": {
+		"prefix": ["Kill"],
+		"body": ["kill"],
+		"description": ["kill %entities%"],
+	},
+	"skript.effect.effknockback": {
+		"prefix": ["Knockback"],
+		"body": ["knockback"],
+		"description": ["(apply knockback to|knock[back]) %livingentities% [%direction%] [with (strength|force) %number%]"],
+	},
+	"skript.effect.efffireworklaunch": {
+		"prefix": ["Launch firework"],
+		"body": ["launch firework"],
+		"description": ["(launch|deploy) [[a] firework [with effect[s]]] %fireworkeffects% at %locations% [([with] (duration|power)|timed) %number%]"],
+	},
+	"skript.effect.effleash": {
+		"prefix": ["Leash entities"],
+		"body": ["leash entities"],
+		"description": ["(leash|lead) %livingentities% to %entity%"],
+	},
+	"skript.effect.efflightning": {
+		"prefix": ["Lightning"],
+		"body": ["lightning"],
+		"description": ["(create|strike) lightning([ ]effect|) %directions% %locations%"],
+	},
+	"skript.effect.effloadservericon": {
+		"prefix": ["Load Server Icon"],
+		"body": ["load server icon"],
+		"description": ["load [the] server icon (from|of) [the] [image] [file] %string%"],
+	},
+	"skript.effect.effsuppresswarnings": {
+		"prefix": ["Locally Suppress Warning"],
+		"body": ["locally suppress warning"],
+		"description": ["[local[ly]] suppress [the] (1:conflict|2:variable save|3:[missing] conjunction[s]|4:starting [with] expression[s]) warning[s]"],
+	},
+	"skript.effect.efflog": {
+		"prefix": ["Log"],
+		"body": ["log"],
+		"description": ["log %strings% [(to|in) [file[s]] %strings%]"],
+	},
+	"skript.effect.efflook": {
+		"prefix": ["Look At"],
+		"body": ["look at"],
+		"description": ["(force|make) %livingentities% [to] (face [towards]|look [(at|towards)]) (%entity%['s (feet:feet|eyes)]|of:(feet:feet|eyes) of %entity%) [at [head] [rotation] speed %number%] [[and] max[imum] [head] pitch %number%]"],
+	},
+	"skript.effect.effmakeegghatch": {
+		"prefix": ["Make Egg Hatch"],
+		"body": ["make egg hatch"],
+		"description": ["make [the] egg [:not] hatch"],
+	},
+	"skript.effect.effmakefly": {
+		"prefix": ["Make Fly"],
+		"body": ["make fly"],
+		"description": ["force %players% to [(start|stop)] fly[ing]"],
+	},
+	"skript.effect.effincendiary": {
+		"prefix": ["Make Incendiary"],
+		"body": ["make incendiary"],
+		"description": ["make %entities% [(not)] incendiary"],
+	},
+	"skript.effect.effinvisible": {
+		"prefix": ["Make Invisible"],
+		"body": ["make invisible"],
+		"description": ["make %livingentities% (invisible|not visible)"],
+	},
+	"skript.effect.effinvulnerability": {
+		"prefix": ["Make Invulnerable"],
+		"body": ["make invulnerable"],
+		"description": ["make %entities% invulnerable"],
+	},
+	"skript.effect.effmakesay": {
+		"prefix": ["Make Say"],
+		"body": ["make say"],
+		"description": ["make %players% (say|send [the] message[s]) %strings%"],
+	},
+	"skript.effect.effmessage": {
+		"prefix": ["Message"],
+		"body": ["message"],
+		"description": ["(message|send [message[s]]) %objects% [to %commandsenders%] [from %player%]"],
+	},
+	"skript.effect.effopenbook": {
+		"prefix": ["Open Book"],
+		"body": ["open book"],
+		"description": ["(open|show) book %itemtype% (to|for) %players%"],
+	},
+	"skript.effect.effopeninventory": {
+		"prefix": ["Open/Close Inventory"],
+		"body": ["open"],
+		"description": ["(open|show) (((crafting [table]|workbench)|chest|anvil|hopper|dropper|dispenser) (view|window|inventory|)|%inventory/inventorytype%) (to|for) %players%"],
+	},
+	"skript.effect.effpathfind": {
+		"prefix": ["Pathfind"],
+		"body": ["pathfind"],
+		"description": ["make %livingentities% (pathfind|move) to[wards] %livingentity/location% [at speed %number%]"],
+	},
+	"skript.effect.effvisualeffect": {
+		"prefix": ["Play Effect"],
+		"body": ["play effect"],
+		"description": ["(play|show) %visualeffects% (on|%directions%) %entities/locations% [(to %players%|in (radius|range) of %number%)]"],
+	},
+	"skript.effect.effplaysound": {
+		"prefix": ["Play Sound"],
+		"body": ["play sound"],
+		"description": ["play sound[s] %strings% [(in|from) %soundcategory%] [(at|with) volume %number%] [(and|at|with) pitch %number%] at %locations% [(to|for) %players%]"],
+	},
+	"skript.effect.effplayerinfovisibility": {
+		"prefix": ["Player Info Visibility"],
+		"body": ["player info visibility"],
+		"description": ["hide [all] player [related] info[rmation] [(in|on|from) [the] server list]"],
+	},
+	"skript.effect.effplayervisibility": {
+		"prefix": ["Player Visibility"],
+		"body": ["player visibility"],
+		"description": ["hide %players% [(from|for) %players%]"],
+	},
+	"skript.effect.effpoison": {
+		"prefix": ["Poison/Cure"],
+		"body": ["poison"],
+		"description": ["poison %livingentities% [for %timespan%]"],
+	},
+	"skript.effect.effpotion": {
+		"prefix": ["Potion Effects"],
+		"body": ["potion effects"],
+		"description": ["apply %potioneffects% to %livingentities%"],
+	},
+	"skript.effect.effpush": {
+		"prefix": ["Push"],
+		"body": ["push"],
+		"description": ["(push|thrust) %entities% %direction% [(at|with) (speed|velocity|force) %number%]"],
+	},
+	"skript.effect.effpvp": {
+		"prefix": ["PvP"],
+		"body": ["pvp"],
+		"description": ["enable PvP [in %worlds%]"],
+	},
+	"skript.effect.effreplace": {
+		"prefix": ["Replace"],
+		"body": ["replace"],
+		"description": ["replace (all|every|) %strings% in %strings% with %string% [(with case sensitivity)]"],
+	},
+	"skript.effect.effreturn": {
+		"prefix": ["Return"],
+		"body": ["return"],
+		"description": ["return %objects%"],
+	},
+	"skript.effect.effsendblockchange": {
+		"prefix": ["Send Block Change"],
+		"body": ["send block change"],
+		"description": ["make %players% see %blocks% as %itemtype/blockdata%"],
+	},
+	"skript.effect.effsendresourcepack": {
+		"prefix": ["Send Resource Pack"],
+		"body": ["send resource pack"],
+		"description": ["send [the] resource pack [from [[the] URL]] %string% to %players%"],
+	},
+	"skript.effect.effshear": {
+		"prefix": ["Shear"],
+		"body": ["shear"],
+		"description": ["shear %livingentities%"],
+	},
+	"skript.effect.effshoot": {
+		"prefix": ["Shoot"],
+		"body": ["shoot"],
+		"description": ["shoot %entitydatas% [from %livingentities/locations%] [(at|with) (speed|velocity) %number%] [%direction%]"],
+	},
+	"skript.effect.effsilence": {
+		"prefix": ["Silence Entity"],
+		"body": ["silence entity"],
+		"description": ["silence %entities%"],
+	},
+	"skript.effect.effstopserver": {
+		"prefix": ["Stop Server"],
+		"body": ["stop server"],
+		"description": ["(stop|shut[ ]down) [the] server"],
+	},
+	"skript.effect.effstopsound": {
+		"prefix": ["Stop Sound"],
+		"body": ["stop sound"],
+		"description": ["stop (all:all sound[s]|sound[s] %strings%) [(in|from) %soundcategory%] [(from playing to|for) %players%]"],
+	},
+	"skript.effect.effswinghand": {
+		"prefix": ["Swing Hand"],
+		"body": ["swing hand"],
+		"description": ["make %livingentities% swing [their] [main] hand"],
+	},
+	"skript.effect.effteleport": {
+		"prefix": ["Teleport"],
+		"body": ["teleport"],
+		"description": ["[(force)] teleport %entities% (to|%direction%) %location%"],
+	},
+	"skript.effect.effresettitle": {
+		"prefix": ["Title - Reset"],
+		"body": ["title reset"],
+		"description": ["reset [the] title[s] [of %players%]"],
+	},
+	"skript.effect.effsendtitle": {
+		"prefix": ["Title - Send"],
+		"body": ["title send"],
+		"description": ["send title %string% [with subtitle %string%] [to %players%] [for %timespan%] [with fade[(-| )]in %timespan%] [(and|with) fade[(-| )]out %timespan%]"],
+	},
+	"skript.effect.efftoggle": {
+		"prefix": ["Toggle"],
+		"body": ["toggle"],
+		"description": ["(close|turn off|de[-]activate) %blocks%"],
+	},
+	"skript.effect.efftoggleflight": {
+		"prefix": ["Toggle Flight"],
+		"body": ["toggle flight"],
+		"description": ["(allow|enable) (fly|flight) (for|to) %players%"],
+	},
+	"skript.effect.efftree": {
+		"prefix": ["Tree"],
+		"body": ["tree"],
+		"description": ["(grow|create|generate) tree [of type %structuretype%] %directions% %locations%"],
+	},
+	"skript.effect.effvectorrotatearoundanother": {
+		"prefix": ["Vectors - Rotate Around Vector"],
+		"body": ["vectors rotate around vector"],
+		"description": ["rotate %vectors% around %vector% by %number% [degrees]"],
+	},
+	"skript.effect.effvectorrotatexyz": {
+		"prefix": ["Vectors - Rotate around XYZ"],
+		"body": ["vectors rotate around xyz"],
+		"description": ["rotate %vectors% around (x|y|z)(-| )axis by %number% [degrees]"],
+	},
+	"skript.effect.effvehicle": {
+		"prefix": ["Vehicle"],
+		"body": ["vehicle"],
+		"description": ["(make|let|force) %entities% [to] (ride|mount) [(in|on)] %entities/entitydatas%"],
+	},
+	"skript.effect.effop": {
+		"prefix": ["op/deop"],
+		"body": ["op"],
+		"description": ["[de[-]]op %offlineplayers%"],
+	},
+
+	// @Skript.expressions
+
+	"skript.expression.exprabsorbedblocks": {
+		"prefix": ["Absorbed blocks"],
+		"body": ["absorbed blocks"],
+		"description": ["[the] absorbed blocks"],
+	},
+	"skript.expression.expraffectedentities": {
+		"prefix": ["Affected Entities"],
+		"body": ["affected entities"],
+		"description": ["[the] affected entities"],
+	},
+	"skript.expression.exprage": {
+		"prefix": ["Age of Block/Entity"],
+		"body": ["age of block"],
+		"description": ["[the] [:max[imum]] age of %blocks/entities%"],
+	},
+	"skript.expression.exprallbannedentries": {
+		"prefix": ["All Banned Players/IPs"],
+		"body": ["all banned players"],
+		"description": ["[all [[of] the]|the] banned (players|ips:(ips|ip addresses))"],
+	},
+	"skript.expression.exprallgroups": {
+		"prefix": ["All Groups"],
+		"body": ["all groups"],
+		"description": ["all groups"],
+	},
+	"skript.expression.exprops": {
+		"prefix": ["All Operators"],
+		"body": ["all operators"],
+		"description": ["[all [[of] the]|the] [server] [:non(-| )]op[erator]s"],
+	},
+	"skript.expression.exprpermissions": {
+		"prefix": ["All Permissions"],
+		"body": ["all permissions"],
+		"description": ["[(all [[of] the]|the)] permissions (from|of) %players%"],
+	},
+	"skript.expression.exprscripts": {
+		"prefix": ["All Scripts"],
+		"body": ["all scripts"],
+		"description": ["[all [of the]] scripts [(1:without ([subdirectory] paths|parents))]"],
+	},
+	"skript.expression.exprallcommands": {
+		"prefix": ["All commands"],
+		"body": ["all commands"],
+		"description": ["[(all|the|all [of] the)] [registered] [(script)] commands"],
+	},
+	"skript.expression.expralphabetlist": {
+		"prefix": ["Alphabetical Sort"],
+		"body": ["alphabetical sort"],
+		"description": ["alphabetically sorted %strings%"],
+	},
+	"skript.expression.expraltitude": {
+		"prefix": ["Altitude"],
+		"body": ["altitude"],
+		"description": ["[the] altitude[s] of %locations%"],
+	},
+	"skript.expression.expramount": {
+		"prefix": ["Amount"],
+		"body": ["amount"],
+		"description": ["[the] (amount|number|size) of %objects%"],
+	},
+	"skript.expression.expramountofitems": {
+		"prefix": ["Amount of Items"],
+		"body": ["amount of items"],
+		"description": ["[the] (amount|number) of %itemtypes% (in|of) %inventories%"],
+	},
+	"skript.expression.expranviltext": {
+		"prefix": ["Anvil Text Input"],
+		"body": ["anvil text input"],
+		"description": ["[the] anvil [inventory] (rename|text) input of %inventories%"],
+	},
+	"skript.expression.exprappliedenchantments": {
+		"prefix": ["Applied Enchantments"],
+		"body": ["applied enchantments"],
+		"description": ["[the] applied enchant[ment]s"],
+	},
+	"skript.expression.exprargument": {
+		"prefix": ["Argument"],
+		"body": ["argument"],
+		"description": ["[the] last arg[ument]"],
+	},
+	"skript.expression.exprarithmetic": {
+		"prefix": ["Arithmetic"],
+		"body": ["arithmetic"],
+		"description": ["(%number%)[ ]+[ ](%number%)"],
+	},
+	"skript.expression.exprarmorslot": {
+		"prefix": ["Armour Slot"],
+		"body": ["armour slot"],
+		"description": ["[the] (boot[s]|shoe[s]|leg[ging][s]|chestplate[s]|helm[et][s]) [(item|slot)] of %livingentities%"],
+	},
+	"skript.expression.exprarrowknockbackstrength": {
+		"prefix": ["Arrow Knockback Strength"],
+		"body": ["arrow knockback strength"],
+		"description": ["[the] arrow knockback strength of %projectiles%"],
+	},
+	"skript.expression.exprarrowsstuck": {
+		"prefix": ["Arrows Stuck"],
+		"body": ["arrows stuck"],
+		"description": ["[number of] arrow[s] stuck in %livingentities%"],
+	},
+	"skript.expression.exprattackcooldown": {
+		"prefix": ["Attack Cooldown"],
+		"body": ["attack cooldown"],
+		"description": ["[the] attack cooldown of %players%"],
+	},
+	"skript.expression.exprattacked": {
+		"prefix": ["Attacked"],
+		"body": ["attacked"],
+		"description": ["[the] (attacked|damaged|victim) [<(.+)>]"],
+	},
+	"skript.expression.exprattacker": {
+		"prefix": ["Attacker"],
+		"body": ["attacker"],
+		"description": ["[the] (attacker|damager)"],
+	},
+	"skript.expression.exprbed": {
+		"prefix": ["Bed"],
+		"body": ["bed"],
+		"description": ["[the] [(safe:(safe|valid)|(unsafe|invalid))] bed[s] [location[s]] of %offlineplayers%"],
+	},
+	"skript.expression.exprbiome": {
+		"prefix": ["Biome"],
+		"body": ["biome"],
+		"description": ["[the] biome [(of|%direction%) %locations%]"],
+	},
+	"skript.expression.exprblock": {
+		"prefix": ["Block"],
+		"body": ["block"],
+		"description": ["[the] [event-]block"],
+	},
+	"skript.expression.exprbreakspeed": {
+		"prefix": ["Block Break Speed"],
+		"body": ["block break speed"],
+		"description": ["[the] break speed[s] [of %blocks%] [for %players%]"],
+	},
+	"skript.expression.exprblockdata": {
+		"prefix": ["Block Data"],
+		"body": ["block data"],
+		"description": ["[the] block[ ]data of %blocks%"],
+	},
+	"skript.expression.exprblockhardness": {
+		"prefix": ["Block Hardness"],
+		"body": ["block hardness"],
+		"description": ["[the] [block] hardness of %itemtypes%"],
+	},
+	"skript.expression.exprblocksphere": {
+		"prefix": ["Block Sphere"],
+		"body": ["block sphere"],
+		"description": ["[(all [[of] the]|the)] blocks in radius %number% [(of|around) %location%]"],
+	},
+	"skript.expression.exprblocks": {
+		"prefix": ["Blocks"],
+		"body": ["blocks"],
+		"description": ["[(all [[of] the]|the)] blocks %direction% [%locations%]"],
+	},
+	"skript.expression.exprbookauthor": {
+		"prefix": ["Book Author"],
+		"body": ["book author"],
+		"description": ["[the] [book] (author|writer|publisher) of %itemtypes%"],
+	},
+	"skript.expression.exprbookpages": {
+		"prefix": ["Book Pages"],
+		"body": ["book pages"],
+		"description": ["[all [[of] the]|the] [book] (pages|content) of %itemtypes%"],
+	},
+	"skript.expression.exprbooktitle": {
+		"prefix": ["Book Title"],
+		"body": ["book title"],
+		"description": ["[the] book (name|title) of %itemtypes%"],
+	},
+	"skript.expression.exprburncooktime": {
+		"prefix": ["Burn/Cook Time"],
+		"body": ["burn"],
+		"description": ["[the] burn[ing] time"],
+	},
+	"skript.expression.exprstringcase": {
+		"prefix": ["Case Text"],
+		"body": ["case text"],
+		"description": ["%strings% in (upper|lower)[ ]case"],
+	},
+	"skript.expression.exprchatformat": {
+		"prefix": ["Chat Format"],
+		"body": ["chat format"],
+		"description": ["[the] (message|chat) format[ting]"],
+	},
+	"skript.expression.exprchatrecipients": {
+		"prefix": ["Chat Recipients"],
+		"body": ["chat recipients"],
+		"description": ["[chat][( |-)]recipients"],
+	},
+	"skript.expression.exprchunk": {
+		"prefix": ["Chunk"],
+		"body": ["chunk"],
+		"description": ["[the] chunk[s] (of|%directions%) %locations%"],
+	},
+	"skript.expression.exprclicked": {
+		"prefix": ["Clicked Block/Entity/Inventory/Slot"],
+		"body": ["clicked block"],
+		"description": ["[the] (clicked [enchant[ment]] (button|option)|clicked (block|%*itemtype/entitydata%)|clicked slot|clicked inventory|click (type|action)|inventory action)"],
+	},
+	"skript.expression.exprcolorof": {
+		"prefix": ["Color of"],
+		"body": ["color of"],
+		"description": ["[the] colo[u]r[s] of %blocks/itemtypes/entities/fireworkeffects%"],
+	},
+	"skript.expression.exprcoloured": {
+		"prefix": ["Colored / Uncolored"],
+		"body": ["colored"],
+		"description": ["(colo[u]r-|colo[u]red )%strings%"],
+	},
+	"skript.expression.exprcommand": {
+		"prefix": ["Command"],
+		"body": ["command"],
+		"description": ["[the] (full|complete|whole) command"],
+	},
+	"skript.expression.exprcommandinfo": {
+		"prefix": ["Command Info"],
+		"body": ["command info"],
+		"description": ["[the] main command [label] of command %strings%"],
+	},
+	"skript.expression.exprcommandsender": {
+		"prefix": ["Command Sender"],
+		"body": ["command sender"],
+		"description": ["[the] [command['s]] (sender|executor)"],
+	},
+	"skript.expression.exprcompasstarget": {
+		"prefix": ["Compass Target"],
+		"body": ["compass target"],
+		"description": ["[the] compass target of %players%"],
+	},
+	"skript.expression.litconsole": {
+		"prefix": ["Console"],
+		"body": ["console"],
+		"description": ["[the] (console|server)"],
+	},
+	"skript.expression.exprcmdcooldowninfo": {
+		"prefix": ["Cooldown Time/Remaining Time/Elapsed Time/Last Usage/Bypass Permission"],
+		"body": ["cooldown time"],
+		"description": ["[the] remaining [time] [of [the] (cooldown|wait) [(of|for) [the] [current] command]]"],
+	},
+	"skript.expression.exprcoordinate": {
+		"prefix": ["Coordinate"],
+		"body": ["coordinate"],
+		"description": ["[the] (x|y|z)(-| )(coord[inate]|pos[ition]|loc[ation])[s] of %locations%"],
+	},
+	"skript.expression.exprentity": {
+		"prefix": ["Creature/Entity/Player/Projectile/Villager/Powered Creeper/etc."],
+		"body": ["creature"],
+		"description": ["[the] [event-]<.+>"],
+	},
+	"skript.expression.exprcursorslot": {
+		"prefix": ["Cursor Slot"],
+		"body": ["cursor slot"],
+		"description": ["[the] cursor slot of %players%"],
+	},
+	"skript.expression.exprchestinventory": {
+		"prefix": ["Custom Chest Inventory"],
+		"body": ["custom chest inventory"],
+		"description": ["[a [new]] chest inventory (named|with name) %string% [with %number% row[s]]"],
+	},
+	"skript.expression.exprcustommodeldata": {
+		"prefix": ["Custom Model Data"],
+		"body": ["custom model data"],
+		"description": ["[the] [custom] model data of %itemtypes%"],
+	},
+	"skript.expression.exprdamage": {
+		"prefix": ["Damage"],
+		"body": ["damage"],
+		"description": ["[the] damage"],
+	},
+	"skript.expression.exprdamagecause": {
+		"prefix": ["Damage Cause"],
+		"body": ["damage cause"],
+		"description": ["[the] damage (cause|type)"],
+	},
+	"skript.expression.exprdamageditem": {
+		"prefix": ["Damaged Item"],
+		"body": ["damaged item"],
+		"description": ["%itemtype% with (damage|data) [value] %number%"],
+	},
+	"skript.expression.exprdurability": {
+		"prefix": ["Data/Damage Value"],
+		"body": ["data"],
+		"description": ["[the] ((data|damage)[s] [value[s]]|durabilit(y|ies)) of %itemtypes/blocks/slots%"],
+	},
+	"skript.expression.exprdateagolater": {
+		"prefix": ["Date Ago/Later"],
+		"body": ["date ago"],
+		"description": ["%timespan% (ago|in the past|before [the] [date] %date%)"],
+	},
+	"skript.expression.exprdefaultvalue": {
+		"prefix": ["Default Value"],
+		"body": ["default value"],
+		"description": ["%objects% (otherwise|?) %objects%"],
+	},
+	"skript.expression.exprdifference": {
+		"prefix": ["Difference"],
+		"body": ["difference"],
+		"description": ["difference (between|of) %object% and %object%"],
+	},
+	"skript.expression.exprdifficulty": {
+		"prefix": ["Difficulty"],
+		"body": ["difficulty"],
+		"description": ["[the] difficult(y|ies) of %worlds%"],
+	},
+	"skript.expression.exprdirection": {
+		"prefix": ["Direction"],
+		"body": ["direction"],
+		"description": ["[%number% [(block|met(er|re))[s]] [to the]] (north[(-| |)(east|west)][(ward(s|ly|)|er(n|ly|))] [of]|south[(-| |)(east|west)][(ward(s|ly|)|er(n|ly|))] [of]|(east|west)[(ward(s|ly|)|er(n|ly|))] [of]|above|over|(up|down)[ward(s|ly|)]|below|under[neath]|beneath) [%direction%]"],
+	},
+	"skript.expression.exprdistance": {
+		"prefix": ["Distance"],
+		"body": ["distance"],
+		"description": ["[the] distance between %location% and %location%"],
+	},
+	"skript.expression.exprdrops": {
+		"prefix": ["Drops"],
+		"body": ["drops"],
+		"description": ["[the] drops"],
+	},
+	"skript.expression.exprdropsofblock": {
+		"prefix": ["Drops Of Block"],
+		"body": ["drops of block"],
+		"description": ["[(all|the|all [of] the)] drops of %blocks% [(using|with) %itemtype% [(as %entity%)]]"],
+	},
+	"skript.expression.exprelement": {
+		"prefix": ["Element of"],
+		"body": ["element of"],
+		"description": ["(0:[the] first|1:[the] last|2:[a] random|3:[the] %number%(st|nd|rd|th)|4:[the] %number%(st|nd|rd|th) [to] last) element [out] of %objects%"],
+	},
+	"skript.expression.exprenchantitem": {
+		"prefix": ["Enchant Item"],
+		"body": ["enchant item"],
+		"description": ["[the] enchant[ed] item"],
+	},
+	"skript.expression.exprenchantingexpcost": {
+		"prefix": ["Enchanting Experience Cost"],
+		"body": ["enchanting experience cost"],
+		"description": ["[the] [displayed] ([e]xp[erience]|enchanting) cost"],
+	},
+	"skript.expression.exprenchantmentbonus": {
+		"prefix": ["Enchantment Bonus"],
+		"body": ["enchantment bonus"],
+		"description": ["[the] enchantment bonus"],
+	},
+	"skript.expression.exprenchantmentlevel": {
+		"prefix": ["Enchantment Level"],
+		"body": ["enchantment level"],
+		"description": ["[the] [enchant[ment]] level[s] of %enchantments% (on|of) %itemtypes%"],
+	},
+	"skript.expression.exprenchantmentoffer": {
+		"prefix": ["Enchantment Offer"],
+		"body": ["enchantment offer"],
+		"description": ["[all [of]] [the] enchant[ment] offers"],
+	},
+	"skript.expression.exprenchantmentoffercost": {
+		"prefix": ["Enchantment Offer Cost"],
+		"body": ["enchantment offer cost"],
+		"description": ["[the] [enchant[ment]] cost of %enchantmentoffers%"],
+	},
+	"skript.expression.exprenderchest": {
+		"prefix": ["Ender Chest"],
+		"body": ["ender chest"],
+		"description": ["[the] ender[ ]chest[s] of %players%"],
+	},
+	"skript.expression.exprentities": {
+		"prefix": ["Entities"],
+		"body": ["entities"],
+		"description": ["[(all [[of] the]|the)] %*entitydatas% [(in|of) ([world[s]] %worlds%|%chunks%)]"],
+	},
+	"skript.expression.exprai": {
+		"prefix": ["Entity AI"],
+		"body": ["entity ai"],
+		"description": ["[the] (ai|artificial intelligence) of %livingentities%"],
+	},
+	"skript.expression.exprentityattribute": {
+		"prefix": ["Entity Attribute"],
+		"body": ["entity attribute"],
+		"description": ["[the] %attributetype% [((total|final|modified))] attribute [value] of %entities%"],
+	},
+	"skript.expression.exprfireticks": {
+		"prefix": ["Entity Fire Burn Duration"],
+		"body": ["entity fire burn duration"],
+		"description": ["[the] (burn[ing]|fire) (time|duration) of %entities%"],
+	},
+	"skript.expression.exprentitytamer": {
+		"prefix": ["Entity Owner"],
+		"body": ["entity owner"],
+		"description": ["[the] (owner|tamer) of %livingentities%"],
+	},
+	"skript.expression.exprexhaustion": {
+		"prefix": ["Exhaustion"],
+		"body": ["exhaustion"],
+		"description": ["[the] exhaustion of %players%"],
+	},
+	"skript.expression.exprexperience": {
+		"prefix": ["Experience"],
+		"body": ["experience"],
+		"description": ["[the] (spawned|dropped|) [e]xp[erience] [orb[s]]"],
+	},
+	"skript.expression.exprexplodedblocks": {
+		"prefix": ["Exploded Blocks"],
+		"body": ["exploded blocks"],
+		"description": ["[the] exploded blocks"],
+	},
+	"skript.expression.exprexplosionblockyield": {
+		"prefix": ["Explosion Block Yield"],
+		"body": ["explosion block yield"],
+		"description": ["[the] [explosion['s]] block (yield|amount)"],
+	},
+	"skript.expression.exprexplosionyield": {
+		"prefix": ["Explosion Yield"],
+		"body": ["explosion yield"],
+		"description": ["[the] explosion (yield|radius|size)"],
+	},
+	"skript.expression.exprexplosiveyield": {
+		"prefix": ["Explosive Yield"],
+		"body": ["explosive yield"],
+		"description": ["[the] explosive (yield|radius|size) of %entities%"],
+	},
+	"skript.expression.exprfacing": {
+		"prefix": ["Facing"],
+		"body": ["facing"],
+		"description": ["[the] (horizontal|) facing of %livingentities/blocks%"],
+	},
+	"skript.expression.exprfalldistance": {
+		"prefix": ["Fall Distance"],
+		"body": ["fall distance"],
+		"description": ["[the] fall[en] (distance|height) of %entities%"],
+	},
+	"skript.expression.exprfertilizedblocks": {
+		"prefix": ["Fertilized Blocks"],
+		"body": ["fertilized blocks"],
+		"description": ["[all] [the] fertilized blocks"],
+	},
+	"skript.expression.exprfilter": {
+		"prefix": ["Filter"],
+		"body": ["filter"],
+		"description": ["%objects% (where|that match) \\[<.+>\\]"],
+	},
+	"skript.expression.exprinput": {
+		"prefix": ["Filter Input"],
+		"body": ["filter input"],
+		"description": ["input"],
+	},
+	"skript.expression.exprfinaldamage": {
+		"prefix": ["Final Damage"],
+		"body": ["final damage"],
+		"description": ["[the] final damage"],
+	},
+	"skript.expression.exprfireworkeffect": {
+		"prefix": ["Firework Effect"],
+		"body": ["firework effect"],
+		"description": ["(|flickering|trailing|flickering trailing|trailing flickering) %fireworktype% [firework [effect]] colo[u]red %colors%"],
+	},
+	"skript.expression.exprflightmode": {
+		"prefix": ["Flight Mode"],
+		"body": ["flight mode"],
+		"description": ["[the] fl(y[ing]|ight) (mode|state) of %players%"],
+	},
+	"skript.expression.exprfoodlevel": {
+		"prefix": ["Food Level"],
+		"body": ["food level"],
+		"description": ["[the] (food|hunger)[[ ](level|met(er|re)|bar)] [of %players%]"],
+	},
+	"skript.expression.exprformatdate": {
+		"prefix": ["Formatted Date"],
+		"body": ["formatted date"],
+		"description": ["%dates% formatted [human-readable] [(with|as) %string%]"],
+	},
+	"skript.expression.exprtimestate": {
+		"prefix": ["Former/Future State"],
+		"body": ["former"],
+		"description": ["[the] (former|past|old) [state] [of] %object%"],
+	},
+	"skript.expression.exprfreezeticks": {
+		"prefix": ["Freeze Time"],
+		"body": ["freeze time"],
+		"description": ["[the] freeze time of %entities%"],
+	},
+	"skript.expression.exprfurnaceslot": {
+		"prefix": ["Furnace Slot"],
+		"body": ["furnace slot"],
+		"description": ["(fuel|result) [slot]"],
+	},
+	"skript.expression.exprgamemode": {
+		"prefix": ["Game Mode"],
+		"body": ["game mode"],
+		"description": ["[the] game[ ]mode of %players%"],
+	},
+	"skript.expression.exprgamerule": {
+		"prefix": ["Gamerule Value"],
+		"body": ["gamerule value"],
+		"description": ["[the] gamerule %gamerule% of %worlds%"],
+	},
+	"skript.expression.exprglidingstate": {
+		"prefix": ["Gliding State"],
+		"body": ["gliding state"],
+		"description": ["[the] (gliding|glider) [state] of %livingentities%"],
+	},
+	"skript.expression.exprglowing": {
+		"prefix": ["Glowing"],
+		"body": ["glowing"],
+		"description": ["[the] glowing of %entities%"],
+	},
+	"skript.expression.exprgravity": {
+		"prefix": ["Gravity"],
+		"body": ["gravity"],
+		"description": ["[the] gravity of %entities%"],
+	},
+	"skript.expression.exprgroup": {
+		"prefix": ["Group"],
+		"body": ["group"],
+		"description": ["[the] group[(s)] of %offlineplayers%"],
+	},
+	"skript.expression.exprhanging": {
+		"prefix": ["Hanging Entity/Remover"],
+		"body": ["hanging entity"],
+		"description": ["[the] hanging (entity|:remover)"],
+	},
+	"skript.expression.exprhash": {
+		"prefix": ["Hash"],
+		"body": ["hash"],
+		"description": ["%strings% hash[ed] with (MD5|SHA-256)"],
+	},
+	"skript.expression.exprhatchingtype": {
+		"prefix": ["Hatching Entity Type"],
+		"body": ["hatching entity type"],
+		"description": ["[the] hatching entity [type]"],
+	},
+	"skript.expression.exprhatchingnumber": {
+		"prefix": ["Hatching Number"],
+		"body": ["hatching number"],
+		"description": ["[the] hatching number"],
+	},
+	"skript.expression.expreyelocation": {
+		"prefix": ["Head location"],
+		"body": ["head location"],
+		"description": ["[the] (head|eye[s]) [location[s]] of %livingentities%"],
+	},
+	"skript.expression.exprhealamount": {
+		"prefix": ["Heal Amount"],
+		"body": ["heal amount"],
+		"description": ["[the] heal amount"],
+	},
+	"skript.expression.exprhealreason": {
+		"prefix": ["Heal Reason"],
+		"body": ["heal reason"],
+		"description": ["(regen|health regain|heal) (reason|cause)"],
+	},
+	"skript.expression.exprhealth": {
+		"prefix": ["Health"],
+		"body": ["health"],
+		"description": ["[the] health of %livingentities%"],
+	},
+	"skript.expression.exprhiddenplayers": {
+		"prefix": ["Hidden Players"],
+		"body": ["hidden players"],
+		"description": ["[(all [[of] the]|the)] hidden players (of|for) %players%"],
+	},
+	"skript.expression.exprhighestsolidblock": {
+		"prefix": ["Highest Solid Block"],
+		"body": ["highest solid block"],
+		"description": ["highest [(solid|non-air)] block at %locations%"],
+	},
+	"skript.expression.exprhostname": {
+		"prefix": ["Hostname"],
+		"body": ["hostname"],
+		"description": ["[the] (host|domain)[ ][name]"],
+	},
+	"skript.expression.exprhotbarbutton": {
+		"prefix": ["Hotbar Button"],
+		"body": ["hotbar button"],
+		"description": ["[the] hotbar button"],
+	},
+	"skript.expression.exprhotbarslot": {
+		"prefix": ["Hotbar Slot"],
+		"body": ["hotbar slot"],
+		"description": ["[the] [([currently] selected|current)] hotbar slot of %players%"],
+	},
+	"skript.expression.exprhoverlist": {
+		"prefix": ["Hover List"],
+		"body": ["hover list"],
+		"description": ["[the] [custom] [(player|server)] (hover|sample) ([message] list|message)"],
+	},
+	"skript.expression.exprhumidity": {
+		"prefix": ["Humidity"],
+		"body": ["humidity"],
+		"description": ["[the] humidit(y|ies) of %blocks%"],
+	},
+	"skript.expression.exprip": {
+		"prefix": ["IP"],
+		"body": ["ip"],
+		"description": ["IP[s][( |-)address[es]] of %players%"],
+	},
+	"skript.expression.expridof": {
+		"prefix": ["Id"],
+		"body": ["id"],
+		"description": ["[the] id(s|) of %itemtype%"],
+	},
+	"skript.expression.exprindexof": {
+		"prefix": ["Index Of"],
+		"body": ["index of"],
+		"description": ["[the] (|first|last) index of %string% in %string%"],
+	},
+	"skript.expression.exprindices": {
+		"prefix": ["Indices of List"],
+		"body": ["indices of list"],
+		"description": ["[(the|all [[of] the])] (indexes|indices) of %objects%"],
+	},
+	"skript.expression.exprinventory": {
+		"prefix": ["Inventory"],
+		"body": ["inventory"],
+		"description": ["[the] inventor(y|ies) of %inventoryholders%"],
+	},
+	"skript.expression.exprinventoryaction": {
+		"prefix": ["Inventory Action"],
+		"body": ["inventory action"],
+		"description": ["[the] inventory action"],
+	},
+	"skript.expression.exprinventoryinfo": {
+		"prefix": ["Inventory Holder/Viewers/Rows/Slots"],
+		"body": ["inventory holder"],
+		"description": ["(holder[s]|viewers|[amount of] rows|[amount of] slots) of %inventories%"],
+	},
+	"skript.expression.exprinventoryslot": {
+		"prefix": ["Inventory Slot"],
+		"body": ["inventory slot"],
+		"description": ["[the] slot[s] %numbers% of %inventory%"],
+	},
+	"skript.expression.expritem": {
+		"prefix": ["Item"],
+		"body": ["item"],
+		"description": ["[the] item"],
+	},
+	"skript.expression.expritemamount": {
+		"prefix": ["Item Amount"],
+		"body": ["item amount"],
+		"description": ["[the] item[[ ]stack] (amount|size|number) of %slots/itemtypes/itemstacks%"],
+	},
+	"skript.expression.exprenchantments": {
+		"prefix": ["Item Enchantments"],
+		"body": ["item enchantments"],
+		"description": ["[the] enchantments of %itemtypes%"],
+	},
+	"skript.expression.expritemframeslot": {
+		"prefix": ["Item of an Entity"],
+		"body": ["item of an entity"],
+		"description": ["[the] item of %entities%"],
+	},
+	"skript.expression.expritemwithcustommodeldata": {
+		"prefix": ["Item with CustomModelData"],
+		"body": ["item with custommodeldata"],
+		"description": ["%itemtype% with [custom] model data %number%"],
+	},
+	"skript.expression.expritemwithlore": {
+		"prefix": ["Item with Lore"],
+		"body": ["item with lore"],
+		"description": ["%itemtype% with [(a|the)] lore %strings%"],
+	},
+	"skript.expression.expritems": {
+		"prefix": ["Items"],
+		"body": ["items"],
+		"description": ["[all [[of] the]|the] block[[ ]type]s"],
+	},
+	"skript.expression.expritemsin": {
+		"prefix": ["Items In"],
+		"body": ["items in"],
+		"description": ["[(all [[of] the]|the)] items ([with]in|of|contained in|out of) (|inventor(y|ies)) %inventories%"],
+	},
+	"skript.expression.exprjoinsplit": {
+		"prefix": ["Join & Split"],
+		"body": ["join & split"],
+		"description": ["(concat[enate]|join) %strings% [(with|using|by) [[the] delimiter] %string%]"],
+	},
+	"skript.expression.exprlanguage": {
+		"prefix": ["Language"],
+		"body": ["language"],
+		"description": ["[the] [([currently] selected|current)] [game] (language|locale) [setting] of %players%"],
+	},
+	"skript.expression.exprlastattacker": {
+		"prefix": ["Last Attacker"],
+		"body": ["last attacker"],
+		"description": ["[the] last attacker of %entity%"],
+	},
+	"skript.expression.exprlastcolor": {
+		"prefix": ["Last Color"],
+		"body": ["last color"],
+		"description": ["[the] last color[s] of %strings%"],
+	},
+	"skript.expression.exprlastdamage": {
+		"prefix": ["Last Damage"],
+		"body": ["last damage"],
+		"description": ["[the] last damage of %livingentities%"],
+	},
+	"skript.expression.exprlastdamagecause": {
+		"prefix": ["Last Damage Cause"],
+		"body": ["last damage cause"],
+		"description": ["[the] last damage (cause|reason|type) of %livingentities%"],
+	},
+	"skript.expression.exprlastloadedservericon": {
+		"prefix": ["Last Loaded Server Icon"],
+		"body": ["last loaded server icon"],
+		"description": ["[the] [last[ly]] loaded server icon"],
+	},
+	"skript.expression.exprlastresourcepackresponse": {
+		"prefix": ["Last Resource Pack Response"],
+		"body": ["last resource pack response"],
+		"description": ["[the] [last] resource pack response[s] of %players%"],
+	},
+	"skript.expression.exprlastspawnedentity": {
+		"prefix": ["Last Spawned Entity"],
+		"body": ["last spawned entity"],
+		"description": ["[the] [last[ly]] (0:spawned|1:shot) %*entitydata%"],
+	},
+	"skript.expression.exprlastlogintime": {
+		"prefix": ["Last/First Login Time"],
+		"body": ["last"],
+		"description": ["[the] (last|first) login of %offlineplayers%"],
+	},
+	"skript.expression.exprleashholder": {
+		"prefix": ["Leash Holder"],
+		"body": ["leash holder"],
+		"description": ["[the] leash holder[s] of %livingentities%"],
+	},
+	"skript.expression.exprlength": {
+		"prefix": ["Length"],
+		"body": ["length"],
+		"description": ["[the] length of %strings%"],
+	},
+	"skript.expression.exprlevel": {
+		"prefix": ["Level"],
+		"body": ["level"],
+		"description": ["[the] level of %players%"],
+	},
+	"skript.expression.exprlevelprogress": {
+		"prefix": ["Level Progress"],
+		"body": ["level progress"],
+		"description": ["[the] level progress of %players%"],
+	},
+	"skript.expression.exprlightlevel": {
+		"prefix": ["Light Level"],
+		"body": ["light level"],
+		"description": ["[(sky|sun|block)[ ]]light[ ]level [(of|%direction%) %location%]"],
+	},
+	"skript.expression.exprplugins": {
+		"prefix": ["Loaded Plugins"],
+		"body": ["loaded plugins"],
+		"description": ["[(all [[of] the]|the)] [loaded] plugins"],
+	},
+	"skript.expression.exprlocationof": {
+		"prefix": ["Location"],
+		"body": ["location"],
+		"description": ["(location|position) of %location%"],
+	},
+	"skript.expression.exprlocation": {
+		"prefix": ["Location"],
+		"body": ["location"],
+		"description": ["[the] [event-](location|position)"],
+	},
+	"skript.expression.exprlocationat": {
+		"prefix": ["Location At"],
+		"body": ["location at"],
+		"description": ["[the] (location|position) [at] [(][x[ ][=[ ]]]%number%, [y[ ][=[ ]]]%number%, [and] [z[ ][=[ ]]]%number%[)] [[(in|of) [[the] world]] %world%]"],
+	},
+	"skript.expression.exprloopvalue": {
+		"prefix": ["Loop value"],
+		"body": ["loop value"],
+		"description": ["[the] loop-<.+>"],
+	},
+	"skript.expression.exprloot": {
+		"prefix": ["Loot"],
+		"body": ["loot"],
+		"description": ["[the] loot"],
+	},
+	"skript.expression.exprlore": {
+		"prefix": ["Lore"],
+		"body": ["lore"],
+		"description": ["[the] lore of %itemstack/itemtype%"],
+	},
+	"skript.expression.exprmotd": {
+		"prefix": ["MOTD"],
+		"body": ["motd"],
+		"description": ["[the] [(default)|(shown|displayed)] (MOTD|message of [the] day)"],
+	},
+	"skript.expression.exprmaxdurability": {
+		"prefix": ["Max Durability"],
+		"body": ["max durability"],
+		"description": ["[the] max[imum] durabilit(y|ies) of %itemstacks/slots%"],
+	},
+	"skript.expression.exprmaxhealth": {
+		"prefix": ["Max Health"],
+		"body": ["max health"],
+		"description": ["[the] max[imum] health of %livingentities%"],
+	},
+	"skript.expression.exprmaxminecartspeed": {
+		"prefix": ["Max Minecart Speed"],
+		"body": ["max minecart speed"],
+		"description": ["[the] max[imum] minecart (speed|velocity) of %entities%"],
+	},
+	"skript.expression.exprmaxplayers": {
+		"prefix": ["Max Players"],
+		"body": ["max players"],
+		"description": ["[the] [1:(real|default)|2:(fake|shown|displayed)] max[imum] player[s] [count|amount|number|size]"],
+	},
+	"skript.expression.exprmaxfreezeticks": {
+		"prefix": ["Maximum Freeze Time"],
+		"body": ["maximum freeze time"],
+		"description": ["[the] max[imum] freeze time of %entities%"],
+	},
+	"skript.expression.exprmaxstack": {
+		"prefix": ["Maximum Stack Size"],
+		"body": ["maximum stack size"],
+		"description": ["[the] max[imum] stack[[ ]size] of %itemtype%"],
+	},
+	"skript.expression.exprme": {
+		"prefix": ["Me"],
+		"body": ["me"],
+		"description": ["me"],
+	},
+	"skript.expression.exprmendingrepairamount": {
+		"prefix": ["Mending Repair Amount"],
+		"body": ["mending repair amount"],
+		"description": ["[the] [mending] repair amount"],
+	},
+	"skript.expression.exprmessage": {
+		"prefix": ["Message"],
+		"body": ["message"],
+		"description": ["[the] [chat( |-)]message"],
+	},
+	"skript.expression.exprmetadata": {
+		"prefix": ["Metadata"],
+		"body": ["metadata"],
+		"description": ["metadata [(value|tag)[s]] %strings% of %metadataholders%"],
+	},
+	"skript.expression.exprmiddleoflocation": {
+		"prefix": ["Middle of Location"],
+		"body": ["middle of location"],
+		"description": ["[the] (middle|center) [point] of %location%"],
+	},
+	"skript.expression.exprminecartderailedflyingvelocity": {
+		"prefix": ["Minecart Derailed / Flying Velocity"],
+		"body": ["minecart derailed"],
+		"description": ["[the] [minecart] (derailed|flying) velocity of %entities%"],
+	},
+	"skript.expression.exprmoonphase": {
+		"prefix": ["Moon Phase"],
+		"body": ["moon phase"],
+		"description": ["[the] (lunar|moon) phase[s] of %worlds%"],
+	},
+	"skript.expression.exprpushedblocks": {
+		"prefix": ["Moved blocks"],
+		"body": ["moved blocks"],
+		"description": ["[the] moved blocks"],
+	},
+	"skript.expression.exprname": {
+		"prefix": ["Name / Display Name / Tab List Name"],
+		"body": ["name"],
+		"description": ["[the] (name[s]|(display|nick|chat|custom)[ ]name[s]) of %offlineplayers/entities/blocks/itemtypes/inventories/slots/worlds/gamerules%"],
+	},
+	"skript.expression.exprnamed": {
+		"prefix": ["Named Item/Inventory"],
+		"body": ["named item"],
+		"description": ["%itemtype/inventorytype% (named|with name[s]) %string%"],
+	},
+	"skript.expression.exprnearestentity": {
+		"prefix": ["Nearest Entity"],
+		"body": ["nearest entity"],
+		"description": ["[the] nearest %*entitydatas% [[relative] to %entity/location%]"],
+	},
+	"skript.expression.litnewline": {
+		"prefix": ["New Line"],
+		"body": ["new line"],
+		"description": ["n[ew]l[ine]"],
+	},
+	"skript.expression.exprnodamageticks": {
+		"prefix": ["No Damage Ticks"],
+		"body": ["no damage ticks"],
+		"description": ["[the] (invulnerability|no damage) tick[s] of %livingentities%"],
+	},
+	"skript.expression.exprnow": {
+		"prefix": ["Now"],
+		"body": ["now"],
+		"description": ["now"],
+	},
+	"skript.expression.exprnumberofcharacters": {
+		"prefix": ["Number of Characters"],
+		"body": ["number of characters"],
+		"description": ["number of upper[ ]case char(acters|s) in %string%"],
+	},
+	"skript.expression.exprnumbers": {
+		"prefix": ["Numbers"],
+		"body": ["numbers"],
+		"description": ["[(all [[of] the]|the)] (numbers|integers|decimals) (between|from) %number% (and|to) %number%"],
+	},
+	"skript.expression.exprofflineplayers": {
+		"prefix": ["Offline players"],
+		"body": ["offline players"],
+		"description": ["[(all [[of] the]|the)] offline[ ]players"],
+	},
+	"skript.expression.expronlineplayerscount": {
+		"prefix": ["Online Player Count"],
+		"body": ["online player count"],
+		"description": ["[the] [((real|default)|(fake|shown|displayed))] [online] player (count|amount|number)"],
+	},
+	"skript.expression.expropenedinventory": {
+		"prefix": ["Opened Inventory"],
+		"body": ["opened inventory"],
+		"description": ["[the] (current|open|top) inventory [of %players%]"],
+	},
+	"skript.expression.exprparse": {
+		"prefix": ["Parse"],
+		"body": ["parse"],
+		"description": ["%string% parsed as (%*classinfo%|\"<.*>\")"],
+	},
+	"skript.expression.exprparseerror": {
+		"prefix": ["Parse Error"],
+		"body": ["parse error"],
+		"description": ["[the] [last] [parse] error"],
+	},
+	"skript.expression.exprpassenger": {
+		"prefix": ["Passenger"],
+		"body": ["passenger"],
+		"description": ["[the] passenger[s] of %entities%"],
+	},
+	"skript.expression.litpi": {
+		"prefix": ["Pi"],
+		"body": ["pi"],
+		"description": ["(pi|π)"],
+	},
+	"skript.expression.exprpickupdelay": {
+		"prefix": ["Pickup Delay"],
+		"body": ["pickup delay"],
+		"description": ["[the] pick[ ]up delay of %entities%"],
+	},
+	"skript.expression.exprping": {
+		"prefix": ["Ping"],
+		"body": ["ping"],
+		"description": ["[the] ping of %players%"],
+	},
+	"skript.expression.exprplain": {
+		"prefix": ["Plain Item"],
+		"body": ["plain item"],
+		"description": ["[a[n]] (plain|unmodified) %itemtype%"],
+	},
+	"skript.expression.exprplayerlistheaderfooter": {
+		"prefix": ["Player List Header and Footer"],
+		"body": ["player list header and footer"],
+		"description": ["[the] (player|tab)[ ]list (header|footer) [(text|message)] of %players%"],
+	},
+	"skript.expression.exprplayerprotocolversion": {
+		"prefix": ["Player Protocol Version"],
+		"body": ["player protocol version"],
+		"description": ["[the] protocol version of %players%"],
+	},
+	"skript.expression.exprskull": {
+		"prefix": ["Player Skull"],
+		"body": ["player skull"],
+		"description": ["[the] (head|skull) of %offlineplayers%"],
+	},
+	"skript.expression.exprplayerweather": {
+		"prefix": ["Player Weather"],
+		"body": ["player weather"],
+		"description": ["[the] [(client|custom)] weather of %players%"],
+	},
+	"skript.expression.exprportal": {
+		"prefix": ["Portal"],
+		"body": ["portal"],
+		"description": ["[the] portal['s] blocks"],
+	},
+	"skript.expression.exprpotioneffect": {
+		"prefix": ["Potion Effect"],
+		"body": ["potion effect"],
+		"description": ["[new] potion effect of %potioneffecttype% [potion] [[[of] tier] %number%] [(without particles)] [for %timespan%]"],
+	},
+	"skript.expression.exprpotioneffecttier": {
+		"prefix": ["Potion Effect Tier"],
+		"body": ["potion effect tier"],
+		"description": ["[the] [potion] (tier|amplifier|level) of %potioneffecttypes% (of|for|on) %livingentities%"],
+	},
+	"skript.expression.exprpotioneffects": {
+		"prefix": ["Potion Effects"],
+		"body": ["potion effects"],
+		"description": ["[the] [(all [[of] the]|the)] [active] potion effects of %livingentities/itemtypes%"],
+	},
+	"skript.expression.exprprefixsuffix": {
+		"prefix": ["Prefix/Suffix"],
+		"body": ["prefix"],
+		"description": ["[the] [chat] (prefix|suffix) of %players%"],
+	},
+	"skript.expression.exprprojectilebouncestate": {
+		"prefix": ["Projectile Bounce State"],
+		"body": ["projectile bounce state"],
+		"description": ["[the] projectile bounce (state|ability|mode) of %projectiles%"],
+	},
+	"skript.expression.exprprojectilecriticalstate": {
+		"prefix": ["Projectile Critical State"],
+		"body": ["projectile critical state"],
+		"description": ["[the] (projectile|arrow) critical (state|ability|mode) of %projectiles%"],
+	},
+	"skript.expression.exprprotocolversion": {
+		"prefix": ["Protocol Version"],
+		"body": ["protocol version"],
+		"description": ["[the] [server] [(sent|required|fake)] protocol version [number]"],
+	},
+	"skript.expression.exprrandom": {
+		"prefix": ["Random"],
+		"body": ["random"],
+		"description": ["[a] random %*classinfo% [out] of %objects%"],
+	},
+	"skript.expression.exprrandomnumber": {
+		"prefix": ["Random Number"],
+		"body": ["random number"],
+		"description": ["[a] random (integer|number) (from|between) %number% (to|and) %number%"],
+	},
+	"skript.expression.exprrandomuuid": {
+		"prefix": ["Random UUID"],
+		"body": ["random uuid"],
+		"description": ["[a] random uuid"],
+	},
+	"skript.expression.exprrawname": {
+		"prefix": ["Raw Name"],
+		"body": ["raw name"],
+		"description": ["(raw|minecraft|vanilla) name[s] of %itemtypes%"],
+	},
+	"skript.expression.exprrawstring": {
+		"prefix": ["Raw String"],
+		"body": ["raw string"],
+		"description": ["raw %strings%"],
+	},
+	"skript.expression.exprredstoneblockpower": {
+		"prefix": ["Redstone Block Power"],
+		"body": ["redstone block power"],
+		"description": ["[the] redstone power of %blocks%"],
+	},
+	"skript.expression.exprremainingair": {
+		"prefix": ["Remaining Air"],
+		"body": ["remaining air"],
+		"description": ["[the] remaining air of %livingentities%"],
+	},
+	"skript.expression.exprcharges": {
+		"prefix": ["Respawn Anchor Charges"],
+		"body": ["respawn anchor charges"],
+		"description": ["[the] [:max[imum]] charge[s] of %blocks%"],
+	},
+	"skript.expression.exprrespawnlocation": {
+		"prefix": ["Respawn location"],
+		"body": ["respawn location"],
+		"description": ["[the] respawn location"],
+	},
+	"skript.expression.exprreversedlist": {
+		"prefix": ["Reversed List"],
+		"body": ["reversed list"],
+		"description": ["reversed %objects%"],
+	},
+	"skript.expression.exprround": {
+		"prefix": ["Rounding"],
+		"body": ["rounding"],
+		"description": ["(a|the|) round[ed] down %number%"],
+	},
+	"skript.expression.exprsaturation": {
+		"prefix": ["Saturation"],
+		"body": ["saturation"],
+		"description": ["[the] saturation of %players%"],
+	},
+	"skript.expression.exprscoreboardtags": {
+		"prefix": ["Scoreboard Tags"],
+		"body": ["scoreboard tags"],
+		"description": ["[(all [[of] the]|the)] scoreboard tags of %entities%"],
+	},
+	"skript.expression.exprscript": {
+		"prefix": ["Script Name"],
+		"body": ["script name"],
+		"description": ["[the] script[['s] name]"],
+	},
+	"skript.expression.exprsealevel": {
+		"prefix": ["Sea Level"],
+		"body": ["sea level"],
+		"description": ["[the] sea level of %worlds%"],
+	},
+	"skript.expression.exprseapickles": {
+		"prefix": ["Sea Pickles"],
+		"body": ["sea pickles"],
+		"description": ["[the] [:(min|max)[imum]] [sea] pickle(s| (count|amount)) of %blocks%"],
+	},
+	"skript.expression.exprservericon": {
+		"prefix": ["Server Icon"],
+		"body": ["server icon"],
+		"description": ["[the] [((default)|(shown|sent))] [server] icon"],
+	},
+	"skript.expression.exprsets": {
+		"prefix": ["Sets"],
+		"body": ["sets"],
+		"description": ["[all [[of] the]|the|every] %*classinfo%"],
+	},
+	"skript.expression.exprshooter": {
+		"prefix": ["Shooter"],
+		"body": ["shooter"],
+		"description": ["[the] shooter [of %projectile%]"],
+	},
+	"skript.expression.exprshuffledlist": {
+		"prefix": ["Shuffled List"],
+		"body": ["shuffled list"],
+		"description": ["shuffled %objects%"],
+	},
+	"skript.expression.exprsigntext": {
+		"prefix": ["Sign Text"],
+		"body": ["sign text"],
+		"description": ["[the] line %number% [of %block%]"],
+	},
+	"skript.expression.exprslotindex": {
+		"prefix": ["Slot Index"],
+		"body": ["slot index"],
+		"description": ["[the] index of %slots%"],
+	},
+	"skript.expression.exprsortedlist": {
+		"prefix": ["Sorted List"],
+		"body": ["sorted list"],
+		"description": ["sorted %objects%"],
+	},
+	"skript.expression.exprsourceblock": {
+		"prefix": ["Source Block"],
+		"body": ["source block"],
+		"description": ["[the] source block"],
+	},
+	"skript.expression.exprspawn": {
+		"prefix": ["Spawn"],
+		"body": ["spawn"],
+		"description": ["[the] spawn[s] [(point|location)[s]] [of %worlds%]"],
+	},
+	"skript.expression.exprspawnreason": {
+		"prefix": ["Spawn Reason"],
+		"body": ["spawn reason"],
+		"description": ["[the] spawn[ing] reason"],
+	},
+	"skript.expression.exprspawnertype": {
+		"prefix": ["Spawner Type"],
+		"body": ["spawner type"],
+		"description": ["[the] (spawner|entity|creature) type[s] of %blocks%"],
+	},
+	"skript.expression.exprspecialnumber": {
+		"prefix": ["Special Number"],
+		"body": ["special number"],
+		"description": ["(NaN|[(-|minus)](infinity|∞)) value"],
+	},
+	"skript.expression.exprspectatortarget": {
+		"prefix": ["Spectator Target"],
+		"body": ["spectator target"],
+		"description": ["spectator target [of %players%]"],
+	},
+	"skript.expression.exprspeed": {
+		"prefix": ["Speed"],
+		"body": ["speed"],
+		"description": ["[the] (walk[ing]|fl(y[ing]|ight))[( |-)]speed of %players%"],
+	},
+	"skript.expression.exprsubstring": {
+		"prefix": ["Substring"],
+		"body": ["substring"],
+		"description": ["[the] (part|sub[ ](text|string)) of %strings% (between|from) (ind(ex|ices)|character[s]|) %number% (and|to) (index|character|) %number%"],
+	},
+	"skript.expression.exprtps": {
+		"prefix": ["TPS (ticks per second)"],
+		"body": ["tps (ticks per second)"],
+		"description": ["tps from [the] last ([1] minute|1[ ]m[inute])"],
+	},
+	"skript.expression.exprtamer": {
+		"prefix": ["Tamer"],
+		"body": ["tamer"],
+		"description": ["[the] tamer"],
+	},
+	"skript.expression.exprtarget": {
+		"prefix": ["Target"],
+		"body": ["target"],
+		"description": ["[the] target[[ed] %*entitydata%] [of %livingentities%]"],
+	},
+	"skript.expression.exprtargetedblock": {
+		"prefix": ["Targeted Block"],
+		"body": ["targeted block"],
+		"description": ["[the] target[ed] block[s] [of %players%]"],
+	},
+	"skript.expression.exprteleportcause": {
+		"prefix": ["Teleport Cause"],
+		"body": ["teleport cause"],
+		"description": ["[the] teleport (cause|reason|type)"],
+	},
+	"skript.expression.exprtemperature": {
+		"prefix": ["Temperature"],
+		"body": ["temperature"],
+		"description": ["[the] temperature[s] of %blocks%"],
+	},
+	"skript.expression.exprternary": {
+		"prefix": ["Ternary"],
+		"body": ["ternary"],
+		"description": ["%objects% if <.+>[,] (otherwise|else) %objects%"],
+	},
+	"skript.expression.expregg": {
+		"prefix": ["The Egg"],
+		"body": ["the egg"],
+		"description": ["[the] [thrown] egg"],
+	},
+	"skript.expression.exprtime": {
+		"prefix": ["Time"],
+		"body": ["time"],
+		"description": ["[the] time[s] [([with]in|of) %worlds%]"],
+	},
+	"skript.expression.exprtimeplayed": {
+		"prefix": ["Time Played"],
+		"body": ["time played"],
+		"description": ["[the] time played of %offlineplayers%"],
+	},
+	"skript.expression.exprtimesince": {
+		"prefix": ["Time Since"],
+		"body": ["time since"],
+		"description": ["[the] time since %dates%"],
+	},
+	"skript.expression.exprtool": {
+		"prefix": ["Tool"],
+		"body": ["tool"],
+		"description": ["[the] ((tool|held item|weapon)|(off[ ]hand (tool|item))) [of %livingentities%]"],
+	},
+	"skript.expression.exprtotalexperience": {
+		"prefix": ["Total Experience"],
+		"body": ["total experience"],
+		"description": ["[the] [total] experience of %entities%"],
+	},
+	"skript.expression.exprtypeof": {
+		"prefix": ["Type of"],
+		"body": ["type of"],
+		"description": ["[the] type of %entitydatas/itemtypes/inventories/potioneffects/blockdatas%"],
+	},
+	"skript.expression.expruuid": {
+		"prefix": ["UUID"],
+		"body": ["uuid"],
+		"description": ["[the] UUID of %offlineplayers/worlds/entities%"],
+	},
+	"skript.expression.exprunbreakable": {
+		"prefix": ["Unbreakable Items"],
+		"body": ["unbreakable items"],
+		"description": ["unbreakable %itemtypes%"],
+	},
+	"skript.expression.exprunixdate": {
+		"prefix": ["Unix Date"],
+		"body": ["unix date"],
+		"description": ["[the] unix date of %numbers%"],
+	},
+	"skript.expression.exprunixticks": {
+		"prefix": ["Unix Timestamp"],
+		"body": ["unix timestamp"],
+		"description": ["[the] unix timestamp of %dates%"],
+	},
+	"skript.expression.exprvaluewithin": {
+		"prefix": ["Value Within"],
+		"body": ["value within"],
+		"description": ["[the] (%*classinfo%|value[:s]) (within|in) %objects%"],
+	},
+	"skript.expression.exprvectoranglebetween": {
+		"prefix": ["Vectors - Angle Between"],
+		"body": ["vectors angle between"],
+		"description": ["[the] angle between [[the] vectors] %vector% and %vector%"],
+	},
+	"skript.expression.exprvectorarithmetic": {
+		"prefix": ["Vectors - Arithmetic"],
+		"body": ["vectors arithmetic"],
+		"description": ["%vector%[ ]++[ ]%vector%"],
+	},
+	"skript.expression.exprvectorfromxyz": {
+		"prefix": ["Vectors - Create from XYZ"],
+		"body": ["vectors create from xyz"],
+		"description": ["[a] [new] vector [(from|at|to)] %number%,[ ]%number%(,[ ]| and )%number%"],
+	},
+	"skript.expression.exprvectorcrossproduct": {
+		"prefix": ["Vectors - Cross Product"],
+		"body": ["vectors cross product"],
+		"description": ["%vector% cross %vector%"],
+	},
+	"skript.expression.exprvectorcylindrical": {
+		"prefix": ["Vectors - Cylindrical Shape"],
+		"body": ["vectors cylindrical shape"],
+		"description": ["[a] [new] cylindrical vector [(from|with)] [radius] %number%, [yaw] %number%(,| and) [height] %number%"],
+	},
+	"skript.expression.exprvectordotproduct": {
+		"prefix": ["Vectors - Dot Product"],
+		"body": ["vectors dot product"],
+		"description": ["%vector% dot %vector%"],
+	},
+	"skript.expression.exprvectorlength": {
+		"prefix": ["Vectors - Length"],
+		"body": ["vectors length"],
+		"description": ["[the] (vector|standard|normal) length[s] of %vectors%"],
+	},
+	"skript.expression.exprlocationvectoroffset": {
+		"prefix": ["Vectors - Location Vector Offset"],
+		"body": ["vectors location vector offset"],
+		"description": ["%location% offset by [[the] vectors] %vectors%"],
+	},
+	"skript.expression.exprvectornormalize": {
+		"prefix": ["Vectors - Normalized"],
+		"body": ["vectors normalized"],
+		"description": ["normalize[d] %vector%"],
+	},
+	"skript.expression.exprvectorrandom": {
+		"prefix": ["Vectors - Random Vector"],
+		"body": ["vectors random vector"],
+		"description": ["[a] random vector"],
+	},
+	"skript.expression.exprvectorspherical": {
+		"prefix": ["Vectors - Spherical Shape"],
+		"body": ["vectors spherical shape"],
+		"description": ["[new] spherical vector [(from|with)] [radius] %number%, [yaw] %number%(,| and) [pitch] %number%"],
+	},
+	"skript.expression.exprvectorsquaredlength": {
+		"prefix": ["Vectors - Squared Length"],
+		"body": ["vectors squared length"],
+		"description": ["[the] squared length[s] of %vectors%"],
+	},
+	"skript.expression.exprvectorbetweenlocations": {
+		"prefix": ["Vectors - Vector Between Locations"],
+		"body": ["vectors vector between locations"],
+		"description": ["[the] vector (from|between) %location% (to|and) %location%"],
+	},
+	"skript.expression.exprvectoroflocation": {
+		"prefix": ["Vectors - Vector from Location"],
+		"body": ["vectors vector from location"],
+		"description": ["[the] vector (of|from|to) %location%"],
+	},
+	"skript.expression.exprvectorfromyawandpitch": {
+		"prefix": ["Vectors - Vector from Pitch and Yaw"],
+		"body": ["vectors vector from pitch and yaw"],
+		"description": ["[a] [new] vector (from|with) yaw %number% and pitch %number%"],
+	},
+	"skript.expression.exprvelocity": {
+		"prefix": ["Vectors - Velocity"],
+		"body": ["vectors velocity"],
+		"description": ["[the] velocit(y|ies) of %entities%"],
+	},
+	"skript.expression.exprvectorxyz": {
+		"prefix": ["Vectors - XYZ Component"],
+		"body": ["vectors xyz component"],
+		"description": ["[the] [vector] (x|y|z) [component[s]] of %vectors%"],
+	},
+	"skript.expression.exprvehicle": {
+		"prefix": ["Vehicle"],
+		"body": ["vehicle"],
+		"description": ["[the] vehicle[s] of %entities%"],
+	},
+	"skript.expression.exprversion": {
+		"prefix": ["Version"],
+		"body": ["version"],
+		"description": ["([craft]bukkit|minecraft|skript)( |-)version"],
+	},
+	"skript.expression.exprversionstring": {
+		"prefix": ["Version String"],
+		"body": ["version string"],
+		"description": ["[the] [(shown|custom)] version [(string|text)]"],
+	},
+	"skript.expression.exprplayerviewdistance": {
+		"prefix": ["View Distance"],
+		"body": ["view distance"],
+		"description": ["[the] view distance[s] of %players%"],
+	},
+	"skript.expression.exprclientviewdistance": {
+		"prefix": ["View Distance of Client"],
+		"body": ["view distance of client"],
+		"description": ["[the] client view distance[s] of %players%"],
+	},
+	"skript.expression.exprweather": {
+		"prefix": ["Weather"],
+		"body": ["weather"],
+		"description": ["[the] weather [(in|of) %worlds%]"],
+	},
+	"skript.expression.exprwhitelist": {
+		"prefix": ["Whitelist"],
+		"body": ["whitelist"],
+		"description": ["[the] white[ ]list"],
+	},
+	"skript.expression.exprworld": {
+		"prefix": ["World"],
+		"body": ["world"],
+		"description": ["[the] world [of %locations/entities/chunk%]"],
+	},
+	"skript.expression.exprworldenvironment": {
+		"prefix": ["World Environment"],
+		"body": ["world environment"],
+		"description": ["[the] [world] environment of %worlds%"],
+	},
+	"skript.expression.exprseed": {
+		"prefix": ["World Seed"],
+		"body": ["world seed"],
+		"description": ["[the] seed[s] (from|of) %worlds%"],
+	},
+	"skript.expression.exprworldfromname": {
+		"prefix": ["World from Name"],
+		"body": ["world from name"],
+		"description": ["[the] world [(named|with name)] %string%"],
+	},
+	"skript.expression.exprworlds": {
+		"prefix": ["Worlds"],
+		"body": ["worlds"],
+		"description": ["[(all [[of] the]|the)] worlds"],
+	},
+	"skript.expression.exprtimes": {
+		"prefix": ["X Times"],
+		"body": ["x times"],
+		"description": ["%number% time[s]"],
+	},
+	"skript.expression.exprxof": {
+		"prefix": ["X of Item"],
+		"body": ["x of item"],
+		"description": ["%number% of %itemstacks/itemtypes/entitytype%"],
+	},
+	"skript.expression.expryawpitch": {
+		"prefix": ["Yaw / Pitch"],
+		"body": ["yaw"],
+		"description": ["[the] (yaw|pitch) of %locations/vectors%"],
+	},
+
+	// @Skript.types
+
+	"skript.type.advancementprogress": {
+		"prefix": ["Advancement Progress"],
+		"body": ["advancement progress"],
+		"description": ["advancement[ ]progress[es]"],
+	},
+	"skript.type.attribute": {
+		"prefix": ["Attribute Type"],
+		"body": ["attribute type"],
+		"description": ["attribute[ ]type[s]"],
+	},
+	"skript.type.biome": {
+		"prefix": ["Biome"],
+		"body": ["biome"],
+		"description": ["biome[s]"],
+	},
+	"skript.type.block": {
+		"prefix": ["Block"],
+		"body": ["block"],
+		"description": ["block[s]"],
+	},
+	"skript.type.blockdata": {
+		"prefix": ["Block Data"],
+		"body": ["block data"],
+		"description": ["block[ ]data[s]"],
+	},
+	"skript.type.blockstatebee": {
+		"prefix": ["BlockState"],
+		"body": ["blockstate"],
+		"description": ["blockstate[s]"],
+	},
+	"skript.type.boolean": {
+		"prefix": ["Boolean"],
+		"body": ["boolean"],
+		"description": ["boolean[s]"],
+	},
+	"skript.type.color": {
+		"prefix": ["Bukkit Color"],
+		"body": ["bukkit color"],
+		"description": ["bukkit[ ]color[s]"],
+	},
+	"skript.type.typecattype": {
+		"prefix": ["Cat Type"],
+		"body": ["cat type"],
+		"description": ["cat[ ](type|race)[s]"],
+	},
+	"skript.type.chunk": {
+		"prefix": ["Chunk"],
+		"body": ["chunk"],
+		"description": ["chunk[s]"],
+	},
+	"skript.type.clicktype": {
+		"prefix": ["Click Type"],
+		"body": ["click type"],
+		"description": ["click[ ]type[s]"],
+	},
+	"skript.type.color": {
+		"prefix": ["Color"],
+		"body": ["color"],
+		"description": ["colo[u]r[s]"],
+	},
+	"skript.type.commandsender": {
+		"prefix": ["Command Sender"],
+		"body": ["command sender"],
+		"description": ["[(command[s]][ ][)](sender|executor)[s]"],
+	},
+	"skript.type.damagecause": {
+		"prefix": ["Damage Cause"],
+		"body": ["damage cause"],
+		"description": ["damage[ ]cause[s]"],
+	},
+	"skript.type.date": {
+		"prefix": ["Date"],
+		"body": ["date"],
+		"description": ["date[s]"],
+	},
+	"skript.type.difficulty": {
+		"prefix": ["Difficulty"],
+		"body": ["difficulty"],
+		"description": ["difficult(y|ies)"],
+	},
+	"skript.type.direction": {
+		"prefix": ["Direction"],
+		"body": ["direction"],
+		"description": ["direction[s]"],
+	},
+	"skript.type.brightness": {
+		"prefix": ["DisplayEntity - Display Brightness"],
+		"body": ["displayentity display brightness"],
+		"description": ["display[ ]brightness[es]"],
+	},
+	"skript.type.transformation": {
+		"prefix": ["DisplayEntity - Transformation"],
+		"body": ["displayentity transformation"],
+		"description": ["transformation[s]"],
+	},
+	"skript.type.enchantment": {
+		"prefix": ["Enchantment"],
+		"body": ["enchantment"],
+		"description": ["enchantment[s]"],
+	},
+	"skript.type.enchantmentoffer": {
+		"prefix": ["Enchantment Offer"],
+		"body": ["enchantment offer"],
+		"description": ["enchant[ment][ ]offer[s]"],
+	},
+	"skript.type.enchantmenttype": {
+		"prefix": ["Enchantment Type"],
+		"body": ["enchantment type"],
+		"description": ["enchant(ing|ment) type[s]"],
+	},
+	"skript.type.entity": {
+		"prefix": ["Entity"],
+		"body": ["entity"],
+		"description": ["entit(y|ies)"],
+	},
+	"skript.type.entitydata": {
+		"prefix": ["Entity Type"],
+		"body": ["entity type"],
+		"description": ["entity[ ]type[s]"],
+	},
+	"skript.type.entitytype": {
+		"prefix": ["Entity Type with Amount"],
+		"body": ["entity type with amount"],
+		"description": ["entitytype"],
+	},
+	"skript.type.experience": {
+		"prefix": ["Experience"],
+		"body": ["experience"],
+		"description": ["experience[ ][point[s]]"],
+	},
+	"skript.type.fireworkeffect": {
+		"prefix": ["Firework Effect"],
+		"body": ["firework effect"],
+		"description": ["firework[ ]effect[s]"],
+	},
+	"skript.type.typefireworktype": {
+		"prefix": ["Firework Type"],
+		"body": ["firework type"],
+		"description": ["firework[ ]type[s]"],
+	},
+	"skript.type.gamemode": {
+		"prefix": ["Game Mode"],
+		"body": ["game mode"],
+		"description": ["game[ ]mode[s]"],
+	},
+	"skript.type.gamerule": {
+		"prefix": ["Gamerule"],
+		"body": ["gamerule"],
+		"description": ["gamerule[s]"],
+	},
+	"skript.type.gamerulevalue": {
+		"prefix": ["Gamerule Value"],
+		"body": ["gamerule value"],
+		"description": ["gamerule value[s]"],
+	},
+	"skript.type.gene": {
+		"prefix": ["Gene"],
+		"body": ["gene"],
+		"description": ["[panda ]gene[s]"],
+	},
+	"skript.type.regainreason": {
+		"prefix": ["Heal Reason"],
+		"body": ["heal reason"],
+		"description": ["(regen|heal) (reason|cause)"],
+	},
+	"skript.type.inventory": {
+		"prefix": ["Inventory"],
+		"body": ["inventory"],
+		"description": ["inventor(y|ies)"],
+	},
+	"skript.type.inventoryaction": {
+		"prefix": ["Inventory Action"],
+		"body": ["inventory action"],
+		"description": ["inventory[ ]action[s]"],
+	},
+	"skript.type.slot": {
+		"prefix": ["Inventory Slot"],
+		"body": ["inventory slot"],
+		"description": ["[inventory ]slot[s]"],
+	},
+	"skript.type.inventorytype": {
+		"prefix": ["Inventory Type"],
+		"body": ["inventory type"],
+		"description": ["inventory[ ]type[s]"],
+	},
+	"skript.type.itemstack": {
+		"prefix": ["Item"],
+		"body": ["item"],
+		"description": ["item[s]"],
+	},
+	"skript.type.itemtype": {
+		"prefix": ["Item Type"],
+		"body": ["item type"],
+		"description": ["item[ ]type[s]"],
+	},
+	"skript.type.livingentity": {
+		"prefix": ["Living Entity"],
+		"body": ["living entity"],
+		"description": ["living[ ]entit(y|ies)"],
+	},
+	"skript.type.location": {
+		"prefix": ["Location"],
+		"body": ["location"],
+		"description": ["location[s]"],
+	},
+	"skript.type.merchantinventory": {
+		"prefix": ["Merchant Inventory"],
+		"body": ["merchant inventory"],
+		"description": ["merchant[ ]inventor(y|ies)"],
+	},
+	"skript.type.metadatable": {
+		"prefix": ["Metadata Holder"],
+		"body": ["metadata holder"],
+		"description": ["metadata[ ]holder[s]"],
+	},
+	"skript.type.moonphase": {
+		"prefix": ["Moon Phase"],
+		"body": ["moon phase"],
+		"description": ["(lunar|moon)[ ]phase[s]"],
+	},
+	"skript.type.namespacedkey": {
+		"prefix": ["NamespacedKey"],
+		"body": ["namespacedkey"],
+		"description": ["namespacedkey[s]"],
+	},
+	"skript.type.number": {
+		"prefix": ["Number"],
+		"body": ["number"],
+		"description": ["num[ber][s]"],
+	},
+	"skript.type.object": {
+		"prefix": ["Object"],
+		"body": ["object"],
+		"description": ["object[s]"],
+	},
+	"skript.type.offlineplayer": {
+		"prefix": ["Offline Player"],
+		"body": ["offline player"],
+		"description": ["offline[ ]player[s]"],
+	},
+	"skript.type.player": {
+		"prefix": ["Player"],
+		"body": ["player"],
+		"description": ["player[s]"],
+	},
+	"skript.type.potioneffect": {
+		"prefix": ["Potion Effect"],
+		"body": ["potion effect"],
+		"description": ["potion[ ]effect[s]"],
+	},
+	"skript.type.potioneffecttype": {
+		"prefix": ["Potion Effect Type"],
+		"body": ["potion effect type"],
+		"description": ["potion[[ ]effect][ ]type[s]"],
+	},
+	"skript.type.projectile": {
+		"prefix": ["Projectile"],
+		"body": ["projectile"],
+		"description": ["projectile[s]"],
+	},
+	"skript.type.raytraceresult": {
+		"prefix": ["RayTrace - Result"],
+		"body": ["raytrace result"],
+		"description": ["ray[ ]trace[ ]result[s]"],
+	},
+	"skript.type.status": {
+		"prefix": ["Resource Pack State"],
+		"body": ["resource pack state"],
+		"description": ["resource[ ]pack[ ]state[s]"],
+	},
+	"skript.type.cachedservericon": {
+		"prefix": ["Server Icon"],
+		"body": ["server icon"],
+		"description": ["server[ ]icon[s]"],
+	},
+	"skript.type.soundcategory": {
+		"prefix": ["Sound Category"],
+		"body": ["sound category"],
+		"description": ["sound[ ]categor(y|ies)"],
+	},
+	"skript.type.spawnreason": {
+		"prefix": ["Spawn Reason"],
+		"body": ["spawn reason"],
+		"description": ["spawn[ing][ ]reason[s]"],
+	},
+	"skript.type.teleportcause": {
+		"prefix": ["Teleport Cause"],
+		"body": ["teleport cause"],
+		"description": ["teleport[ ](cause|reason|type)[s]"],
+	},
+	"skript.type.string": {
+		"prefix": ["Text"],
+		"body": ["text"],
+		"description": ["(text|string)[s]"],
+	},
+	"skript.type.time": {
+		"prefix": ["Time"],
+		"body": ["time"],
+		"description": ["time[s]"],
+	},
+	"skript.type.timeperiod": {
+		"prefix": ["Timeperiod"],
+		"body": ["timeperiod"],
+		"description": ["time[ ]period[s]"],
+	},
+	"skript.type.timespan": {
+		"prefix": ["Timespan"],
+		"body": ["timespan"],
+		"description": ["time[ ]span[s]"],
+	},
+	"skript.type.structuretype": {
+		"prefix": ["Tree Type"],
+		"body": ["tree type"],
+		"description": ["tree[ ]type[s]"],
+	},
+	"skript.type.classinfo": {
+		"prefix": ["Type"],
+		"body": ["type"],
+		"description": ["type[s]"],
+	},
+	"skript.type.vector": {
+		"prefix": ["Vector"],
+		"body": ["vector"],
+		"description": ["vector[s]"],
+	},
+	"skript.type.visualeffect": {
+		"prefix": ["Visual Effect"],
+		"body": ["visual effect"],
+		"description": ["(visual|particle) effect[s]"],
+	},
+	"skript.type.weathertype": {
+		"prefix": ["Weather Type"],
+		"body": ["weather type"],
+		"description": ["weather[ ]type[s]"],
+	},
+	"skript.type.world": {
+		"prefix": ["World"],
+		"body": ["world"],
+		"description": ["world[s]"],
+	},
+	"skript.type.beeworldcreator": {
+		"prefix": ["World Creator"],
+		"body": ["world creator"],
+		"description": ["world[ ]creator[s]"],
+	},
+	"skript.type.environment": {
+		"prefix": ["World Environment"],
+		"body": ["world environment"],
+		"description": ["[world[ ]]environment[s]"],
+	},
+	"skript.type.section": {
+		"prefix": ["section"],
+		"body": ["section"],
+		"description": ["section[s]"],
+	},
+
+	// @Skript.sections
+
+	"skript.section.secconditional": {
+		"prefix": ["Conditionals"],
+		"body": ["conditionals"],
+		"description": ["else"],
+	},
+	"skript.section.secloop": {
+		"prefix": ["Loop"],
+		"body": ["loop"],
+		"description": ["loop %objects%"],
+	},
+	"skript.section.effsecspawn": {
+		"prefix": ["Spawn"],
+		"body": ["spawn"],
+		"description": ["(spawn|summon) %entitytypes% [%directions% %locations%]"],
+	},
+	"skript.section.secwhile": {
+		"prefix": ["While Loop"],
+		"body": ["while loop"],
+		"description": ["[(do)] while <.+>"],
+	},
+}

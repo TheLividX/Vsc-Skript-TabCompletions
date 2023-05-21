@@ -1,0 +1,34 @@
+{
+  "name": "skript-tab-completions",
+  "displayName": "Skript Tab Completions",
+  "description": "adds Tab Completion to Vsc!",
+  "publisher": "LividX",
+  "icon": "images/Mainicon.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "skriptlang",
+        "path": "./snippets/SkBee.code-snippets"
+      },
+      {
+        "language": "skriptlang",
+        "path": "./snippets/skript-reflect.code-snippets"
+      },
+      {
+        "language": "skriptlang",
+        "path": "./snippets/Skript.code-snippets"
+      },
+      {
+        "language": "skriptlang",
+        "path": "./snippets/Manual.code-snippets"
+      }
+    ]
+  }
+}

@@ -1,0 +1,295 @@
+{ // Generated code by LividX
+
+	// @skript-reflect.events
+
+	"skript-reflect.event.consent": {
+		"prefix": ["Consent"],
+		"body": ["consent:", "\t$0"],
+		"description": ["[on] skript-(mirror|reflect), I know what I'm doing [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript-reflect.event.define_condition": {
+		"prefix": ["Define Condition"],
+		"body": ["define condition:", "\t$0"],
+		"description": ["[on] [(local)] condition <.+> [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript-reflect.event.define_constant": {
+		"prefix": ["Define Constant"],
+		"body": ["define constant:", "\t$0"],
+		"description": ["[on] option <.+> [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript-reflect.event.define_effect": {
+		"prefix": ["Define Effect"],
+		"body": ["define effect:", "\t$0"],
+		"description": ["[on] [(local)] effect <.+> [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript-reflect.event.define_event": {
+		"prefix": ["Define Event"],
+		"body": ["define event:", "\t$0"],
+		"description": ["[on] [(local)] [custom] event %string% [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript-reflect.event.define_expression": {
+		"prefix": ["Define Expression"],
+		"body": ["define expression:", "\t$0"],
+		"description": ["[on] [(local)] [((plural|non(-|[ ])single))] expression <.+> [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript-reflect.event.import": {
+		"prefix": ["Import"],
+		"body": ["import:", "\t$0"],
+		"description": ["[on] import [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skript-reflect.event.reflection": {
+		"prefix": ["reflection"],
+		"body": ["reflection:", "\t$0"],
+		"description": ["[on] [(all)] %javatypes% [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+
+	// @skript-reflect.conditions
+
+	"skript-reflect.condition.condeventcancelled": {
+		"prefix": ["CondEventCancelled"],
+		"body": ["condeventcancelled"],
+		"description": ["%events% (is|are) cancelled"],
+	},
+	"skript-reflect.condition.condexpressionstatement": {
+		"prefix": ["CondExpressionStatement"],
+		"body": ["condexpressionstatement"],
+		"description": ["[(await)] %javaobject%"],
+	},
+	"skript-reflect.condition.condisinstanceof": {
+		"prefix": ["CondIsInstanceOf"],
+		"body": ["condisinstanceof"],
+		"description": ["%objects% (is|are) [a[n]] instance[s] of %javatypes%"],
+	},
+	"skript-reflect.condition.condparselater": {
+		"prefix": ["CondParseLater"],
+		"body": ["condparselater"],
+		"description": ["(parse[d] later) <.+>"],
+	},
+
+	// @skript-reflect.effects
+
+	"skript-reflect.effect.customeffect": {
+		"prefix": ["CustomEffect"],
+		"body": ["customeffect"],
+		"description": ["freeze %entity%"],
+	},
+	"skript-reflect.effect.effcallevent": {
+		"prefix": ["EffCallEvent"],
+		"body": ["effcallevent"],
+		"description": ["call [event] %events%"],
+	},
+	"skript-reflect.effect.effcontinue": {
+		"prefix": ["EffContinue"],
+		"body": ["effcontinue"],
+		"description": ["continue"],
+	},
+	"skript-reflect.effect.effdelayeffect": {
+		"prefix": ["EffDelayEffect"],
+		"body": ["effdelayeffect"],
+		"description": ["delay [the] [current] effect"],
+	},
+	"skript-reflect.effect.effexpressionstatement": {
+		"prefix": ["EffExpressionStatement"],
+		"body": ["effexpressionstatement"],
+		"description": ["[(await)] %javaobject%"],
+	},
+	"skript-reflect.effect.effimport": {
+		"prefix": ["EffImport"],
+		"body": ["effimport"],
+		"description": ["import <((?:[_a-zA-Z$][\\w$]*\\.)*(?:[_a-zA-Z$][\\w$]*))(?:\\s+as ([_a-zA-Z$][\\w$]*))?>"],
+	},
+	"skript-reflect.effect.effnegatecondition": {
+		"prefix": ["EffNegateCondition"],
+		"body": ["effnegatecondition"],
+		"description": ["negate [the] [current] condition"],
+	},
+	"skript-reflect.effect.effreturn": {
+		"prefix": ["EffReturn"],
+		"body": ["effreturn"],
+		"description": ["return [%objects%]"],
+	},
+	"skript-reflect.effect.effrunsection": {
+		"prefix": ["EffRunSection"],
+		"body": ["effrunsection"],
+		"description": ["run section %section% [(sync|async)] [with [arguments] %objects%] [and store [the] result in %objects%] [(and wait)]"],
+	},
+
+	// @skript-reflect.expressions
+
+	"skript-reflect.expression.customexpression": {
+		"prefix": ["CustomExpression"],
+		"body": ["customexpression"],
+		"description": ["highest number from vector %vector%"],
+	},
+	"skript-reflect.expression.exprarrayaccess": {
+		"prefix": ["ExprArrayAccess"],
+		"body": ["exprarrayaccess"],
+		"description": ["%javaobject%\\[%number%\\]"],
+	},
+	"skript-reflect.expression.exprbits": {
+		"prefix": ["ExprBits"],
+		"body": ["exprbits"],
+		"description": ["[the] (bit %number%|bit(s| range) [from] %number%( to |[ ]-[ ])%number%) of %numbers%"],
+	},
+	"skript-reflect.expression.exprchangevalue": {
+		"prefix": ["ExprChangeValue"],
+		"body": ["exprchangevalue"],
+		"description": ["[the] change value[(s)]"],
+	},
+	"skript-reflect.expression.exprclassreference": {
+		"prefix": ["ExprClassReference"],
+		"body": ["exprclassreference"],
+		"description": ["(<(boolean|byte|double|char|short|float|int|long)>|%javatype%).class"],
+	},
+	"skript-reflect.expression.exprcollect": {
+		"prefix": ["ExprCollect"],
+		"body": ["exprcollect"],
+		"description": ["\\[%objects%[ as %javatype%[ ]]\\]"],
+	},
+	"skript-reflect.expression.exprcustomevent": {
+		"prefix": ["ExprCustomEvent"],
+		"body": ["exprcustomevent"],
+		"description": ["[a] [new] custom event %string% [(with|using)] data %objects%"],
+	},
+	"skript-reflect.expression.exprcustomeventvalue": {
+		"prefix": ["ExprCustomEventValue"],
+		"body": ["exprcustomeventvalue"],
+		"description": ["[the] [event-]<.+>"],
+	},
+	"skript-reflect.expression.exprevent": {
+		"prefix": ["ExprEvent"],
+		"body": ["exprevent"],
+		"description": ["[the] event"],
+	},
+	"skript-reflect.expression.expreventclasses": {
+		"prefix": ["ExprEventClasses"],
+		"body": ["expreventclasses"],
+		"description": ["event-classes"],
+	},
+	"skript-reflect.expression.expreventdata": {
+		"prefix": ["ExprEventData"],
+		"body": ["expreventdata"],
+		"description": ["[extra] [event(-| )]data %string%"],
+	},
+	"skript-reflect.expression.exprexpression": {
+		"prefix": ["ExprExpression"],
+		"body": ["exprexpression"],
+		"description": ["[the] expr[ession][(s)](-| )<\\d+>"],
+	},
+	"skript-reflect.expression.exprfunction": {
+		"prefix": ["ExprFunction"],
+		"body": ["exprfunction"],
+		"description": ["[the] function(s| [reference[s]]) %strings% [called with [[the] [arg[ument][s]]] %objects%]"],
+	},
+	"skript-reflect.expression.exprjavacall": {
+		"prefix": ["ExprJavaCall"],
+		"body": ["exprjavacall"],
+		"description": ["[(try)] %object%..%string%[(([%objects%]))]"],
+	},
+	"skript-reflect.expression.exprjavaerror": {
+		"prefix": ["ExprJavaError"],
+		"body": ["exprjavaerror"],
+		"description": ["[the] [last] [java] (throwable|exception|error)"],
+	},
+	"skript-reflect.expression.exprjavatype": {
+		"prefix": ["ExprJavaType"],
+		"body": ["exprjavatype"],
+		"description": ["[the] [java] class %string%"],
+	},
+	"skript-reflect.expression.exprjavatypeof": {
+		"prefix": ["ExprJavaTypeOf"],
+		"body": ["exprjavatypeof"],
+		"description": ["[the] [java] class[es] of %objects%"],
+	},
+	"skript-reflect.expression.exprmatchedpattern": {
+		"prefix": ["ExprMatchedPattern"],
+		"body": ["exprmatchedpattern"],
+		"description": ["[the] [matched] pattern"],
+	},
+	"skript-reflect.expression.exprmembernames": {
+		"prefix": ["ExprMemberNames"],
+		"body": ["exprmembernames"],
+		"description": ["[the] (field|method) names of %objects%"],
+	},
+	"skript-reflect.expression.exprmembers": {
+		"prefix": ["ExprMembers"],
+		"body": ["exprmembers"],
+		"description": ["[the] (fields|methods|constructors) of %objects%"],
+	},
+	"skript-reflect.expression.exprnewarray": {
+		"prefix": ["ExprNewArray"],
+		"body": ["exprnewarray"],
+		"description": ["new (<(boolean|byte|double|char|short|float|int|long)>|%javatype%)\\[%number%\\]"],
+	},
+	"skript-reflect.expression.exprparsemark": {
+		"prefix": ["ExprParseMark"],
+		"body": ["exprparsemark"],
+		"description": ["[the] [parse[r]] mark"],
+	},
+	"skript-reflect.expression.exprparseregex": {
+		"prefix": ["ExprParseRegex"],
+		"body": ["exprparseregex"],
+		"description": ["[the] [parse[r]] (regex|regular expression)(-| )<\\d+>"],
+	},
+	"skript-reflect.expression.exprparsetags": {
+		"prefix": ["ExprParseTags"],
+		"body": ["exprparsetags"],
+		"description": ["[the] parse[r] tags"],
+	},
+	"skript-reflect.expression.exprplugin": {
+		"prefix": ["ExprPlugin"],
+		"body": ["exprplugin"],
+		"description": ["[(an|the)] instance of [the] plugin %javatype/string%"],
+	},
+	"skript-reflect.expression.exprproxy": {
+		"prefix": ["ExprProxy"],
+		"body": ["exprproxy"],
+		"description": ["[a] [new] proxy [instance] of %javatypes% (using|from) %objects%"],
+	},
+	"skript-reflect.expression.exprrawexpression": {
+		"prefix": ["ExprRawExpression"],
+		"body": ["exprrawexpression"],
+		"description": ["[the] raw %objects%"],
+	},
+	"skript-reflect.expression.exprspread": {
+		"prefix": ["ExprSpread"],
+		"body": ["exprspread"],
+		"description": ["...%object%"],
+	},
+	"skript-reflect.expression.litnullobject": {
+		"prefix": ["LitNullObject"],
+		"body": ["litnullobject"],
+		"description": ["null"],
+	},
+
+	// @skript-reflect.types
+
+	"skript-reflect.type.event": {
+		"prefix": ["event"],
+		"body": ["event"],
+		"description": ["event[s]"],
+	},
+	"skript-reflect.type.objectwrapper": {
+		"prefix": ["javaobject"],
+		"body": ["javaobject"],
+		"description": ["javaobject[s]"],
+	},
+	"skript-reflect.type.javatype": {
+		"prefix": ["javatype"],
+		"body": ["javatype"],
+		"description": ["javatype[s]"],
+	},
+	"skript-reflect.type.null": {
+		"prefix": ["null"],
+		"body": ["null"],
+		"description": ["null"],
+	},
+
+	// @skript-reflect.sections
+
+	"skript-reflect.section.secsection": {
+		"prefix": ["SecSection"],
+		"body": ["secsection"],
+		"description": ["create [new] section [with [arguments variables] %objects%] (and store it|stored) in %objects%"],
+	},
+}

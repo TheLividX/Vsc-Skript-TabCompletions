@@ -1,0 +1,1460 @@
+{ // Generated code by LividX
+
+	// @SkBee.events
+
+	"skbee.event.block_receive_game_event": {
+		"prefix": ["On Block Receive Game Event"],
+		"body": ["on block receive game event:", "\t$0"],
+		"description": ["[on] [on] block receive game[ ]event [%gameevent%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skbee.event.bound_-_enter": {
+		"prefix": ["On Bound - Enter"],
+		"body": ["on bound enter:", "\t$0"],
+		"description": ["[on] [on] (bound enter|enter bound) [with id %string%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skbee.event.bound_-_exit": {
+		"prefix": ["On Bound - Exit"],
+		"body": ["on bound exit:", "\t$0"],
+		"description": ["[on] [on] (bound exit|exit bound) [with id %string%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skbee.event.entity_potion_effect": {
+		"prefix": ["On Entity Potion Effect"],
+		"body": ["on entity potion effect:", "\t$0"],
+		"description": ["[on] [on] [entity] potion effect added [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skbee.event.generic_game_event": {
+		"prefix": ["On Generic Game Event"],
+		"body": ["on generic game event:", "\t$0"],
+		"description": ["[on] [on] [generic] game[ ]event [%gameevent%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+	"skbee.event.tab_complete": {
+		"prefix": ["On Tab Complete"],
+		"body": ["on tab complete:", "\t$0"],
+		"description": ["[on] [on] [skbee] tab complete [(of|for) %strings%] [with priority (lowest|low|normal|high|highest|monitor)]"],
+	},
+
+	// @SkBee.conditions
+
+	"skbee.condition.condadvancementdone": {
+		"prefix": ["Advancement - Done"],
+		"body": ["advancement done"],
+		"description": ["%advancementpro% is done"],
+	},
+	"skbee.condition.condboundcontainslocation": {
+		"prefix": ["Bound - Contains Location"],
+		"body": ["bound contains location"],
+		"description": ["%locations% (is|are) [with]in [bound] %bound%"],
+	},
+	"skbee.condition.condboundintersects": {
+		"prefix": ["Bound - Intersects"],
+		"body": ["bound intersects"],
+		"description": ["%bound% (intersects with|overlaps) %location% and %location%"],
+	},
+	"skbee.condition.condchunkcontainsblockdata": {
+		"prefix": ["Chunk - Contains BlockData"],
+		"body": ["chunk contains blockdata"],
+		"description": ["%chunks% (has|have) block[ ]data %blockdata%"],
+	},
+	"skbee.condition.condentityticking": {
+		"prefix": ["Entity - Is Ticking"],
+		"body": ["entity is ticking"],
+		"description": ["%entities% (is|are) ticking"],
+	},
+	"skbee.condition.condentitystorageblockfull": {
+		"prefix": ["EntityBlockStorage - Is Full"],
+		"body": ["entityblockstorage is full"],
+		"description": ["entity storage of %block% is full"],
+	},
+	"skbee.condition.condfishhookinopenwater": {
+		"prefix": ["Fish Hook - In Open Water"],
+		"body": ["fish hook in open water"],
+		"description": ["%entities% (is|are) in open water"],
+	},
+	"skbee.condition.condcriticalhit": {
+		"prefix": ["Is Critical Hit"],
+		"body": ["is critical hit"],
+		"description": ["hit (is|1:(isn't|is not)) [a] critical"],
+	},
+	"skbee.condition.condisminecrafttagged": {
+		"prefix": ["Minecraft Tag - Is Tagged"],
+		"body": ["minecraft tag is tagged"],
+		"description": ["%itemtypes/slots/itemstacks/blocks/blockdatas/entities% (is|are) tagged (with|as) [minecraft[ ]tag[s]] %minecrafttags%"],
+	},
+	"skbee.condition.condhasnbttag": {
+		"prefix": ["NBT - Has Tag"],
+		"body": ["nbt has tag"],
+		"description": ["%nbtcompounds% (has|have) [nbt] tag %string%"],
+	},
+	"skbee.condition.condhasdiscoveredrecipe": {
+		"prefix": ["Recipe - Has Discovered"],
+		"body": ["recipe has discovered"],
+		"description": ["%players% (has|have) discovered recipe[s] %strings%"],
+	},
+	"skbee.condition.condscoreboardon": {
+		"prefix": ["Scoreboard - Is On"],
+		"body": ["scoreboard is on"],
+		"description": ["[score]board of %player% is (on|true)"],
+	},
+	"skbee.condition.condstructureexists": {
+		"prefix": ["Structure - Exists"],
+		"body": ["structure exists"],
+		"description": ["structure %string% exists"],
+	},
+	"skbee.condition.condwithinlocations": {
+		"prefix": ["Within Locations"],
+		"body": ["within locations"],
+		"description": ["%location% is within %location% and %location%"],
+	},
+	"skbee.condition.condworldexists": {
+		"prefix": ["World Exists"],
+		"body": ["world exists"],
+		"description": ["world file %string% (exists|(does not|doesn't) exist)"],
+	},
+	"skbee.condition.condworldborderinside": {
+		"prefix": ["WorldBorder - Location Within"],
+		"body": ["worldborder location within"],
+		"description": ["%locations% (is|are) within [border] %worldborder%"],
+	},
+
+	// @SkBee.effects
+
+	"skbee.effect.effadvancementload": {
+		"prefix": ["Advancement - Load"],
+		"body": ["advancement load"],
+		"description": ["load advancement %string% with (key|id) %string%"],
+	},
+	"skbee.effect.effadvancementcriteriaaward": {
+		"prefix": ["Advancement - Progress Criteria"],
+		"body": ["advancement progress criteria"],
+		"description": ["(award|revoke) criteria %string% of %advancementpros%"],
+	},
+	"skbee.effect.effbonemeal": {
+		"prefix": ["Bone Meal Effect"],
+		"body": ["bone meal effect"],
+		"description": ["apply bone[ ]meal [effect] to %blocks%"],
+	},
+	"skbee.effect.effboundresize": {
+		"prefix": ["Bound - Resize"],
+		"body": ["bound resize"],
+		"description": ["resize [:full] bound %bound% (within|between) %location% and %location%"],
+	},
+	"skbee.effect.effloadchunk": {
+		"prefix": ["Chunk - Load/Unload"],
+		"body": ["chunk load"],
+		"description": ["(load|:unload) chunk at %number%,[ ]%number% (in|of) [world] %world% [ticket:with ticket]"],
+	},
+	"skbee.effect.efftempspawn": {
+		"prefix": ["DisplayEntity - Spawn"],
+		"body": ["displayentity spawn"],
+		"description": ["(skbee|le) spawn ((text|1:item|2:block) display|3:interaction|4:camel|5:sniffer) [entity] [%directions% %locations%]"],
+	},
+	"skbee.effect.effdropitem": {
+		"prefix": ["Drop Held Item"],
+		"body": ["drop held item"],
+		"description": ["(make|force) %players% [to] drop [all:all of] [their] held item[s]"],
+	},
+	"skbee.effect.effentitydamageentity": {
+		"prefix": ["Entity Damage Entity"],
+		"body": ["entity damage entity"],
+		"description": ["make %entity% damage %livingentities% by %number%"],
+	},
+	"skbee.effect.efflookat": {
+		"prefix": ["Entity Look At"],
+		"body": ["entity look at"],
+		"description": ["make %entities% (look at|face) %location%"],
+	},
+	"skbee.effect.effentityblockstorage": {
+		"prefix": ["EntityBlockStorage - Add/Release entities"],
+		"body": ["entityblockstorage add"],
+		"description": ["release [all] entities from [storage of] %blocks% [for %timespan%] [into %objects%]"],
+	},
+	"skbee.effect.efffishhookpullin": {
+		"prefix": ["Fish Hook - Pull In"],
+		"body": ["fish hook pull in"],
+		"description": ["pull in hooked entit(y|ies) of %entities%"],
+	},
+	"skbee.effect.effloadworld": {
+		"prefix": ["Load/Unload/Delete World"],
+		"body": ["load"],
+		"description": ["load world from [[world] creator] %worldcreator%"],
+	},
+	"skbee.effect.effopenmerchant": {
+		"prefix": ["Merchant - Open"],
+		"body": ["merchant open"],
+		"description": ["open merchant %merchant/entity% to %player%"],
+	},
+	"skbee.effect.effsavenbtfile": {
+		"prefix": ["NBT - Save File"],
+		"body": ["nbt save file"],
+		"description": ["save nbt file[s] (from|for|of) %nbtcompounds%"],
+	},
+	"skbee.effect.effsetblocknbt": {
+		"prefix": ["NBT - Set Block with NBT"],
+		"body": ["nbt set block with nbt"],
+		"description": ["set (nbt[(-| )]block|tile[(-| )]entity) %directions% %locations% to %itemtype/blockdata% with [nbt] %nbtcompound%"],
+	},
+	"skbee.effect.effspawnentitynbt": {
+		"prefix": ["NBT - Spawn Entity with NBT"],
+		"body": ["nbt spawn entity with nbt"],
+		"description": ["spawn %entitytypes% [%directions% %locations%] with [nbt] %nbtcompound%"],
+	},
+	"skbee.effect.effopencontaineranimation": {
+		"prefix": ["Open Container Animation"],
+		"body": ["open container animation"],
+		"description": ["play (:open|close) animation on %blocks%"],
+	},
+	"skbee.effect.effopensign": {
+		"prefix": ["Open Sign"],
+		"body": ["open sign"],
+		"description": ["open sign [gui] [(for|of)] [%direction%] %location% to %players%"],
+	},
+	"skbee.effect.effparseeffect": {
+		"prefix": ["Parse Effect"],
+		"body": ["parse effect"],
+		"description": ["parse effect[s] %strings% [from %commandsender%]"],
+	},
+	"skbee.effect.effparticle": {
+		"prefix": ["Particle Spawn"],
+		"body": ["particle spawn"],
+		"description": ["(lerp|draw|make) %number% [of] %particle% [particle] [using %itemtype/blockdata/dustoption/dusttransition/vibration/number%] %directions% %locations% [with offset %vector%] [with extra %number%] [(with force)] [(for|to) %players%]"],
+	},
+	"skbee.effect.effcookingrecipe": {
+		"prefix": ["Recipe - Cooking"],
+		"body": ["recipe cooking"],
+		"description": ["register [new] (furnace|(blast furnace|blasting)|smok(er|ing)|campfire) recipe for %itemtype% (using|with ingredient) %itemtype/materialchoice% with id %string% [[and ]with exp[erience] %number%] [[and ]with cook[ ]time %timespan%] [in group %string%]"],
+	},
+	"skbee.effect.effrecipediscovery": {
+		"prefix": ["Recipe - Discovery"],
+		"body": ["recipe discovery"],
+		"description": ["(discover|unlock) [(custom|(mc|minecraft))] recipe[s] [with id[s]] %strings% for %players%"],
+	},
+	"skbee.effect.effknowledgebook": {
+		"prefix": ["Recipe - Knowledge Book"],
+		"body": ["recipe knowledge book"],
+		"description": ["add [(custom|(mc|minecraft))] recipe[s] [with id[s]] %strings% [from plugin %string%] to %itemtype%"],
+	},
+	"skbee.effect.effremoverecipe": {
+		"prefix": ["Recipe - Remove"],
+		"body": ["recipe remove"],
+		"description": ["remove [(custom|(mc|minecraft))] recipe[s] %strings%"],
+	},
+	"skbee.effect.effcraftingrecipe": {
+		"prefix": ["Recipe - Shaped/Shapeless"],
+		"body": ["recipe shaped"],
+		"description": ["register [new] (shaped|shapeless) recipe for %itemtype% (using|with ingredients) %itemtypes/materialchoices% with id %string% [in group %string%]"],
+	},
+	"skbee.effect.effsmithingrecipe": {
+		"prefix": ["Recipe - Smithing"],
+		"body": ["recipe smithing"],
+		"description": ["register [new] smithing recipe for %itemtype% using %itemtype/materialchoice% and %itemtype/materialchoice% with id %string%"],
+	},
+	"skbee.effect.effstonecuttingrecipe": {
+		"prefix": ["Recipe - StoneCutting"],
+		"body": ["recipe stonecutting"],
+		"description": ["register [new] stone[ ]cutt(ing|er) recipe for %itemtype% (using|with ingredient) %itemtype/materialchoice% with id %string% [in group %string%]"],
+	},
+	"skbee.effect.effscoreboardclear": {
+		"prefix": ["Scoreboard - Clear"],
+		"body": ["scoreboard clear"],
+		"description": ["clear [score]board[s] of %players%"],
+	},
+	"skbee.effect.effscoreboardtoggle": {
+		"prefix": ["Scoreboard - Toggle"],
+		"body": ["scoreboard toggle"],
+		"description": ["toggle [score]board[s] of %players% [[to ]((on|true)|(off|false))]"],
+	},
+	"skbee.effect.effsendblockdamage": {
+		"prefix": ["Send Block Damage"],
+		"body": ["send block damage"],
+		"description": ["make %players% see damage of %block% as %number% [(by|from) %entity%]"],
+	},
+	"skbee.effect.effshowdemo": {
+		"prefix": ["Show Demo Screen"],
+		"body": ["show demo screen"],
+		"description": ["show demo screen to %players%"],
+	},
+	"skbee.effect.effstructurefill": {
+		"prefix": ["Structure - Fill"],
+		"body": ["structure fill"],
+		"description": ["fill [structure] %structure% (between|within) %location% and %location%"],
+	},
+	"skbee.effect.effstructureplace": {
+		"prefix": ["Structure - Place"],
+		"body": ["structure place"],
+		"description": ["place [structure] %structure% at %location%"],
+	},
+	"skbee.effect.effstructuresave": {
+		"prefix": ["Structure - Save/Delete"],
+		"body": ["structure save"],
+		"description": ["(save|delete) [structure[s]] %structures%"],
+	},
+	"skbee.effect.effteamregister": {
+		"prefix": ["Team - Register"],
+		"body": ["team register"],
+		"description": ["(|un)register [new] team %string%"],
+	},
+	"skbee.effect.effsendcomponent": {
+		"prefix": ["Text Component - Send"],
+		"body": ["text component send"],
+		"description": ["send [(text|action[[ ]bar])] component[s] %objects% [to %commandsenders%] [from %player%]"],
+	},
+	"skbee.effect.effsendcomponenttitle": {
+		"prefix": ["Text Component - Send Title"],
+		"body": ["text component send title"],
+		"description": ["send title [component] %textcomponent/string% [with subtitle [component] %textcomponent/string%] [to %players%] [for %timespan%] [with fade[(-| )]in %timespan%] [(and|with) fade[(-| )]out %timespan%]"],
+	},
+	"skbee.effect.effsendsignchange": {
+		"prefix": ["Text Component - Sign Change"],
+		"body": ["text component sign change"],
+		"description": ["make %players% see sign lines (at|of) %blocks% as %textcomponents% [with color %color%] [glowing:and glowing]"],
+	},
+	"skbee.effect.effupdatecommandmap": {
+		"prefix": ["Update Command Map"],
+		"body": ["update command map"],
+		"description": ["(update|sync) command (map|list)"],
+	},
+	"skbee.effect.effvillagereffects": {
+		"prefix": ["Villager - Effects"],
+		"body": ["villager effects"],
+		"description": ["zombify %livingentities%"],
+	},
+	"skbee.effect.effworldborderexpand": {
+		"prefix": ["WorldBorder - Expand/Shrink"],
+		"body": ["worldborder expand"],
+		"description": ["(expand|shrink) %worldborders% by %number% [in %timespan%]"],
+	},
+
+	// @SkBee.expressions
+
+	"skbee.expression.exprabsorptionamount": {
+		"prefix": ["Absorption Amount"],
+		"body": ["absorption amount"],
+		"description": ["[the] absorption amount of %entities%"],
+	},
+	"skbee.expression.expradvancementall": {
+		"prefix": ["Advancement - All Available"],
+		"body": ["advancement all available"],
+		"description": ["[all] available advancements"],
+	},
+	"skbee.expression.expradvancementcriteria": {
+		"prefix": ["Advancement - Criteria"],
+		"body": ["advancement criteria"],
+		"description": ["criteria of %advancements%"],
+	},
+	"skbee.expression.expradvancementprogress": {
+		"prefix": ["Advancement - Progress"],
+		"body": ["advancement progress"],
+		"description": ["advancement progress of %advancement% (for|of) %players%"],
+	},
+	"skbee.expression.expradvancementprogressawarded": {
+		"prefix": ["Advancement - Progress Criteria"],
+		"body": ["advancement progress criteria"],
+		"description": ["(awarded|remaining) criteria of %advancementpro%"],
+	},
+	"skbee.expression.expranvilrenametext": {
+		"prefix": ["Anvil Rename Text"],
+		"body": ["anvil rename text"],
+		"description": ["[the] [anvil] (rename text|repair name) of %inventories%"],
+	},
+	"skbee.expression.expranvilrepaircost": {
+		"prefix": ["Anvil Repair Cost"],
+		"body": ["anvil repair cost"],
+		"description": ["[the] [anvil] [max:max[imum]] repair cost of %inventories%"],
+	},
+	"skbee.expression.exprarmorchange": {
+		"prefix": ["Armor Change Event - Item"],
+		"body": ["armor change event item"],
+		"description": ["[(new|old)] armor item"],
+	},
+	"skbee.expression.expravailablematerials": {
+		"prefix": ["Available Objects"],
+		"body": ["available objects"],
+		"description": ["[all] available materials"],
+	},
+	"skbee.expression.exprexactblocklocation": {
+		"prefix": ["Block - Exact Location"],
+		"body": ["block exact location"],
+		"description": ["[the] (exact|true) location of %blocks%"],
+	},
+	"skbee.expression.exprblockrelative": {
+		"prefix": ["Block - Relative"],
+		"body": ["block relative"],
+		"description": ["block[s] relative to %block% (from|using) %blockfaces%"],
+	},
+	"skbee.expression.exprblockdataitem": {
+		"prefix": ["Block Data - Item"],
+		"body": ["block data item"],
+		"description": ["[the] item [block[ ]](data|state) [(tags|tag %string%)] of %itemtypes%"],
+	},
+	"skbee.expression.exprblockdrops": {
+		"prefix": ["Block Dropped Items"],
+		"body": ["block dropped items"],
+		"description": ["block dropped items"],
+	},
+	"skbee.expression.exprblockinchunk": {
+		"prefix": ["Block in Chunk"],
+		"body": ["block in chunk"],
+		"description": ["block at %number%,[ ]%number%,[ ]%number% (in|of) %chunk%"],
+	},
+	"skbee.expression.exprblockdatablock": {
+		"prefix": ["BlockData - Tags"],
+		"body": ["blockdata tags"],
+		"description": ["block[ ](data|state) tags of %blocks%"],
+	},
+	"skbee.expression.exprblockdataupdates": {
+		"prefix": ["BlockData - Updates"],
+		"body": ["blockdata updates"],
+		"description": ["block[ ](data|state) of %blocks% without update[s]"],
+	},
+	"skbee.expression.exprblockstateblockdata": {
+		"prefix": ["BlockState - BlockData"],
+		"body": ["blockstate blockdata"],
+		"description": ["block[ ]data of [blockstate[s]] %blockstates%"],
+	},
+	"skbee.expression.exprblockstateitemtype": {
+		"prefix": ["BlockState - ItemType"],
+		"body": ["blockstate itemtype"],
+		"description": ["[item[ ]]type of [blockstate[s]] %blockstates%"],
+	},
+	"skbee.expression.exprblockstateoffset": {
+		"prefix": ["BlockState - Offset"],
+		"body": ["blockstate offset"],
+		"description": ["offset of [blockstate[s]] %blockstates%"],
+	},
+	"skbee.expression.exprbookpages": {
+		"prefix": ["Book Pages"],
+		"body": ["book pages"],
+		"description": ["page %number% of [book] %itemtype%"],
+	},
+	"skbee.expression.exprbossbar": {
+		"prefix": ["BossBar"],
+		"body": ["bossbar"],
+		"description": ["boss[ ]bar of %entity%"],
+	},
+	"skbee.expression.exprbossbarproperties": {
+		"prefix": ["BossBar - Properties"],
+		"body": ["bossbar properties"],
+		"description": ["[boss[ ]]bar players of %bossbar%"],
+	},
+	"skbee.expression.exprboundallbounds": {
+		"prefix": ["Bound - All Bounds"],
+		"body": ["bound all bounds"],
+		"description": ["[(all [[of] the]|the)] bounds [(in|of) %worlds%]"],
+	},
+	"skbee.expression.exprboundatlocation": {
+		"prefix": ["Bound - At Location"],
+		"body": ["bound at location"],
+		"description": ["[(all [[of] the]|the)] bound[s] at %location%"],
+	},
+	"skbee.expression.exprboundblocks": {
+		"prefix": ["Bound - Blocks"],
+		"body": ["bound blocks"],
+		"description": ["[(all [[of] the]|the)] blocks within bound %bound%"],
+	},
+	"skbee.expression.exprboundcoords": {
+		"prefix": ["Bound - Coords"],
+		"body": ["bound coords"],
+		"description": ["lesser (x|y|z) coord[inate] of [bound] %bound%"],
+	},
+	"skbee.expression.exprboundentities": {
+		"prefix": ["Bound - Entities"],
+		"body": ["bound entities"],
+		"description": ["[(all [[of] the]|the)] %*entitydatas% of [bound] %bounds%"],
+	},
+	"skbee.expression.exprboundfromid": {
+		"prefix": ["Bound - From ID"],
+		"body": ["bound from id"],
+		"description": ["bound (of|from|with) id %string%"],
+	},
+	"skbee.expression.exprboundid": {
+		"prefix": ["Bound - ID"],
+		"body": ["bound id"],
+		"description": ["[the] [bound] id of %bounds%"],
+	},
+	"skbee.expression.exprboundownermember": {
+		"prefix": ["Bound - Owners/Members"],
+		"body": ["bound owners"],
+		"description": ["(owners|members) of [bound] %bound%"],
+	},
+	"skbee.expression.exprboundvalue": {
+		"prefix": ["Bound - Values"],
+		"body": ["bound values"],
+		"description": ["bound value %string% (of|from) %bound%"],
+	},
+	"skbee.expression.exprbreedentities": {
+		"prefix": ["Breed Event Entities"],
+		"body": ["breed event entities"],
+		"description": ["[the] breed[ing] parents"],
+	},
+	"skbee.expression.exprchunkcoords": {
+		"prefix": ["Chunk Coordinates"],
+		"body": ["chunk coordinates"],
+		"description": ["chunk (:x|z) of %chunk%"],
+	},
+	"skbee.expression.exprlastdeathlocation": {
+		"prefix": ["Death Location of Player"],
+		"body": ["death location of player"],
+		"description": ["[the] [last ]death location of %offlineplayers%"],
+	},
+	"skbee.expression.exprdisplaybillboard": {
+		"prefix": ["DisplayEntity - Billboard"],
+		"body": ["displayentity billboard"],
+		"description": ["[the] display billboard of %entities%"],
+	},
+	"skbee.expression.exprblockdisplayblock": {
+		"prefix": ["DisplayEntity - Block Display Blockdata"],
+		"body": ["displayentity block display blockdata"],
+		"description": ["[the] display block[ ]data of %entities%"],
+	},
+	"skbee.expression.exprblockdisplayitemtype": {
+		"prefix": ["DisplayEntity - Block Display Item Type"],
+		"body": ["displayentity block display item type"],
+		"description": ["[the] display block item[ ]type of %entities%"],
+	},
+	"skbee.expression.exprdisplaybrightness": {
+		"prefix": ["DisplayEntity - Display Brightness"],
+		"body": ["displayentity display brightness"],
+		"description": ["[the] display brightness of %entities%"],
+	},
+	"skbee.expression.expritemdisplayitem": {
+		"prefix": ["DisplayEntity - Display Item"],
+		"body": ["displayentity display item"],
+		"description": ["[the] display item of %entities%"],
+	},
+	"skbee.expression.exprtextdisplaytext": {
+		"prefix": ["DisplayEntity - Display Text"],
+		"body": ["displayentity display text"],
+		"description": ["[the] display text of %entities%"],
+	},
+	"skbee.expression.exprdisplaywidthheight": {
+		"prefix": ["DisplayEntity - Display Width/Height"],
+		"body": ["displayentity display width"],
+		"description": ["[the] display (width|height:height) of %entities%"],
+	},
+	"skbee.expression.exprdisplayglowcolor": {
+		"prefix": ["DisplayEntity - Glow Color Override"],
+		"body": ["displayentity glow color override"],
+		"description": ["[the] [display] glow color override of %entities%"],
+	},
+	"skbee.expression.exprdisplayinterpolation": {
+		"prefix": ["DisplayEntity - Interpolation Start/Duration"],
+		"body": ["displayentity interpolation start"],
+		"description": ["[the] [display] interpolation ((start|delay)|d:duration) of %entities%"],
+	},
+	"skbee.expression.expritemdisplaytransform": {
+		"prefix": ["DisplayEntity - Item Display Transform"],
+		"body": ["displayentity item display transform"],
+		"description": ["[the] [display] item display transform of %entities%"],
+	},
+	"skbee.expression.exprdisplayrotation": {
+		"prefix": ["DisplayEntity - Rotation"],
+		"body": ["displayentity rotation"],
+		"description": ["[the] display (left|r:right) rotation of %entities%"],
+	},
+	"skbee.expression.exprdisplayscale": {
+		"prefix": ["DisplayEntity - Scale"],
+		"body": ["displayentity scale"],
+		"description": ["[the] display scale of %entities%"],
+	},
+	"skbee.expression.exprtextdisplayseethru": {
+		"prefix": ["DisplayEntity - See Through"],
+		"body": ["displayentity see through"],
+		"description": ["[the] [display] see (thru|through) state of %entities%"],
+	},
+	"skbee.expression.exprdisplayshadow": {
+		"prefix": ["DisplayEntity - Shadow Radius/Strength"],
+		"body": ["displayentity shadow radius"],
+		"description": ["[the] [display] shadow (radius|s:strength) of %entities%"],
+	},
+	"skbee.expression.exprtextdisplayalignment": {
+		"prefix": ["DisplayEntity - Text Alignment"],
+		"body": ["displayentity text alignment"],
+		"description": ["[the] [display] text alignment of %entities%"],
+	},
+	"skbee.expression.exprtextdisplaybackgroundcolor": {
+		"prefix": ["DisplayEntity - Text Background Color"],
+		"body": ["displayentity text background color"],
+		"description": ["[the] [display] text background color of %entities%"],
+	},
+	"skbee.expression.exprtextdisplaytextcomponent": {
+		"prefix": ["DisplayEntity - Text Component"],
+		"body": ["displayentity text component"],
+		"description": ["[the] display [text] component of %entities%"],
+	},
+	"skbee.expression.exprtextdisplaydefaultbackground": {
+		"prefix": ["DisplayEntity - Text Default Background"],
+		"body": ["displayentity text default background"],
+		"description": ["[the] [display] default [text] background of %entities%"],
+	},
+	"skbee.expression.exprtextdisplaylinewidth": {
+		"prefix": ["DisplayEntity - Text Line Width"],
+		"body": ["displayentity text line width"],
+		"description": ["[the] [display] line width of %entities%"],
+	},
+	"skbee.expression.exprtextdisplayopacity": {
+		"prefix": ["DisplayEntity - Text Opacity"],
+		"body": ["displayentity text opacity"],
+		"description": ["[the] [display] text opacity of %entities%"],
+	},
+	"skbee.expression.exprtextdisplayshadowed": {
+		"prefix": ["DisplayEntity - Text Shadowed"],
+		"body": ["displayentity text shadowed"],
+		"description": ["[the] [display] text shadowed of %entities%"],
+	},
+	"skbee.expression.exprdisplaytransformation": {
+		"prefix": ["DisplayEntity - Transformation"],
+		"body": ["displayentity transformation"],
+		"description": ["[the] display transformation of %entities%"],
+	},
+	"skbee.expression.exprdisplaytranslation": {
+		"prefix": ["DisplayEntity - Translation"],
+		"body": ["displayentity translation"],
+		"description": ["[the] display translation of %entities%"],
+	},
+	"skbee.expression.exprdisplayviewrange": {
+		"prefix": ["DisplayEntity - View Range"],
+		"body": ["displayentity view range"],
+		"description": ["[the] display view range of %entities%"],
+	},
+	"skbee.expression.exprenchantment": {
+		"prefix": ["Enchantment"],
+		"body": ["enchantment"],
+		"description": ["[the] enchantment of %enchantmenttypes%"],
+	},
+	"skbee.expression.exprenchantmentlevel": {
+		"prefix": ["Enchantment Level"],
+		"body": ["enchantment level"],
+		"description": ["[the] enchantment level of %enchantmenttypes%"],
+	},
+	"skbee.expression.exprfiretime": {
+		"prefix": ["Entity Fire Time"],
+		"body": ["entity fire time"],
+		"description": ["[the] fire time of %entities%"],
+	},
+	"skbee.expression.exprfrozentime": {
+		"prefix": ["Entity Frozen Time"],
+		"body": ["entity frozen time"],
+		"description": ["[the] frozen time of %entities%"],
+	},
+	"skbee.expression.exprnoclip": {
+		"prefix": ["Entity NoClip"],
+		"body": ["entity noclip"],
+		"description": ["[the] no[( |-)](clip|physics) (state|mode) of %entities%"],
+	},
+	"skbee.expression.exprentityvisibility": {
+		"prefix": ["Entity Visibility"],
+		"body": ["entity visibility"],
+		"description": ["[the] visibility of %entities%"],
+	},
+	"skbee.expression.exprentityblockstoragecount": {
+		"prefix": ["EntityBlockStorage - Entity Count"],
+		"body": ["entityblockstorage entity count"],
+		"description": ["(size|amount) of [all] (stored entities|entities stored) in %blocks%"],
+	},
+	"skbee.expression.exprentityblockstoragemax": {
+		"prefix": ["EntityBlockStorage - Max Entities"],
+		"body": ["entityblockstorage max entities"],
+		"description": ["[the] max entit(ies|y storage) of %blocks%"],
+	},
+	"skbee.expression.exprfishevententity": {
+		"prefix": ["Fish Event Entity"],
+		"body": ["fish event entity"],
+		"description": ["fish[ing] [event] caught entity"],
+	},
+	"skbee.expression.exprfisheventstate": {
+		"prefix": ["Fish Event State"],
+		"body": ["fish event state"],
+		"description": ["fish[ing] [event] state"],
+	},
+	"skbee.expression.exprfishhookofplayer": {
+		"prefix": ["Fish Hook - Current"],
+		"body": ["fish hook current"],
+		"description": ["[the] (current|attached) fish[ing] hook[s] of %players%"],
+	},
+	"skbee.expression.exprfishhookhookedentity": {
+		"prefix": ["Fish Hook - Hooked Entity"],
+		"body": ["fish hook hooked entity"],
+		"description": ["[the] hooked entity of %entities%"],
+	},
+	"skbee.expression.exprfishhookstate": {
+		"prefix": ["Fish Hook - Hooked State"],
+		"body": ["fish hook hooked state"],
+		"description": ["[the] [fish] hook[ed] state of %entities%"],
+	},
+	"skbee.expression.exprfishhookwaittime": {
+		"prefix": ["Fish Hook - Wait time"],
+		"body": ["fish hook wait time"],
+		"description": ["[the] (min|:max) wait time of %entities%"],
+	},
+	"skbee.expression.exprgameeventradius": {
+		"prefix": ["Game Event - Radius"],
+		"body": ["game event radius"],
+		"description": ["game[ ]event radius"],
+	},
+	"skbee.expression.exprgametick": {
+		"prefix": ["Game Tick of World"],
+		"body": ["game tick of world"],
+		"description": ["[the] game[ ]tick[s] of %worlds%"],
+	},
+	"skbee.expression.exprhiddenflags": {
+		"prefix": ["Hidden Item Flags"],
+		"body": ["hidden item flags"],
+		"description": ["%itemtype% with all flag[s] hidden"],
+	},
+	"skbee.expression.exprinfinitepotioneffect": {
+		"prefix": ["Infinite Potion Effect"],
+		"body": ["infinite potion effect"],
+		"description": ["[new] [:ambient] infinite potion effect[s] of %potioneffecttypes% [[[of] tier] %number%] [particles:without particles]"],
+	},
+	"skbee.expression.exprinteractionwidthheight": {
+		"prefix": ["Interaction - Interaction Width/Height"],
+		"body": ["interaction interaction width"],
+		"description": ["[the] interaction (width|h:height) of %entities%"],
+	},
+	"skbee.expression.exprinteractionresponsive": {
+		"prefix": ["Interaction - Is Responsive"],
+		"body": ["interaction is responsive"],
+		"description": ["[the] is responsive of %entities%"],
+	},
+	"skbee.expression.exprinteractionplayer": {
+		"prefix": ["Interaction - Last Attack/Interaction Player"],
+		"body": ["interaction last attack"],
+		"description": ["[the] last (attack|i:interaction) [offline[ ]]player[s] of %entities%"],
+	},
+	"skbee.expression.exprinteractiontime": {
+		"prefix": ["Interaction - Last Attack/Interaction Timestamp"],
+		"body": ["interaction last attack"],
+		"description": ["[the] last (attack|i:interaction) timestamp[s] of %entities%"],
+	},
+	"skbee.expression.expritemcooldown": {
+		"prefix": ["Item Cooldown"],
+		"body": ["item cooldown"],
+		"description": ["item cooldown (of|for) %itemtype% [(of|for) %players%]"],
+	},
+	"skbee.expression.exprknockbackattackervictim": {
+		"prefix": ["Knockback Attacker/Victim"],
+		"body": ["knockback attacker"],
+		"description": ["[the] knockback (:attacker|victim)"],
+	},
+	"skbee.expression.exprloadedchunks": {
+		"prefix": ["Loaded Chunks"],
+		"body": ["loaded chunks"],
+		"description": ["[(all [[of] the]|the)] loaded chunks (of|in) %world%"],
+	},
+	"skbee.expression.exprmaterialchoice": {
+		"prefix": ["Material Choice"],
+		"body": ["material choice"],
+		"description": ["material choice of %itemtypes%"],
+	},
+	"skbee.expression.exprmerchant": {
+		"prefix": ["Merchant - Create"],
+		"body": ["merchant create"],
+		"description": ["[new ]merchant named %string%"],
+	},
+	"skbee.expression.exprmerchantrecipes": {
+		"prefix": ["Merchant - Recipes"],
+		"body": ["merchant recipes"],
+		"description": ["[all] merchant recipes of %merchant/entity%"],
+	},
+	"skbee.expression.exprmerchantrecipe": {
+		"prefix": ["Merchant Recipe - Create"],
+		"body": ["merchant recipe create"],
+		"description": ["[new] merchant recipe with result %itemtype% with max uses %number% [with uses %number%] [(|with experience reward)] [with villager experience %number%] [with price multiplier %number%] [with demand %number%] [with special price %number%]"],
+	},
+	"skbee.expression.exprmerchantrecipeingredients": {
+		"prefix": ["Merchant Recipe - Ingredients"],
+		"body": ["merchant recipe ingredients"],
+		"description": ["(ingredients|result [item]) of merchant recipe %merchantrecipe%"],
+	},
+	"skbee.expression.exprtagall": {
+		"prefix": ["Minecraft Tag - All"],
+		"body": ["minecraft tag all"],
+		"description": ["[all] minecraft [(item|block|entity)] tags"],
+	},
+	"skbee.expression.exprtagcustom": {
+		"prefix": ["Minecraft Tag - Custom Tag"],
+		"body": ["minecraft tag custom tag"],
+		"description": ["custom minecraft tag with (key|id) %namespacedkey% to include %itemtypes%"],
+	},
+	"skbee.expression.exprtagget": {
+		"prefix": ["Minecraft Tag - Get"],
+		"body": ["minecraft tag get"],
+		"description": ["minecraft [(item|block|entity type)] tag[s] from %namespacedkeys%"],
+	},
+	"skbee.expression.exprtagvalues": {
+		"prefix": ["Minecraft Tag - Values"],
+		"body": ["minecraft tag values"],
+		"description": ["tag values of [minecraft[ ]tag[s]] %minecrafttags%"],
+	},
+	"skbee.expression.exprmobawareness": {
+		"prefix": ["Mob Awareness"],
+		"body": ["mob awareness"],
+		"description": ["[the] mob awareness of %entities%"],
+	},
+	"skbee.expression.exprnbtcompound": {
+		"prefix": ["NBT - Compound Of"],
+		"body": ["nbt compound of"],
+		"description": ["[:full] nbt [:item] [compound] [:copy] (of|from) %blocks/entities/itemtypes/itemstacks/slots/strings/chunks%"],
+	},
+	"skbee.expression.exprblanknbtcompound": {
+		"prefix": ["NBT - Empty Compound"],
+		"body": ["nbt empty compound"],
+		"description": ["(blank|empty|new) nbt compound"],
+	},
+	"skbee.expression.expritemfromnbt": {
+		"prefix": ["NBT - Item from NBT"],
+		"body": ["nbt item from nbt"],
+		"description": ["item[s] (from|of) nbt[s] %nbtcompounds%"],
+	},
+	"skbee.expression.expritemwithnbt": {
+		"prefix": ["NBT - Item with NBT"],
+		"body": ["nbt item with nbt"],
+		"description": ["%itemtype% with [[item( |-)]nbt] %nbtcompound%"],
+	},
+	"skbee.expression.exprprettynbt": {
+		"prefix": ["NBT - Pretty NBT String"],
+		"body": ["nbt pretty nbt string"],
+		"description": ["pretty nbt (of|from) %nbtcompounds% [(with|using) split %string%]"],
+	},
+	"skbee.expression.exprtagofnbt": {
+		"prefix": ["NBT - Tag"],
+		"body": ["nbt tag"],
+		"description": ["tag %string% of %nbtcompound%"],
+	},
+	"skbee.expression.exprtagtypeofnbt": {
+		"prefix": ["NBT - Tag Type"],
+		"body": ["nbt tag type"],
+		"description": ["[nbt[ ]]tag[ ]type of tag %string% of %nbtcompound%"],
+	},
+	"skbee.expression.exprtagsofnbt": {
+		"prefix": ["NBT - Tags"],
+		"body": ["nbt tags"],
+		"description": ["[the] nbt tags of %nbtcompound%"],
+	},
+	"skbee.expression.exprnbtuuid": {
+		"prefix": ["NBT - UUID for NBT"],
+		"body": ["nbt uuid for nbt"],
+		"description": ["uuid (int array[( as string)]|most[ bits]|least[ bits]) [(from|of) %offlineplayer/entity%]"],
+	},
+	"skbee.expression.exprnamespacedkeyobject": {
+		"prefix": ["NamespacedKey - From Object"],
+		"body": ["namespacedkey from object"],
+		"description": ["[the] namespaced[ ]key of %objects%"],
+	},
+	"skbee.expression.exprnamespacedkey": {
+		"prefix": ["NamespacedKey - Get"],
+		"body": ["namespacedkey get"],
+		"description": ["namespaced[ ]key from %strings%"],
+	},
+	"skbee.expression.exprnearestentity": {
+		"prefix": ["Nearest Entity"],
+		"body": ["nearest entity"],
+		"description": ["[num:%number%] nearest %entitydata% [in radius %number%] (at|of|around) %location/entity%"],
+	},
+	"skbee.expression.exprpath": {
+		"prefix": ["Pathfinding - Path Points"],
+		"body": ["pathfinding path points"],
+		"description": ["path [points] of %livingentities%"],
+	},
+	"skbee.expression.exprpathtarget": {
+		"prefix": ["Pathfinding - Path Target"],
+		"body": ["pathfinding path target"],
+		"description": ["[the] [final] path target[s] [with speed %number%] of %livingentities%"],
+	},
+	"skbee.expression.exprplayercommandmap": {
+		"prefix": ["Player Command Map"],
+		"body": ["player command map"],
+		"description": ["[the] [player] command (map|list)"],
+	},
+	"skbee.expression.exprhealthscale": {
+		"prefix": ["Player Health Scale"],
+		"body": ["player health scale"],
+		"description": ["[the] health scale of %players%"],
+	},
+	"skbee.expression.exprpotioneffectduration": {
+		"prefix": ["Potion Effect Duration"],
+		"body": ["potion effect duration"],
+		"description": ["[the] potion [effect] duration[s] of %potioneffects%"],
+	},
+	"skbee.expression.exprpotioneffecttier": {
+		"prefix": ["Potion Effect Tier"],
+		"body": ["potion effect tier"],
+		"description": ["[the] potion [effect] (tier|amplifier)[s] of %potioneffects%"],
+	},
+	"skbee.expression.exprpufferfishstate": {
+		"prefix": ["PufferFish - Puff State"],
+		"body": ["pufferfish puff state"],
+		"description": ["[the] puff state of %entities%"],
+	},
+	"skbee.expression.exprquaternionelements": {
+		"prefix": ["Quaternion - Values"],
+		"body": ["quaternion values"],
+		"description": ["[the] quat[ernion]-(x|1:y|2:z|3:w) of %quaternions%"],
+	},
+	"skbee.expression.exprraytracefromentity": {
+		"prefix": ["RayTrace - From Entity"],
+		"body": ["raytrace from entity"],
+		"description": ["ray[ ]trace from %livingentities% [with max distance %number%] [with ray size %number%]"],
+	},
+	"skbee.expression.exprraytracefromlocation": {
+		"prefix": ["RayTrace - From Location"],
+		"body": ["raytrace from location"],
+		"description": ["ray[ ]trace from %location% along %vectors% [with max distance %number%] [with ray size %number%]"],
+	},
+	"skbee.expression.exprraytracehitblock": {
+		"prefix": ["RayTrace - Hit Block"],
+		"body": ["raytrace hit block"],
+		"description": ["[the] [ray[ ]trace] hit block of %raytraceresults%"],
+	},
+	"skbee.expression.exprraytracehitblockface": {
+		"prefix": ["RayTrace - Hit BlockFace"],
+		"body": ["raytrace hit blockface"],
+		"description": ["[the] [ray[ ]trace] hit blockface of %raytraceresults%"],
+	},
+	"skbee.expression.exprraytracehitentity": {
+		"prefix": ["RayTrace - Hit Entity"],
+		"body": ["raytrace hit entity"],
+		"description": ["[the] [ray[ ]trace] hit entity of %raytraceresults%"],
+	},
+	"skbee.expression.exprraytracehitlocation": {
+		"prefix": ["RayTrace - Hit Location"],
+		"body": ["raytrace hit location"],
+		"description": ["[the] [ray[ ]trace] hit location of %raytraceresults%"],
+	},
+	"skbee.expression.exprraytracehitposition": {
+		"prefix": ["RayTrace - Hit Position"],
+		"body": ["raytrace hit position"],
+		"description": ["[the] [ray[ ]trace] hit (position|vector) of %raytraceresults%"],
+	},
+	"skbee.expression.exprallrecipes": {
+		"prefix": ["Recipe - All Recipes"],
+		"body": ["recipe all recipes"],
+		"description": ["[(all [[of] the]|the)] [((mc|minecraft)|custom)] recipe[s] [(for|of) %itemtypes%]"],
+	},
+	"skbee.expression.expringredientsofrecipe": {
+		"prefix": ["Recipe - Ingredients of Recipe"],
+		"body": ["recipe ingredients of recipe"],
+		"description": ["[(all [[of] the]|the)] ingredients (for|of) recipe %string%"],
+	},
+	"skbee.expression.exprrecipetype": {
+		"prefix": ["Recipe - Recipe Type"],
+		"body": ["recipe recipe type"],
+		"description": ["recipe type of recipe[s] [with id[s]] %strings%"],
+	},
+	"skbee.expression.exprreciperesult": {
+		"prefix": ["Recipe - Result"],
+		"body": ["recipe result"],
+		"description": ["result[s] of recipe[s] [with id[s]] %strings%"],
+	},
+	"skbee.expression.exprrespawnreason": {
+		"prefix": ["Respawn Reason"],
+		"body": ["respawn reason"],
+		"description": ["respawn reason"],
+	},
+	"skbee.expression.exprcriteriacreate": {
+		"prefix": ["Scoreboard - Criteria Create"],
+		"body": ["scoreboard criteria create"],
+		"description": ["criteria with id %string%"],
+	},
+	"skbee.expression.exprscoreboardline": {
+		"prefix": ["Scoreboard - Line"],
+		"body": ["scoreboard line"],
+		"description": ["line %number% of %players%'[s] [score]board[s]"],
+	},
+	"skbee.expression.exprobjcreate": {
+		"prefix": ["Scoreboard - Objective Create"],
+		"body": ["scoreboard objective create"],
+		"description": ["objective with id %string% with [criteria] %criteria/string% named %string% [with render[ ]type %rendertype%] [(with|in) [display[ ]slot] %displayslot%]"],
+	},
+	"skbee.expression.exprobjdisplayslot": {
+		"prefix": ["Scoreboard - Objective DisplaySlot"],
+		"body": ["scoreboard objective displayslot"],
+		"description": ["display[ ]slot of %objective%"],
+	},
+	"skbee.expression.exprobjget": {
+		"prefix": ["Scoreboard - Objective Get"],
+		"body": ["scoreboard objective get"],
+		"description": ["objective (with id|from [id]) %string%"],
+	},
+	"skbee.expression.exprobjname": {
+		"prefix": ["Scoreboard - Objective Name"],
+		"body": ["scoreboard objective name"],
+		"description": ["objective [display[ ]]name of %objective%"],
+	},
+	"skbee.expression.exprobjscore": {
+		"prefix": ["Scoreboard - Objective Score"],
+		"body": ["scoreboard objective score"],
+		"description": ["score of %entities/strings% for %objective%"],
+	},
+	"skbee.expression.exprscoreboardtitle": {
+		"prefix": ["Scoreboard - Title"],
+		"body": ["scoreboard title"],
+		"description": ["title of %players%'[s] [score]board[s]"],
+	},
+	"skbee.expression.exprsimulationdistance": {
+		"prefix": ["Simulation Distance"],
+		"body": ["simulation distance"],
+		"description": ["[the] simulation distance of %players/worlds%"],
+	},
+	"skbee.expression.exprclassinfoof": {
+		"prefix": ["Skript Type of Object"],
+		"body": ["skript type of object"],
+		"description": ["[the] (class info|skript type) of %objects%"],
+	},
+	"skbee.expression.exprspellcasterspell": {
+		"prefix": ["Spellcaster Spell"],
+		"body": ["spellcaster spell"],
+		"description": ["[the] [spellcaster] spell of %entities%"],
+	},
+	"skbee.expression.exprplayerstatistic": {
+		"prefix": ["Statistic - Get/Set"],
+		"body": ["statistic get"],
+		"description": ["%statistic% stat[istic] [using %entitydata/itemtype%] (of|for) %offlineplayers%"],
+	},
+	"skbee.expression.exprstoredenchant": {
+		"prefix": ["Stored Enchantments"],
+		"body": ["stored enchantments"],
+		"description": ["[the] stored enchant[ment]s of %itemstacks/itemtypes%"],
+	},
+	"skbee.expression.exprstructureblockstates": {
+		"prefix": ["Structure - BlockStates"],
+		"body": ["structure blockstates"],
+		"description": ["blockstates of [structure] %structure%"],
+	},
+	"skbee.expression.exprstructureobject": {
+		"prefix": ["Structure - Object"],
+		"body": ["structure object"],
+		"description": ["structure[s] named %strings%"],
+	},
+	"skbee.expression.exprstructureproperties": {
+		"prefix": ["Structure - Properties"],
+		"body": ["structure properties"],
+		"description": ["structure mirror of %structures%"],
+	},
+	"skbee.expression.exprsuspiciousblock": {
+		"prefix": ["Suspicious Block - Item"],
+		"body": ["suspicious block item"],
+		"description": ["[the] suspicious item of %blocks%"],
+	},
+	"skbee.expression.exprtabcompletionargs": {
+		"prefix": ["Tab Completion Argument"],
+		"body": ["tab completion argument"],
+		"description": ["tab [complete] arg[ument](s|[(-| )]%number%)"],
+	},
+	"skbee.expression.exprtabcompletion": {
+		"prefix": ["Tab Completions"],
+		"body": ["tab completions"],
+		"description": ["[skbee] tab completion[s] [(of|for) (last:last position|position %number%)]"],
+	},
+	"skbee.expression.exprtargetblockexact": {
+		"prefix": ["Target Block Exact"],
+		"body": ["target block exact"],
+		"description": ["exact target[ed] block [of %livingentities%]"],
+	},
+	"skbee.expression.exprteamcolor": {
+		"prefix": ["Team - Color"],
+		"body": ["team color"],
+		"description": ["[the] team color of %teams%"],
+	},
+	"skbee.expression.exprteamname": {
+		"prefix": ["Team - Display Name"],
+		"body": ["team display name"],
+		"description": ["[the] team [display] name of %teams%"],
+	},
+	"skbee.expression.exprteamentries": {
+		"prefix": ["Team - Entries"],
+		"body": ["team entries"],
+		"description": ["team entries of %team%"],
+	},
+	"skbee.expression.exprteam": {
+		"prefix": ["Team - Get"],
+		"body": ["team get"],
+		"description": ["team named %string%"],
+	},
+	"skbee.expression.exprteamoption": {
+		"prefix": ["Team - Options"],
+		"body": ["team options"],
+		"description": ["team option %teamoption% of %teams%"],
+	},
+	"skbee.expression.exprteamprefix": {
+		"prefix": ["Team - Prefix/Suffix"],
+		"body": ["team prefix"],
+		"description": ["[the] team (prefix|suffix) of %team%"],
+	},
+	"skbee.expression.exprteamstate": {
+		"prefix": ["Team - State"],
+		"body": ["team state"],
+		"description": ["[the] (allow friendly fire|can see friendly invisibles) team state of %teams%"],
+	},
+	"skbee.expression.exprchestinventory": {
+		"prefix": ["Text Component - Chest Inventory"],
+		"body": ["text component chest inventory"],
+		"description": ["[a [new]] chest inventory with component name %textcomponent% [with %number% row[s]]"],
+	},
+	"skbee.expression.exprclickevent": {
+		"prefix": ["Text Component - Click Event"],
+		"body": ["text component click event"],
+		"description": ["[a] [new] click event to run command %string%"],
+	},
+	"skbee.expression.exprclickeventof": {
+		"prefix": ["Text Component - Click Event Of"],
+		"body": ["text component click event of"],
+		"description": ["[the] click event of %textcomponents%"],
+	},
+	"skbee.expression.exprnameentity": {
+		"prefix": ["Text Component - Entity Name"],
+		"body": ["text component entity name"],
+		"description": ["[the] component entity (name|display name) of %entities%"],
+	},
+	"skbee.expression.exprcomponentformat": {
+		"prefix": ["Text Component - Format"],
+		"body": ["text component format"],
+		"description": ["[the] (color|bold|italic|(obfuscate[d]|magic)|strikethrough|underline[d]|font|insert[ion]) format of %textcomponents%"],
+	},
+	"skbee.expression.exprhoverevent": {
+		"prefix": ["Text Component - Hover Event"],
+		"body": ["text component hover event"],
+		"description": ["[a] [new] hover event showing %strings%"],
+	},
+	"skbee.expression.exprhovereventof": {
+		"prefix": ["Text Component - Hover Event Of"],
+		"body": ["text component hover event of"],
+		"description": ["[the] hover event of %textcomponents%"],
+	},
+	"skbee.expression.exprnameinventory": {
+		"prefix": ["Text Component - Inventory Name"],
+		"body": ["text component inventory name"],
+		"description": ["[the] component inventory (name|title) of %inventories%"],
+	},
+	"skbee.expression.expritemlore": {
+		"prefix": ["Text Component - Item Lore"],
+		"body": ["text component item lore"],
+		"description": ["[the] component [item] lore of %itemstack/itemtype/slot%"],
+	},
+	"skbee.expression.expritemname": {
+		"prefix": ["Text Component - ItemType Name"],
+		"body": ["text component itemtype name"],
+		"description": ["[the] component item[[ ]type] name of %itemtypes%"],
+	},
+	"skbee.expression.exprmergecomponents": {
+		"prefix": ["Text Component - Merge Components"],
+		"body": ["text component merge components"],
+		"description": ["merge components %textcomponents% [[join[ed]] with %string%]"],
+	},
+	"skbee.expression.exprminimessage": {
+		"prefix": ["Text Component - MiniMessage"],
+		"body": ["text component minimessage"],
+		"description": ["mini[ ]message from %string%"],
+	},
+	"skbee.expression.exprtextcomponent": {
+		"prefix": ["Text Component - New Text Component"],
+		"body": ["text component new text component"],
+		"description": ["[a] [new] text component[s] (from|of) %strings%"],
+	},
+	"skbee.expression.exprsignlines": {
+		"prefix": ["Text Component - Sign Line"],
+		"body": ["text component sign line"],
+		"description": ["[the] sign line %number% of %blocks%"],
+	},
+	"skbee.expression.exprteamprefixcomp": {
+		"prefix": ["Text Component - Team Prefix/Suffix"],
+		"body": ["text component team prefix"],
+		"description": ["[the] component team (prefix|suffix) of %teams%"],
+	},
+	"skbee.expression.exprtimespannumbers": {
+		"prefix": ["TimeSpan - Numbers"],
+		"body": ["timespan numbers"],
+		"description": ["[the] (ticks|seconds|minutes|hours) of %timespan%"],
+	},
+	"skbee.expression.exprtotalxp": {
+		"prefix": ["Total Experience"],
+		"body": ["total experience"],
+		"description": ["[the] [total] (xp|experience) [points] of %players%"],
+	},
+	"skbee.expression.exprtransformedentities": {
+		"prefix": ["Transformed Entities"],
+		"body": ["transformed entities"],
+		"description": ["transformed entit(y|ies)"],
+	},
+	"skbee.expression.exprviewdistance": {
+		"prefix": ["View Distance"],
+		"body": ["view distance"],
+		"description": ["[the] view distance of %players/worlds%"],
+	},
+	"skbee.expression.exprvillagerlevel": {
+		"prefix": ["Villager - Level/Experience"],
+		"body": ["villager level"],
+		"description": ["[the] villager (level|experience) of %livingentities%"],
+	},
+	"skbee.expression.exprvillagerprofession": {
+		"prefix": ["Villager - Profession"],
+		"body": ["villager profession"],
+		"description": ["[the] profession of %livingentities%"],
+	},
+	"skbee.expression.exprvillagertype": {
+		"prefix": ["Villager - Type"],
+		"body": ["villager type"],
+		"description": ["[the] villager type of %livingentities%"],
+	},
+	"skbee.expression.exprworldcreator": {
+		"prefix": ["World Creator"],
+		"body": ["world creator"],
+		"description": ["[a] [new] world creator (with name|named) %string%"],
+	},
+	"skbee.expression.exprworldcreatoroption": {
+		"prefix": ["World Creator Options"],
+		"body": ["world creator options"],
+		"description": ["[the] (environment|world type|world seed|gen[erator] settings|generator|should gen[erate] structures|[is] hardcore|keep spawn loaded|load on start) [option] of %worldcreator%"],
+	},
+	"skbee.expression.exprworldborder": {
+		"prefix": ["WorldBorder"],
+		"body": ["worldborder"],
+		"description": ["world border of %players/worlds%"],
+	},
+	"skbee.expression.exprworldbordercenter": {
+		"prefix": ["WorldBorder - Center"],
+		"body": ["worldborder center"],
+		"description": ["[the] [border] center of %worldborders%"],
+	},
+	"skbee.expression.exprworldbordernumbers": {
+		"prefix": ["WorldBorder - Stats"],
+		"body": ["worldborder stats"],
+		"description": ["[the] [border] (damage amount|damage buffer|size|warning distance) of %worldborders%"],
+	},
+	"skbee.expression.exprworldborderwarningtime": {
+		"prefix": ["WorldBorder - Warning Time"],
+		"body": ["worldborder warning time"],
+		"description": ["[the] [border] warning time of %worldborders%"],
+	},
+
+	// @SkBee.types
+
+	"skbee.type.advancement": {
+		"prefix": ["Advancement"],
+		"body": ["advancement"],
+		"description": ["advancement[s]"],
+	},
+	"skbee.type.blockface": {
+		"prefix": ["BlockFace"],
+		"body": ["blockface"],
+		"description": ["blockface[s]"],
+	},
+	"skbee.type.bossbar": {
+		"prefix": ["BossBar"],
+		"body": ["bossbar"],
+		"description": ["boss[ ]bar[s]"],
+	},
+	"skbee.type.barcolor": {
+		"prefix": ["BossBar Color"],
+		"body": ["bossbar color"],
+		"description": ["boss[ ]bar[ ]color[s]"],
+	},
+	"skbee.type.barflag": {
+		"prefix": ["BossBar Flag"],
+		"body": ["bossbar flag"],
+		"description": ["boss[ ]bar[ ]flag[s]"],
+	},
+	"skbee.type.barstyle": {
+		"prefix": ["BossBar Style"],
+		"body": ["bossbar style"],
+		"description": ["boss[ ]bar[ ]style[s]"],
+	},
+	"skbee.type.bound": {
+		"prefix": ["Bound"],
+		"body": ["bound"],
+		"description": ["bound"],
+	},
+	"skbee.type.billboard": {
+		"prefix": ["DisplayEntity - Billboard"],
+		"body": ["displayentity billboard"],
+		"description": ["display[ ]billboard[s]"],
+	},
+	"skbee.type.itemdisplaytransform": {
+		"prefix": ["DisplayEntity - Item Display Transform"],
+		"body": ["displayentity item display transform"],
+		"description": ["item[ ]display[ ]transform[s]"],
+	},
+	"skbee.type.textalignment": {
+		"prefix": ["DisplayEntity - Text Alignment"],
+		"body": ["displayentity text alignment"],
+		"description": ["text[ ]alignment[s]"],
+	},
+	"skbee.type.state": {
+		"prefix": ["Fish Event State"],
+		"body": ["fish event state"],
+		"description": ["fish[ing][ ]state[s]"],
+	},
+	"skbee.type.hookstate": {
+		"prefix": ["Fish Hook State"],
+		"body": ["fish hook state"],
+		"description": ["fish[ ]hook[ ]state[s]"],
+	},
+	"skbee.type.gameevent": {
+		"prefix": ["Game Event"],
+		"body": ["game event"],
+		"description": ["game[ ]event[s]"],
+	},
+	"skbee.type.itemflag": {
+		"prefix": ["Item Flag"],
+		"body": ["item flag"],
+		"description": ["item[ ]flag[s]"],
+	},
+	"skbee.type.materialchoice": {
+		"prefix": ["Material Choice"],
+		"body": ["material choice"],
+		"description": ["material choice[s]"],
+	},
+	"skbee.type.merchant": {
+		"prefix": ["Merchant"],
+		"body": ["merchant"],
+		"description": ["merchant[s]"],
+	},
+	"skbee.type.merchantrecipe": {
+		"prefix": ["Merchant Recipe"],
+		"body": ["merchant recipe"],
+		"description": ["merchant[ ]recipe[s]"],
+	},
+	"skbee.type.tag": {
+		"prefix": ["Minecraft Tag"],
+		"body": ["minecraft tag"],
+		"description": ["minecraft[ ]tag[s]"],
+	},
+	"skbee.type.nbtcompound": {
+		"prefix": ["NBT - Compound"],
+		"body": ["nbt compound"],
+		"description": ["nbt[ ]compound"],
+	},
+	"skbee.type.nbtcustomtype": {
+		"prefix": ["NBT - Tag Type"],
+		"body": ["nbt tag type"],
+		"description": ["nbt[ ]type[s]"],
+	},
+	"skbee.type.particle": {
+		"prefix": ["Particle"],
+		"body": ["particle"],
+		"description": ["particle[s]"],
+	},
+	"skbee.type.cause": {
+		"prefix": ["Potion Effect Cause"],
+		"body": ["potion effect cause"],
+		"description": ["potion[ ]effect[ ]cause[s]"],
+	},
+	"skbee.type.quaternionf": {
+		"prefix": ["Quaternion"],
+		"body": ["quaternion"],
+		"description": ["quaternion[s]"],
+	},
+	"skbee.type.quitreason": {
+		"prefix": ["Quit Reason"],
+		"body": ["quit reason"],
+		"description": ["quit[ ]reason[s]"],
+	},
+	"skbee.type.recipetype": {
+		"prefix": ["Recipe Type"],
+		"body": ["recipe type"],
+		"description": ["recipe[ ]type[s]"],
+	},
+	"skbee.type.respawnreason": {
+		"prefix": ["Respawn Reason"],
+		"body": ["respawn reason"],
+		"description": ["respawn[ ]reason[s]"],
+	},
+	"skbee.type.criteria": {
+		"prefix": ["Scoreboard - Criteria"],
+		"body": ["scoreboard criteria"],
+		"description": ["criteria[s]"],
+	},
+	"skbee.type.objective": {
+		"prefix": ["Scoreboard - Objective"],
+		"body": ["scoreboard objective"],
+		"description": ["objective[s]"],
+	},
+	"skbee.type.displayslot": {
+		"prefix": ["Scoreboard - Objective Display Slot"],
+		"body": ["scoreboard objective display slot"],
+		"description": ["display[ ]slot[s]"],
+	},
+	"skbee.type.rendertype": {
+		"prefix": ["Scoreboard - Objective Render Type"],
+		"body": ["scoreboard objective render type"],
+		"description": ["render[ ]type[s]"],
+	},
+	"skbee.type.spell": {
+		"prefix": ["Spellcaster Spell"],
+		"body": ["spellcaster spell"],
+		"description": ["spell[s]"],
+	},
+	"skbee.type.statistic": {
+		"prefix": ["Statistic"],
+		"body": ["statistic"],
+		"description": ["statistic[s]"],
+	},
+	"skbee.type.structurebee": {
+		"prefix": ["Structure"],
+		"body": ["structure"],
+		"description": ["structure[s]"],
+	},
+	"skbee.type.mirror": {
+		"prefix": ["Structure - Mirror"],
+		"body": ["structure mirror"],
+		"description": ["mirror[s]"],
+	},
+	"skbee.type.structurerotation": {
+		"prefix": ["Structure - Rotation"],
+		"body": ["structure rotation"],
+		"description": ["structure[ ]rotation[s]"],
+	},
+	"skbee.type.team": {
+		"prefix": ["Team"],
+		"body": ["team"],
+		"description": ["team[s]"],
+	},
+	"skbee.type.option": {
+		"prefix": ["Team - Option"],
+		"body": ["team option"],
+		"description": ["team[ ]option[s]"],
+	},
+	"skbee.type.optionstatus": {
+		"prefix": ["Team - Option Status"],
+		"body": ["team option status"],
+		"description": ["team[ ]option[ ]status"],
+	},
+	"skbee.type.beecomponent": {
+		"prefix": ["Text Component - Text Component"],
+		"body": ["text component text component"],
+		"description": ["text[ ]component[s]"],
+	},
+	"skbee.type.transformreason": {
+		"prefix": ["Transform Reason"],
+		"body": ["transform reason"],
+		"description": ["transform[ ]reason[s]"],
+	},
+	"skbee.type.profession": {
+		"prefix": ["Villager Profession"],
+		"body": ["villager profession"],
+		"description": ["profession[s]"],
+	},
+	"skbee.type.typevillagertype": {
+		"prefix": ["Villager Type"],
+		"body": ["villager type"],
+		"description": ["villager[ ]type[s]"],
+	},
+	"skbee.type.worldborder": {
+		"prefix": ["World Border"],
+		"body": ["world border"],
+		"description": ["world[ ]border[s]"],
+	},
+	"skbee.type.worldtype": {
+		"prefix": ["World Type"],
+		"body": ["world type"],
+		"description": ["world[ ]type[s]"],
+	},
+
+	// @SkBee.sections
+
+	"skbee.section.effsecboundcreate": {
+		"prefix": ["Bound - Create"],
+		"body": ["bound create"],
+		"description": ["create [a] [new] [:full] bound with id %string% (within|between) %location% and %location%"],
+	},
+}
