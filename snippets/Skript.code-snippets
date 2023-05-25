@@ -3440,6 +3440,144 @@
 		"description": ["section[s]"],
 	},
 
+	// @Skript.functions
+
+	"skript.function.function_abs": {
+		"prefix": ["abs"],
+		"body": ["abs($0)"],
+		"description": ["abs(n: number)"],
+	},
+	"skript.function.function_acos": {
+		"prefix": ["acos"],
+		"body": ["acos($0)"],
+		"description": ["acos(n: number)"],
+	},
+	"skript.function.function_asin": {
+		"prefix": ["asin"],
+		"body": ["asin($0)"],
+		"description": ["asin(n: number)"],
+	},
+	"skript.function.function_atan": {
+		"prefix": ["atan"],
+		"body": ["atan($0)"],
+		"description": ["atan(n: number)"],
+	},
+	"skript.function.function_atan2": {
+		"prefix": ["atan2"],
+		"body": ["atan2($0)"],
+		"description": ["atan2(x: number, y: number)"],
+	},
+	"skript.function.function_calcexperience": {
+		"prefix": ["calcExperience"],
+		"body": ["calcexperience($0)"],
+		"description": ["calcExperience(level: long)"],
+	},
+	"skript.function.function_ceil": {
+		"prefix": ["ceil"],
+		"body": ["ceil($0)"],
+		"description": ["ceil(n: number)"],
+	},
+	"skript.function.function_ceiling": {
+		"prefix": ["ceiling"],
+		"body": ["ceiling($0)"],
+		"description": ["ceiling(n: number)"],
+	},
+	"skript.function.function_cos": {
+		"prefix": ["cos"],
+		"body": ["cos($0)"],
+		"description": ["cos(n: number)"],
+	},
+	"skript.function.function_date": {
+		"prefix": ["date"],
+		"body": ["date($0)"],
+		"description": ["date(year: number, month: number, day: number, hour: number = [[integer:0]], minute: number = [[integer:0]], second: number = [[integer:0]], millisecond: number = [[integer:0]], zone_offset: number = [[double:NaN]], dst_offset: number = [[double:NaN]])"],
+	},
+	"skript.function.function_exp": {
+		"prefix": ["exp"],
+		"body": ["exp($0)"],
+		"description": ["exp(n: number)"],
+	},
+	"skript.function.function_floor": {
+		"prefix": ["floor"],
+		"body": ["floor($0)"],
+		"description": ["floor(n: number)"],
+	},
+	"skript.function.function_ln": {
+		"prefix": ["ln"],
+		"body": ["ln($0)"],
+		"description": ["ln(n: number)"],
+	},
+	"skript.function.function_location": {
+		"prefix": ["location"],
+		"body": ["location($0)"],
+		"description": ["location(x: number, y: number, z: number, world: world = event-world, yaw: number = [[integer:0]], pitch: number = [[integer:0]])"],
+	},
+	"skript.function.function_log": {
+		"prefix": ["log"],
+		"body": ["log($0)"],
+		"description": ["log(n: number, base: number = [[integer:10]])"],
+	},
+	"skript.function.function_max": {
+		"prefix": ["max"],
+		"body": ["max($0)"],
+		"description": ["max(ns: numbers)"],
+	},
+	"skript.function.function_min": {
+		"prefix": ["min"],
+		"body": ["min($0)"],
+		"description": ["min(ns: numbers)"],
+	},
+	"skript.function.function_mod": {
+		"prefix": ["mod"],
+		"body": ["mod($0)"],
+		"description": ["mod(d: number, m: number)"],
+	},
+	"skript.function.function_product": {
+		"prefix": ["product"],
+		"body": ["product($0)"],
+		"description": ["product(ns: numbers)"],
+	},
+	"skript.function.function_rgb": {
+		"prefix": ["rgb"],
+		"body": ["rgb($0)"],
+		"description": ["rgb(red: long, green: long, blue: long)"],
+	},
+	"skript.function.function_round": {
+		"prefix": ["round"],
+		"body": ["round($0)"],
+		"description": ["round(n: number, d: number = [[integer:0]])"],
+	},
+	"skript.function.function_sin": {
+		"prefix": ["sin"],
+		"body": ["sin($0)"],
+		"description": ["sin(n: number)"],
+	},
+	"skript.function.function_sqrt": {
+		"prefix": ["sqrt"],
+		"body": ["sqrt($0)"],
+		"description": ["sqrt(n: number)"],
+	},
+	"skript.function.function_sum": {
+		"prefix": ["sum"],
+		"body": ["sum($0)"],
+		"description": ["sum(ns: numbers)"],
+	},
+	"skript.function.function_tan": {
+		"prefix": ["tan"],
+		"body": ["tan($0)"],
+		"description": ["tan(n: number)"],
+	},
+	"skript.function.function_vector": {
+		"prefix": ["vector"],
+		"body": ["vector($0)"],
+		"description": ["vector(x: number, y: number, z: number)"],
+	},
+	"skript.function.function_world": {
+		"prefix": ["world"],
+		"body": ["world($0)"],
+		"description": ["world(name: string)"],
+	},
+
 	// @Skript.sections
 
 	"skript.section.secconditional": {

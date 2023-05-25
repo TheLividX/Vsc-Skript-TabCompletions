@@ -1,7 +1,22 @@
 {
-	"skript.expression.command": {
+	"skript.custom.command": {
 		"prefix": ["Command", "cmd"],
-		"body": ["command /$1:", "\ttrigger:", "\t\t$2"],
-		"description": ["Custom Command"],
+		"body": ["command /${1:example}:", "\t${2:trigger:}", "\t\t$0"],
+		"description": ["aliases, executable by, usage, description, permission, permission message, cooldown, cooldown message, cooldown bypass, cooldown storage, trigger"],
+	},
+	"test.custom.function": {
+		"prefix": ["Function", "func"],
+		"body": ["function ${1:FunctionName}($2):", "\t$0"],
+		"description": ["Custom Function"],
+	},
+	"skript.custom.returnfunction": {
+		"prefix": ["ReturnFunction", "rfunc", "funcr"],
+		"body": ["function ${1:ReturnFunctionName}($2) :: ${3:type} :", "\t$0"],
+		"description": ["Custom Return Function"],
+	},
+	"skript.custom.trigger": {
+		"prefix": ["trigger"],
+		"body": ["trigger:", "\t$0"],
+		"description": ["Custom Trigger"],
 	},
 }

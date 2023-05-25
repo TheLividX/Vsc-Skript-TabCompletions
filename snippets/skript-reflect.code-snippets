@@ -285,6 +285,9 @@
 		"description": ["null"],
 	},
 
+	// @skript-reflect.functions
+
+
 	// @skript-reflect.sections
 
 	"skript-reflect.section.secsection": {

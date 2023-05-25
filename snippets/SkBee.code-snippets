@@ -1450,6 +1450,54 @@
 		"description": ["world[ ]type[s]"],
 	},
 
+	// @SkBee.functions
+
+	"skbee.function.function_axisangle": {
+		"prefix": ["axisAngle"],
+		"body": ["axisangle($0)"],
+		"description": ["axisAngle(angle: number, x: number, y: number, z: number)"],
+	},
+	"skbee.function.function_bukkitcolor": {
+		"prefix": ["bukkitColor"],
+		"body": ["bukkitcolor($0)"],
+		"description": ["bukkitColor(alpha: number, red: number, green: number, blue: number)"],
+	},
+	"skbee.function.function_displaybrightness": {
+		"prefix": ["displayBrightness"],
+		"body": ["displaybrightness($0)"],
+		"description": ["displayBrightness(blocklight: number, skylight: number)"],
+	},
+	"skbee.function.function_dustoption": {
+		"prefix": ["dustOption"],
+		"body": ["dustoption($0)"],
+		"description": ["dustOption(color: color, size: number)"],
+	},
+	"skbee.function.function_dusttransition": {
+		"prefix": ["dustTransition"],
+		"body": ["dusttransition($0)"],
+		"description": ["dustTransition(fromcolor: color, tocolor: color, size: number)"],
+	},
+	"skbee.function.function_quaternion": {
+		"prefix": ["quaternion"],
+		"body": ["quaternion($0)"],
+		"description": ["quaternion(x: number, y: number, z: number, w: number)"],
+	},
+	"skbee.function.function_transformation": {
+		"prefix": ["transformation"],
+		"body": ["transformation($0)"],
+		"description": ["transformation(translation: vector, scale: vector, leftrotation: quaternion, rightrotation: quaternion)"],
+	},
+	"skbee.function.function_vector4": {
+		"prefix": ["vector4"],
+		"body": ["vector4($0)"],
+		"description": ["vector4(x: number, y: number, z: number, w: number)"],
+	},
+	"skbee.function.function_vibration": {
+		"prefix": ["vibration"],
+		"body": ["vibration($0)"],
+		"description": ["vibration(to: location, arrivaltime: timespan)"],
+	},
+
 	// @SkBee.sections
 
 	"skbee.section.effsecboundcreate": {
