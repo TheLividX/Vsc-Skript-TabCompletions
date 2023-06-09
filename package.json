@@ -11,24 +11,30 @@
   "categories": [
     "Snippets"
   ],
+  "languages": [
+    {
+      "id": "skript",
+      "firstLine": "#sk"
+    }
+  ],
   "contributes": {
     "snippets": [
-      {
-        "language": "skriptlang",
-        "path": "./snippets/SkBee.code-snippets"
-      },
-      {
-        "language": "skriptlang",
-        "path": "./snippets/skript-reflect.code-snippets"
-      },
-      {
-        "language": "skriptlang",
-        "path": "./snippets/Skript.code-snippets"
-      },
-      {
-        "language": "skriptlang",
-        "path": "./snippets/Manual.code-snippets"
-      }
+			{
+				"language": "skript",
+				"path": "./snippets/SkBee.code-snippets"
+			},
+			{
+				"language": "skript",
+				"path": "./snippets/skript-reflect.code-snippets"
+			},
+			{
+				"language": "skript",
+				"path": "./snippets/Skript.code-snippets"
+			},
+			{
+				"language": "skript",
+				"path": "./snippets/Manual.code-snippets"
+			}
     ]
   }
 }
